@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-
+import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -15,21 +15,21 @@ export default function Home() {
           <div id="mid_box" className="text">
             <h1>DTU Utility</h1> {/* Updated Heading */}
             <div id="links"> 
-              <a  id="routeButton" href="/datesheet">
+              <Link  id="routeButton" href="/datesheet">
                 <button id="datesheetButton"> 
                   DateSheet Generator
                 </button>
-              </a>              
-              <a  id="routeButton" href="/result">
+              </Link>              
+              <Link  id="routeButton" href="/result">
                 <button id="CGPAButton"> 
                   CGPA Analysis
                 </button>
-              </a>
-              <a  id="routeButton" href="/question-papers">
+              </Link>
+              <Link  id="routeButton" href="/question-papers">
                 <button id="PYQButton"> 
                   Question Papers
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           <div id="box2" className="c1" />
