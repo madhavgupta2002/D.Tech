@@ -8,11 +8,13 @@ export default function Document() {
         <Main />
         <NextScript />
 
-        <script async src="/js/script.js"></script>
+        <script async src="/js/DateSheetScript.js"></script>
+        <script async src="/js/ResultScript.js"></script>
         <script async src="/js/names.js"></script>
         <script async src="/js/student.js"></script>
         <script async src="/js/dates.js"></script>
         <script async src="/js/timings.js"></script>
+        <script async src="/js/result.js"></script>
 
       </body>
     </Html>

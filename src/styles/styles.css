@@ -61,13 +61,17 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 10px 0;
 }
 
 button:hover {
     background-color: #2980b9;
 }
-
-#addRowButton, #addRollButton {
+#routeButton{
+    color: white;
+    text-decoration: none;
+}
+button #addRowButton, #addRollButton {
     margin: 10px 0;
 }
 
@@ -277,3 +281,45 @@ button:hover {
   
 
 
+
+
+/* 
+    RESULT STYLES */
+
+        /* Style the container for the results */
+        #main-result-content {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f7f7f7;
+            border-radius: 5px;
+        }
+    
+        /* Style the paragraph elements */
+        p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+    
+        /* Style the name element */
+        p.name {
+            color: #333;
+            font-weight: bold;
+        }
+    
+        /* Style the roll number element */
+        p.roll-no {
+            color: #555;
+        }
+    
+        /* Style the GPA elements */
+        p.sem-gpa {
+            color: #0077b6; /* Change the color to your preference */
+        }
+    
+        /* Style the rank elements */
+        p.rank {
+            color: #b60000; /* Change the color to your preference */
+            font-weight: bold;
+        }
+    
