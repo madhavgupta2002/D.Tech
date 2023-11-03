@@ -30,8 +30,59 @@ export default function DateSheet() {
         <p id="p2"> Result </p>
 
         <div className="html-content" id="main-result-content">
+          <div id="result-data"> 
+            <div class="row">
+                <div id="nameDiv" class="data-div">
+                    <p class="label">Name:</p>
+                    <p id="name" class="dynamic-content"></p>
+                </div>
 
+                <div id="rollNoDiv" class="data-div">
+                    <p class="label">Roll No:</p>
+                    <p id="rollNo" class="dynamic-content"></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="sem1GPADiv" class="data-div">
+                    <p class="label">Sem 1 GPA:</p>
+                    <p id="sem1GPA" class="dynamic-content"></p>
+                </div>
+
+                <div id="sem2GPADiv" class="data-div">
+                    <p class="label">Sem 2 GPA:</p>
+                    <p id="sem2GPA" class="dynamic-content"></p>
+                </div>
+
+                <div id="sem3GPADiv" class="data-div">
+                    <p class="label">Sem 3 GPA:</p>
+                    <p id="sem3GPA" class="dynamic-content"></p>
+                </div>
+
+                <div id="sem4GPADiv" class="data-div">
+                    <p class="label">Sem 4 GPA:</p>
+                    <p id="sem4GPA" class="dynamic-content"></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="rank1Div" class="data-div">
+                    <p class="label">Branch Rank:</p>
+                    <p id="rank1" class="dynamic-content"></p>
+                </div>
+
+                <div id="rank2Div" class="data-div">
+                    <p class="label">College Rank:</p>
+                    <p id="rank2" class="dynamic-content"></p>
+                </div>
+            </div>
+          </div> 
+        <div id="graph">      
+          <canvas id="myChart"></canvas>
         </div>
+      </div>
+
+
 
         <br/><br/>
 

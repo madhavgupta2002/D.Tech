@@ -15,6 +15,8 @@ export default function Document() {
         <script async src="/js/dates.js"></script>
         <script async src="/js/timings.js"></script>
         <script async src="/js/result.js"></script>
+        <script async src="/js/chart.js"></script>
+        <script async src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
       </body>
     </Html>

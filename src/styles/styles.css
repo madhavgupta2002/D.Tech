@@ -282,44 +282,63 @@ button #addRowButton, #addRollButton {
 
 
 
+/* RESULT STYLES */
+/* Style the container for the results */
+#main-result-content {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
 
-/* 
-    RESULT STYLES */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0;
+}
 
-        /* Style the container for the results */
-        #main-result-content {
-            margin: 20px;
-            padding: 20px;
-            border: 1px solid #ccc;
-            background-color: #f7f7f7;
-            border-radius: 5px;
-        }
+/* Style the data div elements */
+.data-div {
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    color: white; /* Set text color to white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    border: 1px solid black; /* Add text border */
+}
+
+#main-result-content .row:nth-child(1) .data-div {
+    background-image: linear-gradient(#2193b0 , #6dd5ed); /* Gradient 1 */
+}
+
+#main-result-content .row:nth-child(2) .data-div {
+    background-image: linear-gradient(#c33764 , #1d2671); /* Gradient 2 */
+}
+
+#main-result-content .row:nth-child(3) .data-div {
+    background-image: linear-gradient(#141e30 , #243b55); /* Gradient 3 */
+}
+
+
+
+/* Style the paragraph elements */
+p {
+    font-size: 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    aspect-ratio: 1/1;
+}
     
-        /* Style the paragraph elements */
-        p {
-            font-size: 20px;
-            margin: 10px 0;
-        }
-    
-        /* Style the name element */
-        p.name {
-            color: #333;
-            font-weight: bold;
-        }
-    
-        /* Style the roll number element */
-        p.roll-no {
-            color: #555;
-        }
-    
-        /* Style the GPA elements */
-        p.sem-gpa {
-            color: #0077b6; /* Change the color to your preference */
-        }
-    
-        /* Style the rank elements */
-        p.rank {
-            color: #b60000; /* Change the color to your preference */
-            font-weight: bold;
-        }
-    
+
+#graph{
+    width: 50%;
+}
+#result{
+    width: 50%;
+}
