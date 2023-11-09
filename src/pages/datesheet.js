@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
+import Header from './components/header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,7 +25,7 @@ export default function DateSheet() {
     <>
       <div id="cursor" />
       <div id="main">
-      {/* <button onClick={handleRefresh}>Refresh</button> */}
+      <Header />
 
         <div className="container">
           <div id="box" />

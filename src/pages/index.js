@@ -4,18 +4,21 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
-
+import Header from './components/header'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-      <div id="cursor" />
+      {/* <div id="cursor" /> */}
+
       <div id="main">
+      <Header />
+
         <div className="container">
           <div id="box" />
           <div id="mid_box" className="text">
-            <h1>DTU Utility</h1> {/* Updated Heading */}
+            <h1>D.Tech</h1> 
             <div id="links"> 
               <Link  id="routeButton" href="/datesheet">
                 <button id="datesheetButton"> 
@@ -24,7 +27,7 @@ export default function Home() {
               </Link>              
               <Link  id="routeButton" href="/result">
                 <button id="CGPAButton"> 
-                  CGPA Analysis
+                  Result Analysis
                 </button>
               </Link>
               <Link  id="routeButton" href="/question-papers">
@@ -38,8 +41,21 @@ export default function Home() {
         </div>
         <br />
         <br />
+        <div className="faq-question">
+            <input id="q2" type="checkbox" className="panele" />
+            <div className="plus">+</div>
+            <label htmlFor="q2" className="panel-title">
+              Credits
+            </label>
+            <div className="panele-content">
+              <h4><a href='https://www.linkedin.com/in/madhav-g-6bb64a11a/' target="_blank">Madhav Gupta (2K21/CO/262)</a></h4>
+            </div>
+          </div>
+
         <img src="./assets/img/bg.png" alt="Your Image" className="image" />
+        
       </div>
+      
     </>
   )
 }

@@ -324,6 +324,9 @@ button #addRowButton, #addRollButton {
 #main-result-content .row:nth-child(3) .data-div {
     background-image: linear-gradient(#141e30 , #243b55); /* Gradient 3 */
 }
+#main-result-content .row:nth-child(4) .data-div {
+    background-image: linear-gradient(#047227 , #1d895e); /* Gradient 3 */
+}
 
 
 
@@ -339,8 +342,57 @@ p {
     
 
 #graph{
-    width: 90%;
+    width: 50%; 
 }
-/* .result-data{
-    width: 90%;
-} */
+.result-data{
+ width: 50%;
+}
+
+
+.header-class {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #4fa4ff;
+  }
+  .header-pages{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-item {
+    background-color: #0056d6;
+    text-decoration: none;
+    transition: background-color 0.5s ease, font-weight 0.5s ease;
+    margin: 10px;
+  }
+  
+  .header-item:hover {
+    background-color: #0042c6;
+    font-weight: bold;
+  }
+  
+  .panele-content {
+    font-size: 20px;
+    padding: 14px;
+    margin: 0 40px;
+    height: auto;
+    overflow: hidden;
+    /* z-index: -1; */
+    position: relative;
+    opacity: 1;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+  }
+  
+  .panele:checked ~ .panele-content{
+    height: 0;
+    opacity: 0;
+    padding: 0px 14px;
+
+  }
+  .panele{
+    display: none;
+
+  }

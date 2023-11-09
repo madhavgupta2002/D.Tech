@@ -1,4 +1,33 @@
 var temp=document.getElementById('submit')
+const ctx = document.getElementById('myChart');
+
+myChart = new Chart(ctx, {
+    type: 'line',
+    backgroundColor: 'rgba(01, 10, 10, 0.1)',
+    data: {
+        labels: ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4'],
+        datasets: [{
+            label: 'GPA',
+            data: [0, 0, 0, 0],
+            borderWidth: 5
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+
+function UpdateGraph(context) {
+    
+    myChart.data.datasets[0].data = [context.s1, context.s2, context.s3, context.s4];
+     myChart.update();
+
+  }
+  
 
 function calculateRank(cgpa, branch)
 {
@@ -21,6 +50,14 @@ function calculateRank(cgpa, branch)
     countTotal++;
     return {countBranch, countTotal}
 }
+function calculateProj(data)
+{
+    var res=((data.cgpa)*84 + (10)*88)/172
+    res = Math.round(res * 100000000) / 100000000;
+
+    return res;
+}
+
 
 
 function display(data) {
@@ -30,15 +67,21 @@ function display(data) {
     document.getElementById('sem2GPA').textContent = data.s2;
     document.getElementById('sem3GPA').textContent = data.s3;
     document.getElementById('sem4GPA').textContent = data.s4;
-    // Update other data points similarly
 
+    
     var rank = calculateRank(data.cgpa, data.branch);
     document.getElementById('rank1').textContent = rank['countBranch'];
     document.getElementById('rank2').textContent = rank['countTotal'];
-    CreateGraph(data)
+    document.getElementById('gpa').textContent = data.cgpa;
+
+
+    var projGPA=calculateProj(data);
+    var projRank=calculateRank(projGPA, data.branch);
+    document.getElementById('projGPA').textContent = projGPA;
+    document.getElementById('projRank').textContent = projRank['countBranch'];
+    UpdateGraph(data)
+    
 }
-
-
 
 
 function onClickHandler() {
