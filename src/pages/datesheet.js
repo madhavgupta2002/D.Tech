@@ -2,14 +2,30 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import { useRouter } from 'next/router';
+import React, { useEffect } from 'react';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function DateSheet() {
+  const router = useRouter();
+  
+  const handleRefresh = () => {
+    if (!window.location.hash) {
+      window.location = window.location + '#loaded';
+      window.location.reload();
+    } 
+  };
+  useEffect(() => {
+    handleRefresh();
+  }, []); // The empty dependency array ensures it runs only once on mount
+
   return (
     <>
       <div id="cursor" />
       <div id="main">
+      {/* <button onClick={handleRefresh}>Refresh</button> */}
+
         <div className="container">
           <div id="box" />
           <div id="mid_box" className="text">
@@ -28,8 +44,8 @@ export default function DateSheet() {
         <br />
         <br />
         <div className="html-content" id="main-content">
-          <p id="p2"> DateSheet for B.Tech Odd End Semester Examination 2023-24</p>
-          <p id="p1" />
+          <center><p id="p2"> DateSheet for B.Tech Odd End Semester Examination 2023-24</p>
+          <p id="p1" /></center>
           <table id="myTable">
             <tbody>
               <tr>
@@ -46,6 +62,9 @@ export default function DateSheet() {
             Generated using{" "}
             <a href="https://bit.ly/DTUexam"> DTU Exam DateSheet Generator </a>
           </center>
+          <br/>
+         <center> <b>Disclaimer: </b> Kindly <a href="http://exam.dtu.ac.in/DateSheet/TEN_BTECH_O23.pdf"> verify </a>  the corresponding dates.</center>
+        
         </div>
         <button id="print">Print</button>
         <br />
@@ -108,3 +127,4 @@ export default function DateSheet() {
 
   )
 }
+

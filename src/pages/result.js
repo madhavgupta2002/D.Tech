@@ -2,13 +2,27 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import { useRouter } from 'next/router';
+import React, { useEffect } from 'react';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function DateSheet() {
+  const router = useRouter();
+  
+  const handleRefresh = () => {
+    if (!window.location.hash) {
+      window.location = window.location + '#loaded';
+      window.location.reload();
+    } 
+  };
+  useEffect(() => {
+    handleRefresh();
+  }, []); // The empty dependency array ensures it runs only once on mount
+
   return (
     <>
-      <div id="cursor" />
+      {/* <div id="cursor" /> */}
       <div id="main">
         <div className="container">
           <div id="box" />
@@ -31,49 +45,49 @@ export default function DateSheet() {
 
         <div className="html-content" id="main-result-content">
           <div id="result-data"> 
-            <div class="row">
-                <div id="nameDiv" class="data-div">
-                    <p class="label">Name:</p>
-                    <p id="name" class="dynamic-content"></p>
+            <div className="row">
+                <div id="nameDiv" className="data-div">
+                    <p className="label">Name:</p>
+                    <p id="name" className="dynamic-content"></p>
                 </div>
 
-                <div id="rollNoDiv" class="data-div">
-                    <p class="label">Roll No:</p>
-                    <p id="rollNo" class="dynamic-content"></p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div id="sem1GPADiv" class="data-div">
-                    <p class="label">Sem 1 GPA:</p>
-                    <p id="sem1GPA" class="dynamic-content"></p>
-                </div>
-
-                <div id="sem2GPADiv" class="data-div">
-                    <p class="label">Sem 2 GPA:</p>
-                    <p id="sem2GPA" class="dynamic-content"></p>
-                </div>
-
-                <div id="sem3GPADiv" class="data-div">
-                    <p class="label">Sem 3 GPA:</p>
-                    <p id="sem3GPA" class="dynamic-content"></p>
-                </div>
-
-                <div id="sem4GPADiv" class="data-div">
-                    <p class="label">Sem 4 GPA:</p>
-                    <p id="sem4GPA" class="dynamic-content"></p>
+                <div id="rollNoDiv" className="data-div">
+                    <p className="label">Roll No:</p>
+                    <p id="rollNo" className="dynamic-content"></p>
                 </div>
             </div>
 
-            <div class="row">
-                <div id="rank1Div" class="data-div">
-                    <p class="label">Branch Rank:</p>
-                    <p id="rank1" class="dynamic-content"></p>
+            <div className="row">
+                <div id="sem1GPADiv" className="data-div">
+                    <p className="label">Sem 1 GPA:</p>
+                    <p id="sem1GPA" className="dynamic-content"></p>
                 </div>
 
-                <div id="rank2Div" class="data-div">
-                    <p class="label">College Rank:</p>
-                    <p id="rank2" class="dynamic-content"></p>
+                <div id="sem2GPADiv" className="data-div">
+                    <p className="label">Sem 2 GPA:</p>
+                    <p id="sem2GPA" className="dynamic-content"></p>
+                </div>
+
+                <div id="sem3GPADiv" className="data-div">
+                    <p className="label">Sem 3 GPA:</p>
+                    <p id="sem3GPA" className="dynamic-content"></p>
+                </div>
+
+                <div id="sem4GPADiv" className="data-div">
+                    <p className="label">Sem 4 GPA:</p>
+                    <p id="sem4GPA" className="dynamic-content"></p>
+                </div>
+            </div>
+
+            <div className="row">
+                <div id="rank1Div" className="data-div">
+                    <p className="label">Branch Rank:</p>
+                    <p id="rank1" className="dynamic-content"></p>
+                </div>
+
+                <div id="rank2Div" className="data-div">
+                    <p className="label">College Rank:</p>
+                    <p id="rank2" className="dynamic-content"></p>
                 </div>
             </div>
           </div> 
@@ -87,6 +101,7 @@ export default function DateSheet() {
         <br/><br/>
 
         <center><b>Disclaimer: </b> <br/>
+          Only for 2K21 B.Tech Students <br/>
           The Data is fetched from the main Result Files, thus updations will not be visible <br/>
           Result of People who failed any subject may not be visible due to the same reason. <br/>
           These Department Ranks are to provide a rough idea, contact dept HOD for official data. <br/>

@@ -303,9 +303,11 @@ button #addRowButton, #addRollButton {
 
 /* Style the data div elements */
 .data-div {
+    border-radius: 20px;
     width: auto;
     text-align: center;
     padding: 20px;
+    margin: 2px;
     color: white; /* Set text color to white */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
     border: 1px solid black; /* Add text border */
@@ -332,13 +334,13 @@ p {
     display: flex;
     align-items: center;
     width: fit-content;
-    aspect-ratio: 1/1;
+    /* aspect-ratio: 1/1; */
 }
     
 
 #graph{
-    width: 50%;
+    width: 90%;
 }
-#result{
-    width: 50%;
-}
+/* .result-data{
+    width: 90%;
+} */

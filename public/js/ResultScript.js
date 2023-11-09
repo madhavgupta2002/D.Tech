@@ -43,7 +43,7 @@ function display(data) {
 
 function onClickHandler() {
     var rollNo=document.getElementById('inputBox').value.toUpperCase();
-    // console.log(rollNo)
+    console.log(rollNo)
     let flag=0;
 
     for(let i=0; i<data.length; i++)
