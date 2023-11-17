@@ -3,7 +3,6 @@ function changePDF(url) {
     var myIframe = document.getElementById("myIframe");
     myIframe.src = url;
 
-
 }
 var listing = document.getElementById('display');
 
@@ -21,7 +20,7 @@ listing.addEventListener('click', function() {
             // Create a new div for the new subject
             var subjectDiv = document.createElement("div");
             subjectDiv.id = "subject-div"; // Set the id to "subject-div"
-            var htmlString = '<h2 type="button" class="collapsible">' + drive[i].Subject + "</h2>";
+            var htmlString = '<h2 type="button" class="collapsible" id="click-me">' + drive[i].Subject + "</h2>";
 
             // subjectDiv.innerHTML = htmlString;
             document.getElementById("navigator").innerHTML += htmlString;
@@ -46,8 +45,6 @@ listing.addEventListener('click', function() {
     }
 
 
-    
-
     var coll = document.getElementsByClassName("collapsible");
     var i;
 
@@ -62,6 +59,18 @@ listing.addEventListener('click', function() {
             }
         });
     }
+
+
+
+    var elements = document.querySelectorAll('#click-me');
+
+    // Simulate a click on each element
+    elements.forEach(function(element) {
+        element.click();
+    });
+    elements.forEach(function(element) {
+        element.click();
+    });
 
 });
 

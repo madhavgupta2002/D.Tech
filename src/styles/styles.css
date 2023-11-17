@@ -417,15 +417,17 @@ p {
 
   #navigator{
     width: 50%;
+    /* display: ; */
+    margin-right: 20px;
   }
-
+ 
 
   .collapsible {
     background-color: #777;
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    /* width: 100%; */
     border: none;
     text-align: left;
     outline: none;
@@ -442,3 +444,25 @@ p {
     overflow: hidden;
     background-color: #f1f1f1;
   }
+
+
+
+  /* Style for the span element */
+span {
+  display: inline-block;
+  padding: 10px;
+  background-color: #3498db; /* Change the background color */
+  color: #ffffff; /* Change the text color */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  font-size: 16px; /* Adjust the font size */
+  font-weight: bold; /* Make the text bold */
+  text-align: center; /* Center the text */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect for the background color */
+  margin: 3px;
+}
+
+/* Hover effect */
+span:hover {
+  background-color: #2980b9; /* Change the background color on hover */
+}
