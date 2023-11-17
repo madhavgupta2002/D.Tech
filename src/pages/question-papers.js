@@ -34,7 +34,7 @@ export default function DateSheet() {
           <div id="mid_box" className="text">
             <p> Question Papers </p>
  
-            <button id="display">Show</button>
+            <button id="display">Semester 5-8 (CO IT SE)</button>
 
           </div>
           <div id="box2" className="c1" />
@@ -56,17 +56,6 @@ export default function DateSheet() {
 
         <br />
         <br />
-
-
-
-
-
-
-
-
-
-
-
 
 
 
