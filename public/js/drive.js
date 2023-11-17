@@ -362,11 +362,6 @@ var drive =
   },
   {
    "Subject": "Artificial Intelligence",
-   "Name": "some unprocessed mc.png",
-   "URL": "https:\/\/drive.google.com\/file\/d\/1L2Xb2TvuH3EYlai2xqkKL5B-7wkolqk4\/preview"
-  },
-  {
-   "Subject": "Artificial Intelligence",
    "Name": "CO304 AI 2018 End May.pdf",
    "URL": "https:\/\/drive.google.com\/file\/d\/1cOyS2HDY4eaE87ZPtTv-jYFPnmL2bLTv\/preview"
   },
