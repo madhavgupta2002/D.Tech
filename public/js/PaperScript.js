@@ -31,15 +31,6 @@ listing.addEventListener('click', function() {
 
         }
 
-        // Add a click event listener to each clickable item
-        // clickableItem.addEventListener('click', (function(index) {
-        //     console.log("added")
-        //     return function() {
-        //         changePDF(drive[index].URL);
-        //     };
-        // })(i));
-
-        // Append the clickable item to the current subject div
         subjectDiv.appendChild(clickableItem);
         subjectDiv.appendChild(document.createElement("br")); // Add a line break
     }
@@ -85,7 +76,13 @@ function CallchangePDF(element) {
 
   document.addEventListener("click", function(event) {
 
-    if (event.target.innerText.trim() !== "" && event.target instanceof HTMLSpanElement) {
+    if (event.target.innerText.trim() !== "" && event.target instanceof HTMLSpanElement) 
         CallchangePDF(event.target);
-    }
+    
+  });
+
+  var crsr = document.querySelector("#cursor");
+document.addEventListener("mousemove", function (dets) {
+    crsr.style.left = dets.x + "px";
+    crsr.style.top = dets.y + "px";
   });

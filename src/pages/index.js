@@ -7,9 +7,13 @@ import { useRouter } from 'next/router';
 import Header from './components/header'
 const inter = Inter({ subsets: ['latin'] })
 
+
+
+
 export default function Home() {
   return (
     <>
+      <div id="cursor" />
 
 
       <div id="main">
