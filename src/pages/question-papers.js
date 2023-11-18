@@ -25,7 +25,8 @@ export default function DateSheet() {
 
   return (
     <>
-      {/* <div id="cursor" /> */}
+      {/* <div id="cursor" /> */}      <div id="cursor" />
+
       <div id="main">
         <Header />
 
