@@ -49,7 +49,7 @@ export default function DateSheet() {
           <div id="navigator">
           </div>
           <div class="container-iframe">
-          <iframe id="myIframe" class="responsive-iframe" width="600" height="400" sandbox="allow-scripts allow-same-origin"></iframe>
+          <iframe id="myIframe" class="responsive-iframe" width="600" height="400" ></iframe>
           
           </div>
         </div>
