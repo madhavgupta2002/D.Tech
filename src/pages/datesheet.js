@@ -26,7 +26,7 @@ export default function DateSheet() {
     <Head>
         <title>DTU Datesheet Generator</title>
         <meta
-          name="D.Tech DTU DateSheet Generator"
+          name="D.Tech DTU Exam DateSheet Generator"
           content="One Click solution to automatically Generate your B.Tech exam datesheet."
         />
     </Head>
