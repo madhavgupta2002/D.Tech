@@ -25,6 +25,13 @@ export default function DateSheet() {
 
   return (
     <>
+    <Head>
+        <title>DTU Question Papers</title>
+        <meta
+          name="D.Tech DTU Question Papers"
+          content="Study from Previous Year Question Papers for Delhi Technological University Semester Exams."
+        />
+    </Head>
       {/* <div id="cursor" /> */}      <div id="cursor" />
 
       <div id="main">
@@ -49,8 +56,9 @@ export default function DateSheet() {
           <div id="navigator">
           </div>
           <div class="container-iframe">
-          <iframe id="myIframe" class="responsive-iframe" width="600" height="400" ></iframe>
-          
+          {/* <iframe id="myIframe" class="responsive-iframe" width="600" height="400" ></iframe> */}
+          <iframe id="myIframe" class="responsive-iframe" width="600" height="400" sandbox="allow-scripts allow-same-origin"></iframe>
+
           </div>
         </div>
 

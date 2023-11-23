@@ -23,6 +23,14 @@ export default function DateSheet() {
 
   return (
     <>
+          <Head>
+        <title>D.Tech CGPA</title>
+        <meta
+          name="D.Tech CGPA Analysis"
+          content="View and Compare your DTU CGPA with other students."
+        />
+    </Head>
+
       <div id="cursor" />
       <div id="main">
         <Header />
