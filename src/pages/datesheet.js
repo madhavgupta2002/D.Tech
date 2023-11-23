@@ -23,6 +23,13 @@ export default function DateSheet() {
 
   return (
     <>
+    <Head>
+        <title>DTU Datesheet Generator</title>
+        <meta
+          name="D.Tech DTU DateSheet Generator"
+          content="One Click solution to automatically Generate your B.Tech exam datesheet."
+        />
+    </Head>
       <div id="cursor" />
       <div id="main">
       <Header />
