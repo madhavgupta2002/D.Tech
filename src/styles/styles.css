@@ -464,7 +464,7 @@ span {
 
 /* Hover effect */
 span:hover {
-  background-color: #2980b9; /* Change the background color on hover */
+  background-color: #2980b9; 
 }
 
 .advert{
@@ -475,7 +475,8 @@ span:hover {
   margin: auto;
   font-family: 'Lexend Deca', sans-serif; 
   color: #2E475D;    
-  border: 3px solid #01050d; /* Specify border style and width */
+  border-top: 1px solid #01050d; 
+  border-bottom: 1px solid #01050d; 
 
 }
 .advert:hover .image {
