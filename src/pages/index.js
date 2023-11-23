@@ -55,8 +55,10 @@ export default function Home() {
               <h4><a href='https://www.linkedin.com/in/madhav-g-6bb64a11a/' target="_blank">Madhav Gupta (2K21/CO/262)</a></h4>
             </div>
           </div>
-
-        <img src="./assets/img/bg.png" alt="Your Image" className="image" />
+        <div class="advert">
+          <Link href={"https://wrapyshop.in/"}><img src="./assets/img/ad-banner.jpg" href="https://wrapyshop.in/" alt="Your Image" className="image" /></Link>
+        </div> 
+          <img src="./assets/img/bg.png" alt="Your Image" className="image" />
         
       </div>
       

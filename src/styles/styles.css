@@ -466,3 +466,18 @@ span {
 span:hover {
   background-color: #2980b9; /* Change the background color on hover */
 }
+
+.advert{
+  width: 100%;
+  aspect-ratio: 6/1;
+  background-color: lightgray;
+  text-align: center;
+  margin: auto;
+  font-family: 'Lexend Deca', sans-serif; 
+  color: #2E475D;    
+  border: 3px solid #01050d; /* Specify border style and width */
+
+}
+.advert:hover .image {
+  opacity: 0.7;
+}

@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 import Header from "./components/header";
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -166,6 +167,9 @@ export default function DateSheet() {
               </h4>
             </div>
           </div>
+          <div class="advert">
+          <Link href={"https://wrapyshop.in/"}><img src="./assets/img/ad-banner.jpg" href="https://wrapyshop.in/" alt="Your Image" className="image" /></Link>
+        </div> 
           <img src="./assets/img/bg.png" alt="Your Image" className="image" />
         </div>
       </div>
