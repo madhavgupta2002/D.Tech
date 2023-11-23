@@ -75,9 +75,12 @@ function CallchangePDF(element) {
   }
 
   document.addEventListener("click", function(event) {
-
-    if (event.target.innerText.trim() !== "" && event.target instanceof HTMLSpanElement) 
-        CallchangePDF(event.target);
+    try{
+        if (event.target.innerText.trim() !== "" && event.target instanceof HTMLSpanElement) 
+            CallchangePDF(event.target);}
+    catch(err){
+        console.log(err)
+    }
     
   });
 
