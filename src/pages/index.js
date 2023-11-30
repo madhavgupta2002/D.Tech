@@ -34,11 +34,11 @@ export default function Home() {
                   Result Analysis
                 </button>
               </Link>
-              <Link  id="routeButton" href="/question-papers">
+              {/* <Link  id="routeButton" href="/question-papers">
                 <button id="PYQButton"> 
                   Question Papers
                 </button>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div id="box2" className="c1" />
