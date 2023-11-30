@@ -16,9 +16,9 @@ const Header = () => {
           <Link href="/result">
             <button className="header-item">Result</button>
           </Link>
-          <Link href="/question-papers">
+          {/* <Link href="/question-papers">
             <button className="header-item">Question Papers</button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </header>

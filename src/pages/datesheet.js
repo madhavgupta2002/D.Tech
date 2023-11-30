@@ -31,7 +31,7 @@ export default function DateSheet() {
           content="One Click solution to automatically Generate your B.Tech exam datesheet."
         />
     </Head>
-      <div id="cursor" />
+      {/* <div id="cursor" /> */}
       <div id="main">
       <Header />
 
