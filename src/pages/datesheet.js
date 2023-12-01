@@ -129,9 +129,9 @@ export default function DateSheet() {
               </h4>
             </div>
           </div>
-          <div class="advert">
+          {/* <div class="advert">
           <Link href={"https://wrapyshop.in/"}><img src="./assets/img/ad-banner.jpg" href="https://wrapyshop.in/" alt="Your Image" className="image" /></Link>
-        </div> 
+        </div>  */}
           <img src="./assets/img/bg.png" alt="Your Image" className="image" />
         </div>
       </div>
