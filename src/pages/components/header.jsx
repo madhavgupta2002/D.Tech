@@ -16,6 +16,10 @@ const Header = () => {
           <Link href="/result">
             <button className="header-item">Result</button>
           </Link>
+          <Link href="https://subject-registration-clone-dtu.vercel.app/">
+            <button className="header-item">Reg Simulator</button>
+          </Link>
+
           {/* <Link href="/question-papers">
             <button className="header-item">Question Papers</button>
           </Link> */}
