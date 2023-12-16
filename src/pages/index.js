@@ -34,6 +34,11 @@ export default function Home() {
                   Result Analysis
                 </button>
               </Link>
+              <Link  id="routeButton" href="https://subject-registration-clone-dtu.vercel.app/">
+                <button id="CGPAButton"> 
+                  Registration Simulator
+                </button>
+              </Link>
               {/* <Link  id="routeButton" href="/question-papers">
                 <button id="PYQButton"> 
                   Question Papers
