@@ -26,16 +26,17 @@ export default function DateSheet() {
 
   return (
     <>
-    <Head>
+
+    {/* <Head>
         <title>DTU Question Papers</title>
         <meta
           name="D.Tech DTU Question Papers"
           content="Study from Previous Year Question Papers for Delhi Technological University Semester Exams."
         />
-    </Head>
-      {/* <div id="cursor" /> */}      <div id="cursor" />
+    </Head> */}
+      {/* <div id="cursor" /> */}      
 
-      <div id="main">
+      {/* <div id="main">
         <Header />
 
         <div className="container">
@@ -49,28 +50,28 @@ export default function DateSheet() {
           <div id="box2" className="c1" />
         </div>
         <br />
-        <br />
+        <br /> */}
 
-
+{/* 
    
         <div className="html-content" id="main-result-content" >
           <div id="navigator">
           </div>
           <div class="container-iframe">
           {/* <iframe id="myIframe" class="responsive-iframe" width="600" height="400" ></iframe> */}
-          <iframe id="myIframe" class="responsive-iframe" width="600" height="400" sandbox="allow-scripts allow-same-origin"></iframe>
+          {/* <iframe id="myIframe" class="responsive-iframe" width="600" height="400" sandbox="allow-scripts allow-same-origin"></iframe> */}
 
-          </div>
-        </div>
+          {/* </div> */}
+        {/* </div> */} 
 
 
-
+{/* 
         <br />
         <br />
 
+ */}
 
-
-
+{/* 
         <div className="faq-content">
           <div className="faq-question">
             <input id="q2" type="checkbox" className="panel" />
@@ -101,7 +102,8 @@ export default function DateSheet() {
           </div>
           <img src="./assets/img/bg.png" alt="Your Image" className="image" />
         </div>
-      </div>
+      </div> */}
+    NOT Available
     </>
   );
 }
