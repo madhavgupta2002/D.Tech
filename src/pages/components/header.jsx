@@ -20,9 +20,9 @@ const Header = () => {
             <button className="header-item">Reg Simulator</button>
           </Link>
 
-          {/* <Link href="/question-papers">
+          <Link href="/question-papers">
             <button className="header-item">Question Papers</button>
-          </Link> */}
+          </Link>
         </div>
       </div>
     </header>

@@ -8,8 +8,6 @@ import Header from './components/header'
 const inter = Inter({ subsets: ['latin'] })
 
 
-
-
 export default function Home() {
   return (
     <>
@@ -39,11 +37,11 @@ export default function Home() {
                   Registration Simulator
                 </button>
               </Link>
-              {/* <Link  id="routeButton" href="/question-papers">
+              <Link  id="routeButton" href="/question-papers">
                 <button id="PYQButton"> 
                   Question Papers
                 </button>
-              </Link> */}
+              </Link>
             </div>
           </div>
           <div id="box2" className="c1" />
