@@ -91,6 +91,11 @@ export default function DateSheet() {
                 <p className="label">Sem 4 GPA:</p>
                 <p id="sem4GPA" className="dynamic-content"></p>
               </div>
+
+              <div id="sem5GPADiv" className="data-div">
+                <p className="label">Sem 5 GPA:</p>
+                <p id="sem5GPA" className="dynamic-content"></p>
+              </div>
             </div>
 
             <div className="row">

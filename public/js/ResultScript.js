@@ -5,7 +5,7 @@ myChart = new Chart(ctx, {
     type: 'line',
     backgroundColor: 'rgba(01, 10, 10, 0.1)',
     data: {
-        labels: ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4'],
+        labels: ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4', 'Sem 5'],
         datasets: [{
             label: 'GPA',
             data: [0, 0, 0, 0],
@@ -23,7 +23,7 @@ myChart = new Chart(ctx, {
 
 function UpdateGraph(context) {
     
-    myChart.data.datasets[0].data = [context.s1, context.s2, context.s3, context.s4];
+    myChart.data.datasets[0].data = [context.s1, context.s2, context.s3, context.s4, context.s5];
      myChart.update();
 
   }
@@ -67,6 +67,7 @@ function display(data) {
     document.getElementById('sem2GPA').textContent = data.s2;
     document.getElementById('sem3GPA').textContent = data.s3;
     document.getElementById('sem4GPA').textContent = data.s4;
+    document.getElementById('sem5GPA').textContent = data.s5;
 
     
     var rank = calculateRank(data.cgpa, data.branch);
