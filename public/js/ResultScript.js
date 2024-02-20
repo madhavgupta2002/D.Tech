@@ -52,7 +52,7 @@ function calculateRank(cgpa, branch)
 }
 function calculateProj(data)
 {
-    var res=((data.cgpa)*84 + (10)*88)/172
+    var res=((data.cgpa)*(86-data.cr5) + (10)*(172-(86-data.cr5)))/172
     res = Math.round(res * 100000000) / 100000000;
 
     return res;
@@ -95,7 +95,6 @@ function onClickHandler() {
         // console.log(data[i]['roll'])
 
         if(data[i]['roll']==rollNo){
-            
             // alert(data[i]['name'])
             flag=1;
             display(data[i])
