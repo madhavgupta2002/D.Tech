@@ -114,12 +114,12 @@ export default function DateSheet() {
               </div>
               <div className="row">
                 <div className="data-div">
-                  <p className="label">Projected Perfect CGPA:</p>
+                  <p className="label">Projected Perfect CGPA (10 in remaining sems):</p>
                   <p id="projGPA" className="dynamic-content"></p>
                 </div>
 
                 <div className="data-div">
-                  <p className="label">Projected Perfect Department Rank:</p>
+                  <p className="label">Projected Perfect Department Rank (10 in remaining sems):</p>
                   <p id="projRank" className="dynamic-content"></p>
                 </div>
               </div>
