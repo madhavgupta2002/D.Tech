@@ -15,7 +15,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.899174311926606,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2,
@@ -32,7 +32,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.893982300884955,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 3,
@@ -49,7 +49,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.841150442477876,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 4,
@@ -66,7 +66,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.76229357798165,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 5,
@@ -83,7 +83,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.761946902654866,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 6,
@@ -100,7 +100,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.742935779816515,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 7,
@@ -117,7 +117,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 9.736037735849056,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 8,
@@ -134,7 +134,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.67981651376147,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 9,
@@ -151,7 +151,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.668807339449542,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 10,
@@ -168,7 +168,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.663893805309735,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 11,
@@ -185,7 +185,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.630176991150442,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 12,
@@ -202,7 +202,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.628495575221239,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 13,
@@ -219,7 +219,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.6148623853211,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 14,
@@ -236,7 +236,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.61150442477876,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 15,
@@ -253,7 +253,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.610353982300886,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 16,
@@ -270,7 +270,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.574867256637168,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 17,
@@ -287,7 +287,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.573716814159292,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 18,
@@ -304,7 +304,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.567345132743363,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 19,
@@ -321,7 +321,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 9.56181818181818,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 20,
@@ -338,7 +338,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.558440366972476,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 21,
@@ -355,7 +355,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.557706422018349,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 22,
@@ -372,7 +372,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.557522123893806,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 23,
@@ -389,7 +389,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.552660550458716,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 24,
@@ -406,7 +406,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.549557522123893,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 25,
@@ -423,7 +423,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.522654867256637,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 26,
@@ -440,7 +440,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.520353982300882,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 27,
@@ -457,7 +457,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.506283185840708,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 28,
@@ -474,7 +474,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.505412844036698,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 29,
@@ -491,7 +491,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.504036697247708,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 30,
@@ -508,7 +508,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.503853211009176,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 31,
@@ -525,7 +525,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.493451327433629,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 32,
@@ -542,7 +542,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.492389380530973,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 33,
@@ -559,7 +559,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 9.489818181818183,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 34,
@@ -576,7 +576,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.488318584070795,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 35,
@@ -593,7 +593,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.487699115044249,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 36,
@@ -610,7 +610,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.487522935779818,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 37,
@@ -627,7 +627,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.486902654867256,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 38,
@@ -644,7 +644,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.486238532110091,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 39,
@@ -661,7 +661,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.47834862385321,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 40,
@@ -678,7 +678,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.477345132743363,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 41,
@@ -695,7 +695,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.476605504587157,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 42,
@@ -712,7 +712,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 9.473272727272727,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 43,
@@ -729,7 +729,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.45194690265487,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 44,
@@ -746,7 +746,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.442654867256637,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 45,
@@ -763,7 +763,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.436106194690268,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 46,
@@ -780,7 +780,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.434867256637167,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 47,
@@ -797,7 +797,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.43353982300885,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 48,
@@ -814,7 +814,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.43137614678899,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 49,
@@ -831,7 +831,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.430642201834862,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 50,
@@ -848,7 +848,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.41778761061947,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 51,
@@ -865,7 +865,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.416991150442477,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 52,
@@ -882,7 +882,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.416371681415928,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 53,
@@ -899,7 +899,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.416194690265486,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 54,
@@ -916,7 +916,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.415221238938054,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 55,
@@ -933,7 +933,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.40920353982301,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 56,
@@ -950,7 +950,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.407787610619469,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 57,
@@ -967,7 +967,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.388318584070797,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 58,
@@ -984,7 +984,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.388230088495575,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 59,
@@ -1001,7 +1001,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.379292035398231,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 60,
@@ -1018,7 +1018,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.376513761467889,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 61,
@@ -1035,7 +1035,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 9.37152380952381,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 62,
@@ -1052,7 +1052,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.369911504424778,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 63,
@@ -1069,7 +1069,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.369082568807341,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 64,
@@ -1086,7 +1086,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 9.364821428571428,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 65,
@@ -1103,7 +1103,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.363982300884956,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 66,
@@ -1120,7 +1120,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 9.358214285714286,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 67,
@@ -1137,7 +1137,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.34769911504425,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 68,
@@ -1154,7 +1154,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.344070796460178,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 69,
@@ -1171,7 +1171,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.33908256880734,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 70,
@@ -1188,7 +1188,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.338053097345133,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 71,
@@ -1205,7 +1205,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.335575221238939,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 72,
@@ -1222,7 +1222,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.335221238938054,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 73,
@@ -1239,7 +1239,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.329734513274339,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 74,
@@ -1256,7 +1256,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.328053097345132,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 75,
@@ -1273,7 +1273,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.31929203539823,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 76,
@@ -1290,7 +1290,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.318230088495575,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 77,
@@ -1307,7 +1307,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.316902654867256,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 78,
@@ -1324,7 +1324,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.31256880733945,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 79,
@@ -1341,7 +1341,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.311100917431192,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 80,
@@ -1358,7 +1358,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.311009174311925,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 81,
@@ -1375,7 +1375,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.309380530973451,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 82,
@@ -1392,7 +1392,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.308672566371682,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 83,
@@ -1409,7 +1409,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.308141592920354,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 84,
@@ -1426,7 +1426,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.30070796460177,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 85,
@@ -1443,7 +1443,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.300265486725664,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 86,
@@ -1460,7 +1460,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 9.295714285714286,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 87,
@@ -1477,7 +1477,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.292477876106194,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 88,
@@ -1494,7 +1494,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.29221238938053,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 89,
@@ -1511,7 +1511,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.282385321100918,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 90,
@@ -1528,7 +1528,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.282300884955752,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 91,
@@ -1545,7 +1545,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.281946902654866,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 92,
@@ -1562,7 +1562,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.281858407079648,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 93,
@@ -1579,7 +1579,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.274690265486726,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 94,
@@ -1596,7 +1596,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.274513274336282,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 95,
@@ -1613,7 +1613,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 9.274188034188034,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 96,
@@ -1630,7 +1630,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.273893805309735,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 97,
@@ -1647,7 +1647,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.26646017699115,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 98,
@@ -1664,7 +1664,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.26504424778761,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 99,
@@ -1681,7 +1681,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.26300884955752,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 100,
@@ -1698,7 +1698,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.258230088495576,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 101,
@@ -1715,7 +1715,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.256814159292036,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 102,
@@ -1732,7 +1732,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.25651376146789,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 103,
@@ -1749,7 +1749,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.255840707964602,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 104,
@@ -1766,7 +1766,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.255504587155963,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 105,
@@ -1783,7 +1783,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.24787610619469,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 106,
@@ -1800,7 +1800,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.247256637168142,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 107,
@@ -1817,7 +1817,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.238990825688074,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 108,
@@ -1834,7 +1834,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.238672566371681,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 109,
@@ -1851,7 +1851,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.23716814159292,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 110,
@@ -1868,7 +1868,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.230884955752211,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 111,
@@ -1885,7 +1885,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.229266055045871,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 112,
@@ -1902,7 +1902,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.229115044247786,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 113,
@@ -1919,7 +1919,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.22816513761468,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 114,
@@ -1936,7 +1936,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.227433628318582,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 115,
@@ -1953,7 +1953,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.220366972477064,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 116,
@@ -1970,7 +1970,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.219469026548673,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 117,
@@ -1987,7 +1987,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.217339449541283,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 118,
@@ -2004,7 +2004,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.213982300884954,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 119,
@@ -2021,7 +2021,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.213362831858406,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 120,
@@ -2038,7 +2038,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.211681415929204,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 121,
@@ -2055,7 +2055,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.204247787610619,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 122,
@@ -2072,7 +2072,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.202660550458717,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 123,
@@ -2089,7 +2089,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.191743119266055,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 124,
@@ -2106,7 +2106,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.185309734513275,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 125,
@@ -2123,7 +2123,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.185044247787609,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 126,
@@ -2140,7 +2140,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.184495412844036,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 127,
@@ -2157,7 +2157,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.182844036697249,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 128,
@@ -2174,7 +2174,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.182660550458714,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 129,
@@ -2191,7 +2191,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.177522123893805,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 130,
@@ -2208,7 +2208,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.176814159292036,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 131,
@@ -2225,7 +2225,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.17654867256637,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 132,
@@ -2242,7 +2242,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.175321100917431,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 133,
@@ -2259,7 +2259,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.1748623853211,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 134,
@@ -2276,7 +2276,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.172935779816514,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 135,
@@ -2293,7 +2293,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.16858407079646,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 136,
@@ -2310,7 +2310,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.168230088495575,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 137,
@@ -2327,7 +2327,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.165504587155963,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 138,
@@ -2344,7 +2344,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.165229357798165,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 139,
@@ -2361,7 +2361,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 9.162909090909091,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 140,
@@ -2378,7 +2378,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.16,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 141,
@@ -2395,7 +2395,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.15938053097345,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 142,
@@ -2412,7 +2412,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.159115044247788,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 143,
@@ -2429,7 +2429,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.15778761061947,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 144,
@@ -2446,7 +2446,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 9.152307692307692,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 145,
@@ -2463,7 +2463,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.150530973451326,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 146,
@@ -2480,7 +2480,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.149557522123894,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 147,
@@ -2497,7 +2497,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.145412844036697,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 148,
@@ -2514,7 +2514,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.140619469026548,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 149,
@@ -2531,7 +2531,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.1302752293578,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 150,
@@ -2548,7 +2548,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.128990825688073,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 151,
@@ -2565,7 +2565,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.127064220183486,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 152,
@@ -2582,7 +2582,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.125929203539823,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 153,
@@ -2599,7 +2599,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.125132743362833,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 154,
@@ -2616,7 +2616,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.123274336283187,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 155,
@@ -2633,7 +2633,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.122477876106194,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 156,
@@ -2650,7 +2650,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.122300884955752,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 157,
@@ -2667,7 +2667,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.116880733944953,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 158,
@@ -2684,7 +2684,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.109724770642202,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 159,
@@ -2701,7 +2701,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.108990825688073,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 160,
@@ -2718,7 +2718,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.100091743119266,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 161,
@@ -2735,7 +2735,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.098899082568806,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 162,
@@ -2752,7 +2752,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.096637168141594,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 163,
@@ -2769,7 +2769,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.09064220183486,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 164,
@@ -2786,7 +2786,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.081592920353982,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 165,
@@ -2803,7 +2803,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.080642201834861,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 166,
@@ -2820,7 +2820,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 9.080178571428572,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 167,
@@ -2837,7 +2837,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.080088495575222,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 168,
@@ -2854,7 +2854,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.079115044247787,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 169,
@@ -2871,7 +2871,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.078761061946903,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 170,
@@ -2888,7 +2888,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 9.075471698113208,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 171,
@@ -2905,7 +2905,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.074770642201834,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 172,
@@ -2922,7 +2922,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.07348623853211,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 173,
@@ -2939,7 +2939,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.073119266055047,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 174,
@@ -2956,7 +2956,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.07302752293578,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 175,
@@ -2973,7 +2973,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.072935779816513,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 176,
@@ -2990,7 +2990,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.070973451327433,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 177,
@@ -3007,7 +3007,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.06697247706422,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 178,
@@ -3024,7 +3024,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.06376146788991,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 179,
@@ -3041,7 +3041,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.06353982300885,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 180,
@@ -3058,7 +3058,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.06348623853211,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 181,
@@ -3075,7 +3075,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.053853211009173,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 182,
@@ -3092,7 +3092,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.053628318584071,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 183,
@@ -3109,7 +3109,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.053097345132743,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 184,
@@ -3126,7 +3126,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.050619469026548,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 185,
@@ -3143,7 +3143,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.045137614678898,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 186,
@@ -3160,7 +3160,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.04495575221239,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 187,
@@ -3177,7 +3177,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.04467889908257,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 188,
@@ -3194,7 +3194,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.04442477876106,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 189,
@@ -3211,7 +3211,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 9.044418604651161,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 190,
@@ -3228,7 +3228,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.044247787610619,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 191,
@@ -3245,7 +3245,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.043893805309734,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 192,
@@ -3262,7 +3262,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.039908256880734,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 193,
@@ -3279,7 +3279,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.037889908256881,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 194,
@@ -3296,7 +3296,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 9.036727272727273,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 195,
@@ -3313,7 +3313,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.035398230088497,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 196,
@@ -3330,7 +3330,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.02743119266055,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 197,
@@ -3347,7 +3347,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.027256637168142,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 198,
@@ -3364,7 +3364,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.02637168141593,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 199,
@@ -3381,7 +3381,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.025398230088495,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 200,
@@ -3398,7 +3398,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.024513274336284,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 201,
@@ -3415,7 +3415,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.0197247706422,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 202,
@@ -3432,7 +3432,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.019541284403669,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 203,
@@ -3449,7 +3449,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.018899082568806,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 204,
@@ -3466,7 +3466,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.017981651376147,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 205,
@@ -3483,7 +3483,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.017706422018348,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 206,
@@ -3500,7 +3500,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.00938053097345,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 207,
@@ -3517,7 +3517,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 9.009357798165137,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 208,
@@ -3534,7 +3534,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.001769911504425,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 209,
@@ -3551,7 +3551,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 9.001327433628319,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 210,
@@ -3568,7 +3568,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.999911504424778,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 211,
@@ -3585,7 +3585,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.999908256880733,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 212,
@@ -3602,7 +3602,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.999469026548672,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 213,
@@ -3619,7 +3619,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.99926605504587,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 214,
@@ -3636,7 +3636,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.99909090909091,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 215,
@@ -3653,7 +3653,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.99787610619469,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 216,
@@ -3670,7 +3670,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.993211009174313,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 217,
@@ -3687,7 +3687,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.992212389380532,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 218,
@@ -3704,7 +3704,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.99211009174312,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 219,
@@ -3721,7 +3721,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.99211009174312,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 220,
@@ -3738,7 +3738,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.991192660550459,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 221,
@@ -3755,7 +3755,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.991100917431194,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 222,
@@ -3772,7 +3772,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.990091743119265,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 223,
@@ -3789,7 +3789,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.982654867256636,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 224,
@@ -3806,7 +3806,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.981946902654867,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 225,
@@ -3823,7 +3823,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.981681415929204,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 226,
@@ -3840,7 +3840,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.98137614678899,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 227,
@@ -3857,7 +3857,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.98070796460177,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 228,
@@ -3874,7 +3874,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.974778761061946,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 229,
@@ -3891,7 +3891,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.97424778761062,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 230,
@@ -3908,7 +3908,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.974159292035397,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 231,
@@ -3925,7 +3925,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.973944954128442,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 232,
@@ -3942,7 +3942,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.973302752293577,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 233,
@@ -3959,7 +3959,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.972660550458716,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 234,
@@ -3976,7 +3976,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.965929203539824,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 235,
@@ -3993,7 +3993,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.965321100917432,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 236,
@@ -4010,7 +4010,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.964867256637168,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 237,
@@ -4027,7 +4027,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.964311926605506,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 238,
@@ -4044,7 +4044,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.964036697247707,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 239,
@@ -4061,7 +4061,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.96348623853211,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 240,
@@ -4078,7 +4078,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.963451327433628,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 241,
@@ -4095,7 +4095,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.95646017699115,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 242,
@@ -4112,7 +4112,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.95504424778761,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 243,
@@ -4129,7 +4129,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.95321100917431,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 244,
@@ -4146,7 +4146,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.953119266055046,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 245,
@@ -4163,7 +4163,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.94716814159292,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 246,
@@ -4180,7 +4180,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.945688073394495,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 247,
@@ -4197,7 +4197,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.944862385321102,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 248,
@@ -4214,7 +4214,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.944587155963303,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 249,
@@ -4231,7 +4231,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.94451327433628,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 250,
@@ -4248,7 +4248,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 8.9391452991453,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 251,
@@ -4265,7 +4265,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.937610619469027,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 252,
@@ -4282,7 +4282,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.937610619469027,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 253,
@@ -4299,7 +4299,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.926880733944953,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 254,
@@ -4316,7 +4316,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 8.923584905660377,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 255,
@@ -4333,7 +4333,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.921150442477877,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 256,
@@ -4350,7 +4350,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.91724770642202,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 257,
@@ -4367,7 +4367,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.916788990825689,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 258,
@@ -4384,7 +4384,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.913982300884957,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 259,
@@ -4401,7 +4401,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.911858407079645,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 260,
@@ -4418,7 +4418,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.91141592920354,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 261,
@@ -4435,7 +4435,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.909454545454548,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 262,
@@ -4452,7 +4452,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.906697247706422,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 263,
@@ -4469,7 +4469,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.900550458715598,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 264,
@@ -4486,7 +4486,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.894690265486727,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 265,
@@ -4503,7 +4503,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.89362831858407,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 266,
@@ -4520,7 +4520,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.89109090909091,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 267,
@@ -4537,7 +4537,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.890642201834861,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 268,
@@ -4554,7 +4554,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.889449541284401,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 269,
@@ -4571,7 +4571,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.885398230088494,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 270,
@@ -4588,7 +4588,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.884336283185839,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 271,
@@ -4605,7 +4605,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.883716814159293,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 272,
@@ -4622,7 +4622,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.87778761061947,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 273,
@@ -4639,7 +4639,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.876548672566372,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 274,
@@ -4656,7 +4656,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.876106194690266,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 275,
@@ -4673,7 +4673,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.87119266055046,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 276,
@@ -4690,7 +4690,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.870176991150444,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 277,
@@ -4707,7 +4707,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.869469026548673,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 278,
@@ -4724,7 +4724,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.866991150442479,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 279,
@@ -4741,7 +4741,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.858495575221239,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 280,
@@ -4758,7 +4758,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.858141592920354,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 281,
@@ -4775,7 +4775,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.857964601769911,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 282,
@@ -4792,7 +4792,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.853211009174313,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 283,
@@ -4809,7 +4809,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.852660550458715,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 284,
@@ -4826,7 +4826,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.852568807339448,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 285,
@@ -4843,7 +4843,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.850265486725664,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 286,
@@ -4860,7 +4860,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.850000000000001,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 287,
@@ -4877,7 +4877,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.84938053097345,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 288,
@@ -4894,7 +4894,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.848584070796461,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 289,
@@ -4911,7 +4911,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.84787610619469,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 290,
@@ -4928,7 +4928,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.845321100917433,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 291,
@@ -4945,7 +4945,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.844770642201835,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 292,
@@ -4962,7 +4962,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.843185840707966,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 293,
@@ -4979,7 +4979,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.841681415929203,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 294,
@@ -4996,7 +4996,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.84150442477876,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 295,
@@ -5013,7 +5013,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.84061946902655,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 296,
@@ -5030,7 +5030,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.839911504424778,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 297,
@@ -5047,7 +5047,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.82633027522936,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 298,
@@ -5064,7 +5064,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.8248623853211,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 299,
@@ -5081,7 +5081,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.822300884955752,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 300,
@@ -5098,7 +5098,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.816422018348625,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 301,
@@ -5115,7 +5115,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.814867256637168,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 302,
@@ -5132,7 +5132,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.81424778761062,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 303,
@@ -5149,7 +5149,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.81353982300885,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 304,
@@ -5166,7 +5166,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.813539823008849,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 305,
@@ -5183,7 +5183,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.813008849557521,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 306,
@@ -5200,7 +5200,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.811238938053098,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 307,
@@ -5217,7 +5217,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.807339449541285,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 308,
@@ -5234,7 +5234,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.806605504587157,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 309,
@@ -5251,7 +5251,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.805688073394496,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 310,
@@ -5268,7 +5268,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.804955752212388,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 311,
@@ -5285,7 +5285,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.804955752212388,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 312,
@@ -5302,7 +5302,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.804690265486727,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 313,
@@ -5319,7 +5319,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.803716814159293,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 314,
@@ -5336,7 +5336,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.800571428571429,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 315,
@@ -5353,7 +5353,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.800458715596331,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 316,
@@ -5370,7 +5370,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.796017699115044,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 317,
@@ -5387,7 +5387,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.789541284403668,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 318,
@@ -5404,7 +5404,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.788899082568808,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 319,
@@ -5421,7 +5421,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.788440366972477,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 320,
@@ -5438,7 +5438,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.787522123893805,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 321,
@@ -5455,7 +5455,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.786725663716814,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 322,
@@ -5472,7 +5472,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.781926605504589,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 323,
@@ -5489,7 +5489,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.780275229357798,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 324,
@@ -5506,7 +5506,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.779908256880734,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 325,
@@ -5523,7 +5523,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.779449541284404,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 326,
@@ -5540,7 +5540,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.778672566371682,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 327,
@@ -5557,7 +5557,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.776814159292035,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 328,
@@ -5574,7 +5574,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.77221238938053,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 329,
@@ -5591,7 +5591,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.771681415929203,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 330,
@@ -5608,7 +5608,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.771238938053097,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 331,
@@ -5625,7 +5625,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.771192660550458,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 332,
@@ -5642,7 +5642,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.770530973451327,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 333,
@@ -5659,7 +5659,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.770176991150443,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 334,
@@ -5676,7 +5676,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.77,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 335,
@@ -5693,7 +5693,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.76926605504587,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 336,
@@ -5710,7 +5710,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.768407079646018,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 337,
@@ -5727,7 +5727,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.763761467889909,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 338,
@@ -5744,7 +5744,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.761926605504586,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 339,
@@ -5761,7 +5761,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.761559633027522,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 340,
@@ -5778,7 +5778,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.761192660550458,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 341,
@@ -5795,7 +5795,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.76061946902655,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 342,
@@ -5812,7 +5812,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.760442477876106,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 343,
@@ -5829,7 +5829,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.760183486238532,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 344,
@@ -5846,7 +5846,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 8.756415094339623,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 345,
@@ -5863,7 +5863,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.7541592920354,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 346,
@@ -5880,7 +5880,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.753628318584072,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 347,
@@ -5897,7 +5897,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.744424778761061,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 348,
@@ -5914,7 +5914,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.74394495412844,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 349,
@@ -5931,7 +5931,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.743893805309733,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 350,
@@ -5948,7 +5948,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.743008849557523,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 351,
@@ -5965,7 +5965,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.742477064220182,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 352,
@@ -5982,7 +5982,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.741559633027522,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 353,
@@ -5999,7 +5999,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 8.73622641509434,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 354,
@@ -6016,7 +6016,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.735412844036698,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 355,
@@ -6033,7 +6033,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.726902654867256,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 356,
@@ -6050,7 +6050,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.726283185840707,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 357,
@@ -6067,7 +6067,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.725663716814159,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 358,
@@ -6084,7 +6084,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.725663716814159,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 359,
@@ -6101,7 +6101,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.724761904761905,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 360,
@@ -6118,7 +6118,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.723302752293579,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 361,
@@ -6135,7 +6135,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 8.721607142857142,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 362,
@@ -6152,7 +6152,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.719557522123896,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 363,
@@ -6169,7 +6169,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.718672566371682,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 364,
@@ -6186,7 +6186,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.717699115044248,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 365,
@@ -6203,7 +6203,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.717345132743363,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 366,
@@ -6220,7 +6220,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.716637168141592,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 367,
@@ -6237,7 +6237,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.71646017699115,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 368,
@@ -6254,7 +6254,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.716283185840707,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 369,
@@ -6271,7 +6271,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.716194690265487,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 370,
@@ -6288,7 +6288,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.716194690265487,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 371,
@@ -6305,7 +6305,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.71394495412844,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 372,
@@ -6322,7 +6322,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.71,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 373,
@@ -6339,7 +6339,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.70929203539823,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 374,
@@ -6356,7 +6356,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.708761061946902,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 375,
@@ -6373,7 +6373,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.708348623853212,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 376,
@@ -6390,7 +6390,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.708230088495576,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 377,
@@ -6407,7 +6407,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.707699115044248,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 378,
@@ -6424,7 +6424,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.706814159292035,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 379,
@@ -6441,7 +6441,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.7,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 380,
@@ -6458,7 +6458,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.698938053097345,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 381,
@@ -6475,7 +6475,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.698256880733945,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 382,
@@ -6492,7 +6492,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.697247706422019,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 383,
@@ -6509,7 +6509,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.697064220183487,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 384,
@@ -6526,7 +6526,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.690884955752212,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 385,
@@ -6543,7 +6543,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.689816513761468,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 386,
@@ -6560,7 +6560,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.68908256880734,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 387,
@@ -6577,7 +6577,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 8.687857142857142,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 388,
@@ -6594,7 +6594,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.683008849557522,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 389,
@@ -6611,7 +6611,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.682300884955751,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 390,
@@ -6628,7 +6628,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.682035398230088,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 391,
@@ -6645,7 +6645,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.681769911504425,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 392,
@@ -6662,7 +6662,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.680796460176992,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 393,
@@ -6679,7 +6679,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.679816513761468,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 394,
@@ -6696,7 +6696,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.679646017699115,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 395,
@@ -6713,7 +6713,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.679380530973452,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 396,
@@ -6730,7 +6730,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.679380530973452,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 397,
@@ -6747,7 +6747,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 8.679245283018869,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 398,
@@ -6764,7 +6764,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.678807339449541,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 399,
@@ -6781,7 +6781,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.678256880733946,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 400,
@@ -6798,7 +6798,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.674336283185841,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 401,
@@ -6815,7 +6815,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.674070796460178,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 402,
@@ -6832,7 +6832,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.67165137614679,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 403,
@@ -6849,7 +6849,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.669449541284404,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 404,
@@ -6866,7 +6866,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.66486725663717,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 405,
@@ -6883,7 +6883,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.660183486238532,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 406,
@@ -6900,7 +6900,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.658165137614679,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 407,
@@ -6917,7 +6917,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.65646017699115,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 408,
@@ -6934,7 +6934,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.655818181818182,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 409,
@@ -6951,7 +6951,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.65575221238938,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 410,
@@ -6968,7 +6968,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.653893805309734,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 411,
@@ -6985,7 +6985,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.653008849557523,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 412,
@@ -7002,7 +7002,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.65150442477876,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 413,
@@ -7019,7 +7019,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.646902654867258,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 414,
@@ -7036,7 +7036,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.64575221238938,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 415,
@@ -7053,7 +7053,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.643362831858406,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 416,
@@ -7070,7 +7070,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.642568807339451,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 417,
@@ -7087,7 +7087,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.642477064220182,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 418,
@@ -7104,7 +7104,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.641559633027523,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 419,
@@ -7121,7 +7121,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.63929203539823,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 420,
@@ -7138,7 +7138,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.637090909090908,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 421,
@@ -7155,7 +7155,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 8.636851851851851,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 422,
@@ -7172,7 +7172,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.63637168141593,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 423,
@@ -7189,7 +7189,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.635398230088494,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 424,
@@ -7206,7 +7206,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.635398230088494,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 425,
@@ -7223,7 +7223,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.634036697247705,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 426,
@@ -7240,7 +7240,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.632935779816513,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 427,
@@ -7257,7 +7257,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.632385321100918,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 428,
@@ -7274,7 +7274,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.632293577981653,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 429,
@@ -7291,7 +7291,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.623853211009175,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 430,
@@ -7308,7 +7308,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.623027522935779,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 431,
@@ -7325,7 +7325,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.622935779816514,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 432,
@@ -7342,7 +7342,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.622752293577983,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 433,
@@ -7359,7 +7359,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.621327433628318,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 434,
@@ -7376,7 +7376,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.619904761904762,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 435,
@@ -7393,7 +7393,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.619734513274336,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 436,
@@ -7410,7 +7410,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.619557522123893,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 437,
@@ -7427,7 +7427,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.61890909090909,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 438,
@@ -7444,7 +7444,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.615779816513761,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 439,
@@ -7461,7 +7461,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.615229357798166,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 440,
@@ -7478,7 +7478,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 8.615213675213676,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 441,
@@ -7495,7 +7495,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.61330275229358,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 442,
@@ -7512,7 +7512,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.61203539823009,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 443,
@@ -7529,7 +7529,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.610265486725662,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 444,
@@ -7546,7 +7546,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.609734513274336,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 445,
@@ -7563,7 +7563,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.606605504587154,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 446,
@@ -7580,7 +7580,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.606330275229357,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 447,
@@ -7597,7 +7597,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.603119266055044,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 448,
@@ -7614,7 +7614,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.603097345132744,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 449,
@@ -7631,7 +7631,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.60070796460177,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 450,
@@ -7648,7 +7648,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.598532110091744,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 451,
@@ -7665,7 +7665,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.598318584070796,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 452,
@@ -7682,7 +7682,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.59651376146789,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 453,
@@ -7699,7 +7699,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.595504587155965,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 454,
@@ -7716,7 +7716,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.593451327433629,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 455,
@@ -7733,7 +7733,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.593362831858407,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 456,
@@ -7750,7 +7750,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 8.58974358974359,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 457,
@@ -7767,7 +7767,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.588715596330275,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 458,
@@ -7784,7 +7784,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.588440366972478,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 459,
@@ -7801,7 +7801,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.58697247706422,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 460,
@@ -7818,7 +7818,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.585779816513762,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 461,
@@ -7835,7 +7835,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.581504424778762,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 462,
@@ -7852,7 +7852,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.580571428571428,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 463,
@@ -7869,7 +7869,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.578899082568807,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 464,
@@ -7886,7 +7886,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.578807339449542,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 465,
@@ -7903,7 +7903,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.578440366972478,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 466,
@@ -7920,7 +7920,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.57566371681416,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 467,
@@ -7937,7 +7937,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.575663716814159,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 468,
@@ -7954,7 +7954,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.56816513761468,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 469,
@@ -7971,7 +7971,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.567610619469026,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 470,
@@ -7988,7 +7988,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.567345132743363,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 471,
@@ -8005,7 +8005,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 8.566981132075473,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 472,
@@ -8022,7 +8022,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.566106194690265,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 473,
@@ -8039,7 +8039,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.560458715596331,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 474,
@@ -8056,7 +8056,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.559469026548673,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 475,
@@ -8073,7 +8073,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.559266055045871,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 476,
@@ -8090,7 +8090,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.55920353982301,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 477,
@@ -8107,7 +8107,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.558807339449542,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 478,
@@ -8124,7 +8124,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.55858407079646,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 479,
@@ -8141,7 +8141,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.55716814159292,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 480,
@@ -8158,7 +8158,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.55646017699115,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 481,
@@ -8175,7 +8175,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.55045871559633,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 482,
@@ -8192,7 +8192,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.549357798165136,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 483,
@@ -8209,7 +8209,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.548672566371682,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 484,
@@ -8226,7 +8226,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.547256637168141,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 485,
@@ -8243,7 +8243,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.542857142857143,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 486,
@@ -8260,7 +8260,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.542300884955752,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 487,
@@ -8277,7 +8277,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.541009174311927,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 488,
@@ -8294,7 +8294,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.54070796460177,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 489,
@@ -8311,7 +8311,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.5397247706422,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 490,
@@ -8328,7 +8328,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.531238938053097,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 491,
@@ -8345,7 +8345,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.530275229357798,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 492,
@@ -8362,7 +8362,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.530183486238531,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 493,
@@ -8379,7 +8379,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.530091743119266,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 494,
@@ -8396,7 +8396,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.52920353982301,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 495,
@@ -8413,7 +8413,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.528230088495574,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 496,
@@ -8430,7 +8430,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.52818181818182,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 497,
@@ -8447,7 +8447,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.523185840707965,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 498,
@@ -8464,7 +8464,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.523119266055046,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 499,
@@ -8481,7 +8481,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.521926605504587,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 500,
@@ -8498,7 +8498,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.521504424778762,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 501,
@@ -8515,7 +8515,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.521061946902655,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 502,
@@ -8532,7 +8532,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.515132743362832,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 503,
@@ -8549,7 +8549,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.514770642201835,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 504,
@@ -8566,7 +8566,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.513982300884956,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 505,
@@ -8583,7 +8583,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.512935779816514,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 506,
@@ -8600,7 +8600,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.512935779816514,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 507,
@@ -8617,7 +8617,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.51141592920354,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 508,
@@ -8634,7 +8634,7 @@ var data =
     "cr4": 22,
     "cr5": 16,
     "cgpa": 8.510392156862745,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 509,
@@ -8651,7 +8651,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.506605504587156,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 510,
@@ -8668,7 +8668,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.50542857142857,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 511,
@@ -8685,7 +8685,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.50422018348624,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 512,
@@ -8702,7 +8702,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.503893805309735,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 513,
@@ -8719,7 +8719,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.502844036697248,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 514,
@@ -8736,7 +8736,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.502568807339449,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 515,
@@ -8753,7 +8753,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.502477064220184,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 516,
@@ -8770,7 +8770,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.496697247706424,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 517,
@@ -8787,7 +8787,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.495412844036696,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 518,
@@ -8804,7 +8804,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.493853211009174,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 519,
@@ -8821,7 +8821,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 8.491964285714285,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 520,
@@ -8838,7 +8838,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.488181818181818,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 521,
@@ -8855,7 +8855,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.485963302752294,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 522,
@@ -8872,7 +8872,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.485575221238937,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 523,
@@ -8889,7 +8889,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.485486725663716,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 524,
@@ -8906,7 +8906,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.484311926605503,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 525,
@@ -8923,7 +8923,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.479633027522937,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 526,
@@ -8940,7 +8940,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.478230088495575,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 527,
@@ -8957,7 +8957,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.478053097345132,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 528,
@@ -8974,7 +8974,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.477981651376147,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 529,
@@ -8991,7 +8991,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.47646017699115,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 530,
@@ -9008,7 +9008,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.475523809523809,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 531,
@@ -9025,7 +9025,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.46954128440367,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 532,
@@ -9042,7 +9042,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.46867256637168,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 533,
@@ -9059,7 +9059,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.468165137614678,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 534,
@@ -9076,7 +9076,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.46788990825688,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 535,
@@ -9093,7 +9093,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.467798165137614,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 536,
@@ -9110,7 +9110,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.46743119266055,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 537,
@@ -9127,7 +9127,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.46605504587156,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 538,
@@ -9144,7 +9144,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.461504424778761,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 539,
@@ -9161,7 +9161,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.460973451327435,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 540,
@@ -9178,7 +9178,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.460530973451327,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 541,
@@ -9195,7 +9195,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.460353982300886,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 542,
@@ -9212,7 +9212,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.459469026548673,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 543,
@@ -9229,7 +9229,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.459469026548673,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 544,
@@ -9246,7 +9246,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.458715596330276,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 545,
@@ -9263,7 +9263,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.45816513761468,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 546,
@@ -9280,7 +9280,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.456181818181816,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 547,
@@ -9297,7 +9297,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.453982300884956,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 548,
@@ -9314,7 +9314,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.45221238938053,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 549,
@@ -9331,7 +9331,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.451100917431193,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 550,
@@ -9348,7 +9348,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.45017699115044,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 551,
@@ -9365,7 +9365,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.448,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 552,
@@ -9382,7 +9382,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.448,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 553,
@@ -9399,7 +9399,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.442752293577982,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 554,
@@ -9416,7 +9416,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.441504424778762,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 555,
@@ -9433,7 +9433,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.44141592920354,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 556,
@@ -9450,7 +9450,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.441150442477877,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 557,
@@ -9467,7 +9467,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.440091743119265,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 558,
@@ -9484,7 +9484,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.4397247706422,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 559,
@@ -9501,7 +9501,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.434159292035398,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 560,
@@ -9518,7 +9518,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.432293577981653,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 561,
@@ -9535,7 +9535,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.430917431192661,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 562,
@@ -9552,7 +9552,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.430095238095237,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 563,
@@ -9569,7 +9569,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.430091743119267,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 564,
@@ -9586,7 +9586,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.430091743119267,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 565,
@@ -9603,7 +9603,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.429633027522936,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 566,
@@ -9620,7 +9620,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.427247706422019,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 567,
@@ -9637,7 +9637,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.426637168141593,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 568,
@@ -9654,7 +9654,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.424128440366975,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 569,
@@ -9671,7 +9671,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.423274336283185,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 570,
@@ -9688,7 +9688,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.422293577981652,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 571,
@@ -9705,7 +9705,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.421743119266056,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 572,
@@ -9722,7 +9722,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.42073394495413,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 573,
@@ -9739,7 +9739,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.415575221238937,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 574,
@@ -9756,7 +9756,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.414778761061946,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 575,
@@ -9773,7 +9773,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.414601769911506,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 576,
@@ -9790,7 +9790,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.412752293577983,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 577,
@@ -9807,7 +9807,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.411858407079645,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 578,
@@ -9824,7 +9824,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.409714285714285,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 579,
@@ -9841,7 +9841,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 8.409074074074073,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 580,
@@ -9858,7 +9858,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 8.408974358974358,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 581,
@@ -9875,7 +9875,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.406814159292036,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 582,
@@ -9892,7 +9892,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.406548672566371,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 583,
@@ -9909,7 +9909,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.40646017699115,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 584,
@@ -9926,7 +9926,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.40637168141593,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 585,
@@ -9943,7 +9943,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 8.40537037037037,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 586,
@@ -9960,7 +9960,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.399823008849559,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 587,
@@ -9977,7 +9977,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.399292035398231,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 588,
@@ -9994,7 +9994,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.398938053097346,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 589,
@@ -10011,7 +10011,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.398849557522123,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 590,
@@ -10028,7 +10028,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.397964601769912,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 591,
@@ -10045,7 +10045,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.397876106194689,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 592,
@@ -10062,7 +10062,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.397433628318584,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 593,
@@ -10079,7 +10079,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.397433628318584,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 594,
@@ -10096,7 +10096,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.395929203539824,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 595,
@@ -10113,7 +10113,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.39467889908257,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 596,
@@ -10130,7 +10130,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.394220183486238,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 597,
@@ -10147,7 +10147,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.393853211009175,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 598,
@@ -10164,7 +10164,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.392752293577981,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 599,
@@ -10181,7 +10181,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.386814159292035,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 600,
@@ -10198,7 +10198,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.386697247706422,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 601,
@@ -10215,7 +10215,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.380796460176992,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 602,
@@ -10232,7 +10232,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.380442477876107,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 603,
@@ -10249,7 +10249,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.379823008849556,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 604,
@@ -10266,7 +10266,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.377889908256883,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 605,
@@ -10283,7 +10283,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 8.377521367521368,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 606,
@@ -10300,7 +10300,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.376697247706424,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 607,
@@ -10317,7 +10317,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.376238532110092,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 608,
@@ -10334,7 +10334,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.375504587155964,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 609,
@@ -10351,7 +10351,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.374128440366972,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 610,
@@ -10368,7 +10368,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.373274336283185,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 611,
@@ -10385,7 +10385,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.373008849557523,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 612,
@@ -10402,7 +10402,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.367339449541284,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 613,
@@ -10419,7 +10419,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.366880733944955,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 614,
@@ -10436,7 +10436,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.366422018348624,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 615,
@@ -10453,7 +10453,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.364363636363636,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 616,
@@ -10470,7 +10470,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.363008849557522,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 617,
@@ -10487,7 +10487,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.36247619047619,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 618,
@@ -10504,7 +10504,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.36212389380531,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 619,
@@ -10521,7 +10521,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.360884955752214,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 620,
@@ -10538,7 +10538,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.35954128440367,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 621,
@@ -10555,7 +10555,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.359266055045872,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 622,
@@ -10572,7 +10572,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.358165137614678,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 623,
@@ -10589,7 +10589,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.357339449541284,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 624,
@@ -10606,7 +10606,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.357247706422019,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 625,
@@ -10623,7 +10623,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.354070796460178,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 626,
@@ -10640,7 +10640,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.347345132743364,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 627,
@@ -10657,7 +10657,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.346814159292036,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 628,
@@ -10674,7 +10674,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.346725663716814,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 629,
@@ -10691,7 +10691,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.34628318584071,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 630,
@@ -10708,7 +10708,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.34575221238938,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 631,
@@ -10725,7 +10725,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.345132743362832,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 632,
@@ -10742,7 +10742,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.340550458715596,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 633,
@@ -10759,7 +10759,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.338532110091743,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 634,
@@ -10776,7 +10776,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.337345132743364,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 635,
@@ -10793,7 +10793,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.336725663716814,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 636,
@@ -10810,7 +10810,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.335929203539822,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 637,
@@ -10827,7 +10827,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.335663716814159,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 638,
@@ -10844,7 +10844,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 8.334786324786325,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 639,
@@ -10861,7 +10861,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.334690265486724,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 640,
@@ -10878,7 +10878,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.334513274336283,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 641,
@@ -10895,7 +10895,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.334247787610618,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 642,
@@ -10912,7 +10912,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.331834862385321,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 643,
@@ -10929,7 +10929,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.328672566371681,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 644,
@@ -10946,7 +10946,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.325999999999999,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 645,
@@ -10963,7 +10963,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.321651376146788,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 646,
@@ -10980,7 +10980,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.321467889908257,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 647,
@@ -10997,7 +10997,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.320642201834863,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 648,
@@ -11014,7 +11014,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.320458715596331,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 649,
@@ -11031,7 +11031,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.320366972477064,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 650,
@@ -11048,7 +11048,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.318761061946903,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 651,
@@ -11065,7 +11065,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.31787610619469,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 652,
@@ -11082,7 +11082,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.31787610619469,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 653,
@@ -11099,7 +11099,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 8.314615384615385,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 654,
@@ -11116,7 +11116,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.314495412844037,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 655,
@@ -11133,7 +11133,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.313027522935782,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 656,
@@ -11150,7 +11150,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.312385321100917,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 657,
@@ -11167,7 +11167,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.311769911504426,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 658,
@@ -11184,7 +11184,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.311651376146788,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 659,
@@ -11201,7 +11201,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.30532110091743,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 660,
@@ -11218,7 +11218,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.304862385321103,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 661,
@@ -11235,7 +11235,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.302660550458715,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 662,
@@ -11252,7 +11252,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.302654867256637,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 663,
@@ -11269,7 +11269,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.302654867256637,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 664,
@@ -11286,7 +11286,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.300796460176992,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 665,
@@ -11303,7 +11303,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.299823008849557,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 666,
@@ -11320,7 +11320,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.299557522123894,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 667,
@@ -11337,7 +11337,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.299292035398231,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 668,
@@ -11354,7 +11354,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.29532110091743,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 669,
@@ -11371,7 +11371,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.295142857142856,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 670,
@@ -11388,7 +11388,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.294128440366972,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 671,
@@ -11405,7 +11405,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.291946902654868,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 672,
@@ -11422,7 +11422,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.29,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 673,
@@ -11439,7 +11439,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.286330275229359,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 674,
@@ -11456,7 +11456,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.284690265486725,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 675,
@@ -11473,7 +11473,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.284159292035397,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 676,
@@ -11490,7 +11490,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.28070796460177,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 677,
@@ -11507,7 +11507,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.276371681415931,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 678,
@@ -11524,7 +11524,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.275963302752293,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 679,
@@ -11541,7 +11541,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.27566371681416,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 680,
@@ -11558,7 +11558,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.275412844036698,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 681,
@@ -11575,7 +11575,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.27467889908257,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 682,
@@ -11592,7 +11592,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.27467889908257,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 683,
@@ -11609,7 +11609,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.273636363636363,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 684,
@@ -11626,7 +11626,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.272752293577982,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 685,
@@ -11643,7 +11643,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.26716814159292,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 686,
@@ -11660,7 +11660,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.26605504587156,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 687,
@@ -11677,7 +11677,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.265575221238938,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 688,
@@ -11694,7 +11694,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.265229357798164,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 689,
@@ -11711,7 +11711,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.265045871559632,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 690,
@@ -11728,7 +11728,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.264495412844036,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 691,
@@ -11745,7 +11745,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.263302752293578,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 692,
@@ -11762,7 +11762,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.262743362831857,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 693,
@@ -11779,7 +11779,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 8.262075471698111,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 694,
@@ -11796,7 +11796,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.258256880733946,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 695,
@@ -11813,7 +11813,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.258073394495414,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 696,
@@ -11830,7 +11830,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.25787610619469,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 697,
@@ -11847,7 +11847,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.257064220183485,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 698,
@@ -11864,7 +11864,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.256548672566371,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 699,
@@ -11881,7 +11881,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.255229357798164,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 700,
@@ -11898,7 +11898,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.254336283185841,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 701,
@@ -11915,7 +11915,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 8.253846153846155,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 702,
@@ -11932,7 +11932,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.253451327433629,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 703,
@@ -11949,7 +11949,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.249449541284402,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 704,
@@ -11966,7 +11966,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.248141592920353,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 705,
@@ -11983,7 +11983,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 8.247692307692306,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 706,
@@ -12000,7 +12000,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.247610619469027,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 707,
@@ -12017,7 +12017,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.247610619469027,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 708,
@@ -12034,7 +12034,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.247345132743364,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 709,
@@ -12051,7 +12051,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.247256637168142,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 710,
@@ -12068,7 +12068,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.24725663716814,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 711,
@@ -12085,7 +12085,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.24724770642202,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 712,
@@ -12102,7 +12102,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.246814159292034,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 713,
@@ -12119,7 +12119,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.246697247706424,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 714,
@@ -12136,7 +12136,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.246194690265487,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 715,
@@ -12153,7 +12153,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.239646017699114,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 716,
@@ -12170,7 +12170,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.23938053097345,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 717,
@@ -12187,7 +12187,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.238807339449542,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 718,
@@ -12204,7 +12204,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.23858407079646,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 719,
@@ -12221,7 +12221,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.238073394495414,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 720,
@@ -12238,7 +12238,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.237699115044247,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 721,
@@ -12255,7 +12255,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.23637168141593,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 722,
@@ -12272,7 +12272,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.231467889908258,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 723,
@@ -12289,7 +12289,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.230442477876107,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 724,
@@ -12306,7 +12306,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.230265486725663,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 725,
@@ -12323,7 +12323,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.228715596330275,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 726,
@@ -12340,7 +12340,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.228672566371682,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 727,
@@ -12357,7 +12357,7 @@ var data =
     "cr4": 22,
     "cr5": 21,
     "cgpa": 8.22626168224299,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 728,
@@ -12374,7 +12374,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.220973451327433,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 729,
@@ -12391,7 +12391,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.21981818181818,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 730,
@@ -12408,7 +12408,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.21954128440367,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 731,
@@ -12425,7 +12425,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.213185840707967,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 732,
@@ -12442,7 +12442,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.21283185840708,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 733,
@@ -12459,7 +12459,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.21256880733945,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 734,
@@ -12476,7 +12476,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.21221238938053,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 735,
@@ -12493,7 +12493,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.21165137614679,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 736,
@@ -12510,7 +12510,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.210733944954129,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 737,
@@ -12527,7 +12527,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.209816513761467,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 738,
@@ -12544,7 +12544,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.209816513761467,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 739,
@@ -12561,7 +12561,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.203982300884956,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 740,
@@ -12578,7 +12578,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.202935779816514,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 741,
@@ -12595,7 +12595,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.202566371681415,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 742,
@@ -12612,7 +12612,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.202300884955752,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 743,
@@ -12629,7 +12629,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.202293577981651,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 744,
@@ -12646,7 +12646,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.201926605504589,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 745,
@@ -12663,7 +12663,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.201769911504426,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 746,
@@ -12680,7 +12680,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.201714285714285,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 747,
@@ -12697,7 +12697,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.201284403669725,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 748,
@@ -12714,7 +12714,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.201061946902655,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 749,
@@ -12731,7 +12731,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.19867256637168,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 750,
@@ -12748,7 +12748,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.196548672566372,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 751,
@@ -12765,7 +12765,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.194690265486726,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 752,
@@ -12782,7 +12782,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.193394495412843,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 753,
@@ -12799,7 +12799,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.193185840707965,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 754,
@@ -12816,7 +12816,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.193097345132744,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 755,
@@ -12833,7 +12833,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.192477064220183,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 756,
@@ -12850,7 +12850,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.191858407079646,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 757,
@@ -12867,7 +12867,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.19165137614679,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 758,
@@ -12884,7 +12884,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.191651376146789,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 759,
@@ -12901,7 +12901,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 8.187924528301888,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 760,
@@ -12918,7 +12918,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.187079646017699,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 761,
@@ -12935,7 +12935,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.18654867256637,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 762,
@@ -12952,7 +12952,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.186106194690264,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 763,
@@ -12969,7 +12969,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.184601769911504,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 764,
@@ -12986,7 +12986,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.184587155963303,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 765,
@@ -13003,7 +13003,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.183302752293578,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 766,
@@ -13020,7 +13020,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.182666666666668,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 767,
@@ -13037,7 +13037,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.182477064220185,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 768,
@@ -13054,7 +13054,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.17646017699115,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 769,
@@ -13071,7 +13071,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.17605504587156,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 770,
@@ -13088,7 +13088,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.175412844036696,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 771,
@@ -13105,7 +13105,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.17440366972477,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 772,
@@ -13122,7 +13122,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.174036697247706,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 773,
@@ -13139,7 +13139,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.173119266055046,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 774,
@@ -13156,7 +13156,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.168318584070796,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 775,
@@ -13173,7 +13173,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.168230088495575,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 776,
@@ -13190,7 +13190,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.168141592920353,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 777,
@@ -13207,7 +13207,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.167699115044249,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 778,
@@ -13224,7 +13224,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.16716814159292,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 779,
@@ -13241,7 +13241,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.16577981651376,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 780,
@@ -13258,7 +13258,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.164220183486238,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 781,
@@ -13275,7 +13275,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.16348623853211,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 782,
@@ -13292,7 +13292,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.16309090909091,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 783,
@@ -13309,7 +13309,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.163027522935781,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 784,
@@ -13326,7 +13326,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.16,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 785,
@@ -13343,7 +13343,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.158672566371681,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 786,
@@ -13360,7 +13360,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.158407079646018,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 787,
@@ -13377,7 +13377,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.15787610619469,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 788,
@@ -13394,7 +13394,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.156146788990826,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 789,
@@ -13411,7 +13411,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.1551376146789,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 790,
@@ -13428,7 +13428,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.155045871559633,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 791,
@@ -13445,7 +13445,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 8.153418803418804,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 792,
@@ -13462,7 +13462,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.15274336283186,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 793,
@@ -13479,7 +13479,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 8.152075471698115,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 794,
@@ -13496,7 +13496,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.151681415929204,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 795,
@@ -13513,7 +13513,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.15008849557522,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 796,
@@ -13530,7 +13530,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.147614678899082,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 797,
@@ -13547,7 +13547,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.147431192660552,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 798,
@@ -13564,7 +13564,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.14743119266055,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 799,
@@ -13581,7 +13581,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.144181818181819,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 800,
@@ -13598,7 +13598,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.144159292035399,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 801,
@@ -13615,7 +13615,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.142300884955752,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 802,
@@ -13632,7 +13632,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.14221238938053,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 803,
@@ -13649,7 +13649,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.141681415929204,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 804,
@@ -13666,7 +13666,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.141238938053098,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 805,
@@ -13681,7 +13681,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 8.138139534883722,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 806,
@@ -13698,7 +13698,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.13743119266055,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 807,
@@ -13715,7 +13715,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.132666666666667,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 808,
@@ -13732,7 +13732,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.132123893805309,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 809,
@@ -13749,7 +13749,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.131858407079644,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 810,
@@ -13766,7 +13766,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.131769911504426,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 811,
@@ -13783,7 +13783,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.131061946902655,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 812,
@@ -13800,7 +13800,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.130091743119266,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 813,
@@ -13817,7 +13817,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.13,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 814,
@@ -13834,7 +13834,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.127889908256881,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 815,
@@ -13851,7 +13851,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.127064220183486,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 816,
@@ -13868,7 +13868,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.125486725663718,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 817,
@@ -13885,7 +13885,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.124159292035397,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 818,
@@ -13902,7 +13902,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.12238532110092,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 819,
@@ -13919,7 +13919,7 @@ var data =
     "cr4": 22,
     "cr5": 29,
     "cgpa": 8.122,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 820,
@@ -13936,7 +13936,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.119357798165138,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 821,
@@ -13953,7 +13953,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.11495575221239,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 822,
@@ -13970,7 +13970,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.111926605504587,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 823,
@@ -13987,7 +13987,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.111376146788992,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 824,
@@ -14004,7 +14004,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.110366972477063,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 825,
@@ -14021,7 +14021,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.110275229357798,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 826,
@@ -14030,7 +14030,7 @@ var data =
     "s5": 8.11,
     "cr5": 18,
     "cgpa": 8.11,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 827,
@@ -14047,7 +14047,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.108363636363636,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 828,
@@ -14064,7 +14064,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.108165137614678,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 829,
@@ -14081,7 +14081,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.107610619469028,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 830,
@@ -14098,7 +14098,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.106991150442477,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 831,
@@ -14115,7 +14115,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.10646017699115,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 832,
@@ -14132,7 +14132,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.10637168141593,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 833,
@@ -14149,7 +14149,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.105929203539823,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 834,
@@ -14166,7 +14166,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.105929203539823,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 835,
@@ -14183,7 +14183,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.105398230088495,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 836,
@@ -14200,7 +14200,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.101559633027524,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 837,
@@ -14217,7 +14217,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.100917431192661,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 838,
@@ -14234,7 +14234,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.100825688073394,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 839,
@@ -14251,7 +14251,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.100550458715597,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 840,
@@ -14268,7 +14268,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.100550458715597,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 841,
@@ -14285,7 +14285,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.099557522123895,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 842,
@@ -14302,7 +14302,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.098584070796461,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 843,
@@ -14319,7 +14319,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.096814159292036,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 844,
@@ -14336,7 +14336,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.092752293577982,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 845,
@@ -14353,7 +14353,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.092201834862385,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 846,
@@ -14370,7 +14370,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.092201834862385,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 847,
@@ -14387,7 +14387,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.089734513274337,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 848,
@@ -14404,7 +14404,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.08849557522124,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 849,
@@ -14421,7 +14421,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.086725663716814,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 850,
@@ -14438,7 +14438,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.086194690265486,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 851,
@@ -14455,7 +14455,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 8.083518518518519,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 852,
@@ -14472,7 +14472,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.08212389380531,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 853,
@@ -14489,7 +14489,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.081743119266054,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 854,
@@ -14506,7 +14506,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.080884955752213,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 855,
@@ -14523,7 +14523,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.080442477876108,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 856,
@@ -14540,7 +14540,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.080088495575222,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 857,
@@ -14557,7 +14557,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.074954128440368,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 858,
@@ -14574,7 +14574,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.073090909090908,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 859,
@@ -14591,7 +14591,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.072909090909091,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 860,
@@ -14608,7 +14608,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.072035398230087,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 861,
@@ -14625,7 +14625,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.071946902654867,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 862,
@@ -14642,7 +14642,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.071743119266056,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 863,
@@ -14659,7 +14659,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.07132743362832,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 864,
@@ -14676,7 +14676,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 8.065523809523809,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 865,
@@ -14693,7 +14693,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.06440366972477,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 866,
@@ -14710,7 +14710,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.064220183486238,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 867,
@@ -14727,7 +14727,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.064128440366973,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 868,
@@ -14744,7 +14744,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.064036697247706,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 869,
@@ -14761,7 +14761,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.06348623853211,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 870,
@@ -14778,7 +14778,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.057155963302753,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 871,
@@ -14795,7 +14795,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 8.056415094339624,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 872,
@@ -14812,7 +14812,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.055596330275229,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 873,
@@ -14829,7 +14829,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.055045871559633,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 874,
@@ -14846,7 +14846,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.053982300884956,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 875,
@@ -14863,7 +14863,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.053274336283184,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 876,
@@ -14880,7 +14880,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.053185840707966,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 877,
@@ -14897,7 +14897,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.052935779816515,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 878,
@@ -14914,7 +14914,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.04651376146789,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 879,
@@ -14931,7 +14931,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.046330275229359,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 880,
@@ -14948,7 +14948,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.046238532110092,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 881,
@@ -14965,7 +14965,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.045963302752293,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 882,
@@ -14982,7 +14982,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.045486725663716,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 883,
@@ -14999,7 +14999,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.045132743362831,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 884,
@@ -15016,7 +15016,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.044862385321101,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 885,
@@ -15033,7 +15033,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.044220183486239,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 886,
@@ -15050,7 +15050,7 @@ var data =
     "cr4": 22,
     "cr5": 16,
     "cgpa": 8.038823529411765,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 887,
@@ -15067,7 +15067,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.038440366972477,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 888,
@@ -15084,7 +15084,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 8.038301886792453,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 889,
@@ -15101,7 +15101,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.037889908256881,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 890,
@@ -15118,7 +15118,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.03651376146789,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 891,
@@ -15135,7 +15135,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.036238532110092,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 892,
@@ -15152,7 +15152,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.035963302752295,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 893,
@@ -15169,7 +15169,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.035871559633026,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 894,
@@ -15186,7 +15186,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.035309734513275,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 895,
@@ -15203,7 +15203,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.034513274336282,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 896,
@@ -15220,7 +15220,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.0329203539823,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 897,
@@ -15237,7 +15237,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.026194690265486,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 898,
@@ -15254,7 +15254,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.026017699115044,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 899,
@@ -15271,7 +15271,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.020353982300886,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 900,
@@ -15288,7 +15288,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.018141592920353,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 901,
@@ -15305,7 +15305,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.017433628318585,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 902,
@@ -15322,7 +15322,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.01716814159292,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 903,
@@ -15339,7 +15339,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.0170796460177,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 904,
@@ -15356,7 +15356,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.010442477876106,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 905,
@@ -15373,7 +15373,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.010265486725663,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 906,
@@ -15390,7 +15390,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.008990825688073,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 907,
@@ -15407,7 +15407,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.008672566371681,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 908,
@@ -15424,7 +15424,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.008672566371681,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 909,
@@ -15441,7 +15441,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.008672566371681,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 910,
@@ -15458,7 +15458,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.008230088495576,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 911,
@@ -15475,7 +15475,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.008165137614679,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 912,
@@ -15492,7 +15492,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.007964601769912,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 913,
@@ -15509,7 +15509,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.00788990825688,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 914,
@@ -15526,7 +15526,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.002363636363636,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 915,
@@ -15543,7 +15543,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.001858407079647,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 916,
@@ -15560,7 +15560,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 8.000909090909092,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 917,
@@ -15577,7 +15577,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.000550458715596,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 918,
@@ -15594,7 +15594,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 8.00045871559633,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 919,
@@ -15611,7 +15611,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 8.000088495575222,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 920,
@@ -15628,7 +15628,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.999911504424779,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 921,
@@ -15645,7 +15645,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.992300884955753,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 922,
@@ -15662,7 +15662,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.991946902654867,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 923,
@@ -15679,7 +15679,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 7.991296296296296,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 924,
@@ -15696,7 +15696,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.990825688073396,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 925,
@@ -15713,7 +15713,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 7.9904273504273515,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 926,
@@ -15730,7 +15730,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.990091743119265,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 927,
@@ -15747,7 +15747,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.989724770642201,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 928,
@@ -15764,7 +15764,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.989469026548673,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 929,
@@ -15781,7 +15781,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.984424778761062,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 930,
@@ -15798,7 +15798,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.983008849557521,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 931,
@@ -15815,7 +15815,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.982660550458716,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 932,
@@ -15832,7 +15832,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.981946902654866,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 933,
@@ -15849,7 +15849,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.981858407079646,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 934,
@@ -15866,7 +15866,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.981415929203541,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 935,
@@ -15883,7 +15883,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.98141592920354,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 936,
@@ -15900,7 +15900,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 7.980566037735849,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 937,
@@ -15917,7 +15917,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 7.980363636363635,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 938,
@@ -15934,7 +15934,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.974867256637169,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 939,
@@ -15951,7 +15951,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.974495412844038,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 940,
@@ -15968,7 +15968,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.97283185840708,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 941,
@@ -15985,7 +15985,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.972752293577982,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 942,
@@ -16002,7 +16002,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.971559633027523,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 943,
@@ -16019,7 +16019,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.971467889908258,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 944,
@@ -16036,7 +16036,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.967433628318584,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 945,
@@ -16053,7 +16053,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.9650442477876116,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 946,
@@ -16070,7 +16070,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.964036697247707,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 947,
@@ -16087,7 +16087,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.963394495412844,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 948,
@@ -16104,7 +16104,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.963211009174312,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 949,
@@ -16121,7 +16121,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.9628440366972475,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 950,
@@ -16138,7 +16138,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.962477064220183,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 951,
@@ -16155,7 +16155,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.961100917431192,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 952,
@@ -16172,7 +16172,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.958318584070796,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 953,
@@ -16189,7 +16189,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.955871559633027,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 954,
@@ -16206,7 +16206,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.955398230088495,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 955,
@@ -16223,7 +16223,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.955321100917431,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 956,
@@ -16240,7 +16240,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.9549541284403675,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 957,
@@ -16257,7 +16257,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.952477064220183,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 958,
@@ -16274,7 +16274,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.947345132743364,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 959,
@@ -16291,7 +16291,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.946283185840708,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 960,
@@ -16308,7 +16308,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.945963302752293,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 961,
@@ -16325,7 +16325,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.945596330275231,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 962,
@@ -16342,7 +16342,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.944403669724771,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 963,
@@ -16359,7 +16359,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 7.943888888888889,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 964,
@@ -16376,7 +16376,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.9435779816513765,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 965,
@@ -16393,7 +16393,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.93858407079646,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 966,
@@ -16410,7 +16410,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.938407079646018,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 967,
@@ -16427,7 +16427,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.9384070796460176,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 968,
@@ -16444,7 +16444,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.937699115044247,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 969,
@@ -16461,7 +16461,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.937345132743363,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 970,
@@ -16478,7 +16478,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.936880733944954,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 971,
@@ -16495,7 +16495,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.936330275229358,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 972,
@@ -16512,7 +16512,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.935840707964601,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 973,
@@ -16529,7 +16529,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.935596330275229,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 974,
@@ -16546,7 +16546,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.935229357798165,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 975,
@@ -16563,7 +16563,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.933853211009174,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 976,
@@ -16580,7 +16580,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.93008849557522,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 977,
@@ -16597,7 +16597,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.929026548672566,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 978,
@@ -16614,7 +16614,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.928495575221238,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 979,
@@ -16631,7 +16631,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.927798165137614,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 980,
@@ -16648,7 +16648,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.927339449541284,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 981,
@@ -16665,7 +16665,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.9271681415929205,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 982,
@@ -16682,7 +16682,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.926330275229358,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 983,
@@ -16699,7 +16699,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.919999999999999,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 984,
@@ -16716,7 +16716,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.919646017699115,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 985,
@@ -16733,7 +16733,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.917699115044247,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 986,
@@ -16750,7 +16750,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.912920353982302,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 987,
@@ -16767,7 +16767,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.912743362831859,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 988,
@@ -16784,7 +16784,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.911946902654867,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 989,
@@ -16801,7 +16801,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 7.907962962962962,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 990,
@@ -16818,7 +16818,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.906513761467889,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 991,
@@ -16835,7 +16835,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.903805309734513,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 992,
@@ -16852,7 +16852,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.903185840707964,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 993,
@@ -16869,7 +16869,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.902477876106195,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 994,
@@ -16886,7 +16886,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.901858407079647,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 995,
@@ -16903,7 +16903,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.900733944954129,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 996,
@@ -16920,7 +16920,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.90070796460177,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 997,
@@ -16937,7 +16937,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.900183486238533,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 998,
@@ -16954,7 +16954,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.9,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 999,
@@ -16971,7 +16971,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.898990825688075,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1000,
@@ -16988,7 +16988,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.8979816513761465,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1001,
@@ -17005,7 +17005,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.897798165137615,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1002,
@@ -17022,7 +17022,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.897064220183486,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1003,
@@ -17039,7 +17039,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.89504424778761,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1004,
@@ -17056,7 +17056,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.894690265486726,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1005,
@@ -17073,7 +17073,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.893185840707965,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1006,
@@ -17090,7 +17090,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.891559633027523,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1007,
@@ -17107,7 +17107,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.887256637168141,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1008,
@@ -17124,7 +17124,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.8847619047619055,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1009,
@@ -17141,7 +17141,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.881467889908257,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1010,
@@ -17158,7 +17158,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.880366972477065,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1011,
@@ -17175,7 +17175,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.88,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1012,
@@ -17192,7 +17192,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.876106194690266,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1013,
@@ -17209,7 +17209,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.873716814159292,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1014,
@@ -17226,7 +17226,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.872201834862385,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1015,
@@ -17243,7 +17243,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.868715596330275,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1016,
@@ -17260,7 +17260,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.86716814159292,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1017,
@@ -17277,7 +17277,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.867079646017698,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1018,
@@ -17294,7 +17294,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 7.866785714285716,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1019,
@@ -17311,7 +17311,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.866725663716815,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1020,
@@ -17328,7 +17328,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.863761467889909,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1021,
@@ -17345,7 +17345,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.863119266055047,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1022,
@@ -17362,7 +17362,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.862660550458715,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1023,
@@ -17379,7 +17379,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.861467889908257,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1024,
@@ -17396,7 +17396,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.858141592920354,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1025,
@@ -17413,7 +17413,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.8568141592920355,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1026,
@@ -17430,7 +17430,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.855412844036698,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1027,
@@ -17447,7 +17447,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.854495412844036,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1028,
@@ -17464,7 +17464,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.853853211009174,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1029,
@@ -17481,7 +17481,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.853577981651376,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1030,
@@ -17498,7 +17498,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.849203539823008,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1031,
@@ -17515,7 +17515,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.849115044247788,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1032,
@@ -17532,7 +17532,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.848761061946903,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1033,
@@ -17549,7 +17549,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.848584070796459,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1034,
@@ -17566,7 +17566,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.848495575221239,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1035,
@@ -17583,7 +17583,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.846814159292034,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1036,
@@ -17600,7 +17600,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.845596330275229,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1037,
@@ -17617,7 +17617,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.845045871559632,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1038,
@@ -17634,7 +17634,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.844220183486239,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1039,
@@ -17651,7 +17651,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.843486238532111,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1040,
@@ -17668,7 +17668,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.842654867256638,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1041,
@@ -17685,7 +17685,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.841327433628318,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1042,
@@ -17702,7 +17702,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.841284403669724,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1043,
@@ -17719,7 +17719,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.8351376146789,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1044,
@@ -17736,7 +17736,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.834770642201835,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1045,
@@ -17753,7 +17753,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.834036697247707,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1046,
@@ -17770,7 +17770,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.831415929203541,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1047,
@@ -17787,7 +17787,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.831327433628319,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1048,
@@ -17804,7 +17804,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.831150442477876,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1049,
@@ -17821,7 +17821,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.831061946902655,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1050,
@@ -17830,7 +17830,7 @@ var data =
     "s5": 7.83,
     "cr5": 23,
     "cgpa": 7.83,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1051,
@@ -17847,7 +17847,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.826194690265487,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1052,
@@ -17864,7 +17864,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.824862385321102,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1053,
@@ -17881,7 +17881,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.823008849557523,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1054,
@@ -17898,7 +17898,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.822389380530973,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1055,
@@ -17915,7 +17915,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.822035398230089,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1056,
@@ -17932,7 +17932,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 7.819145299145299,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1057,
@@ -17949,7 +17949,7 @@ var data =
     "cr4": 22,
     "cr5": 25,
     "cgpa": 7.818558558558559,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1058,
@@ -17966,7 +17966,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.814690265486725,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1059,
@@ -17983,7 +17983,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.814678899082568,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1060,
@@ -18000,7 +18000,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.813274336283186,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1061,
@@ -18017,7 +18017,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.81302752293578,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1062,
@@ -18034,7 +18034,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.812566371681417,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1063,
@@ -18051,7 +18051,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.808899082568807,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1064,
@@ -18068,7 +18068,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.8080733944954135,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1065,
@@ -18085,7 +18085,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.807433628318584,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1066,
@@ -18102,7 +18102,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.806725663716815,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1067,
@@ -18119,7 +18119,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.806460176991149,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1068,
@@ -18136,7 +18136,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.80495575221239,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1069,
@@ -18153,7 +18153,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.8031428571428565,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1070,
@@ -18170,7 +18170,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.803008849557522,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1071,
@@ -18187,7 +18187,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.798440366972477,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1072,
@@ -18204,7 +18204,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.797981651376147,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1073,
@@ -18221,7 +18221,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.79575221238938,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1074,
@@ -18238,7 +18238,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.795575221238938,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1075,
@@ -18255,7 +18255,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.793853211009174,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1076,
@@ -18272,7 +18272,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.79091743119266,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1077,
@@ -18289,7 +18289,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.79045871559633,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1078,
@@ -18306,7 +18306,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.789734513274336,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1079,
@@ -18323,7 +18323,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.789633027522936,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1080,
@@ -18338,7 +18338,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 7.78860465116279,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1081,
@@ -18355,7 +18355,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.78787610619469,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1082,
@@ -18372,7 +18372,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.787155963302752,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1083,
@@ -18389,7 +18389,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 7.785370370370369,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1084,
@@ -18406,7 +18406,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.780550458715597,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1085,
@@ -18423,7 +18423,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.779646017699115,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1086,
@@ -18440,7 +18440,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.779557522123893,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1087,
@@ -18457,7 +18457,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.778990825688073,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1088,
@@ -18474,7 +18474,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.770825688073395,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1089,
@@ -18491,7 +18491,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.770458715596329,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1090,
@@ -18508,7 +18508,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.77,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1091,
@@ -18525,7 +18525,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.769203539823009,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1092,
@@ -18542,7 +18542,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.769174311926605,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1093,
@@ -18559,7 +18559,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.762566371681417,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1094,
@@ -18576,7 +18576,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.761769911504424,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1095,
@@ -18593,7 +18593,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.7529203539823,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1096,
@@ -18610,7 +18610,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.751743119266056,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1097,
@@ -18627,7 +18627,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.751714285714284,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1098,
@@ -18644,7 +18644,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.751061946902656,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1099,
@@ -18661,7 +18661,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.750707964601769,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1100,
@@ -18678,7 +18678,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.743805309734513,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1101,
@@ -18695,7 +18695,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.742654867256637,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1102,
@@ -18712,7 +18712,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.742110091743119,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1103,
@@ -18729,7 +18729,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.735575221238939,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1104,
@@ -18746,7 +18746,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.734954128440367,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1105,
@@ -18763,7 +18763,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.734336283185841,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1106,
@@ -18780,7 +18780,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.734220183486238,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1107,
@@ -18797,7 +18797,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.733394495412844,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1108,
@@ -18814,7 +18814,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.73229357798165,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1109,
@@ -18831,7 +18831,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.732201834862384,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1110,
@@ -18848,7 +18848,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.726283185840708,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1111,
@@ -18865,7 +18865,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.723619047619047,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1112,
@@ -18882,7 +18882,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.722385321100917,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1113,
@@ -18899,7 +18899,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.7187610619469025,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1114,
@@ -18916,7 +18916,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.7163302752293585,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1115,
@@ -18933,7 +18933,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.7163302752293585,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1116,
@@ -18950,7 +18950,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.715963302752293,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1117,
@@ -18967,7 +18967,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.715840707964602,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1118,
@@ -18984,7 +18984,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.715045871559632,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1119,
@@ -19001,7 +19001,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 7.710181818181817,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1120,
@@ -19018,7 +19018,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.708672566371682,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1121,
@@ -19035,7 +19035,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.708348623853213,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1122,
@@ -19052,7 +19052,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.7072477064220175,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1123,
@@ -19069,7 +19069,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.699203539823009,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1124,
@@ -19086,7 +19086,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.698715596330276,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1125,
@@ -19103,7 +19103,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.698073394495413,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1126,
@@ -19120,7 +19120,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.6975229357798165,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1127,
@@ -19137,7 +19137,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.697345132743363,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1128,
@@ -19154,7 +19154,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 7.694464285714285,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1129,
@@ -19171,7 +19171,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.690884955752213,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1130,
@@ -19188,7 +19188,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.6902654867256635,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1131,
@@ -19205,7 +19205,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.689646017699116,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1132,
@@ -19222,7 +19222,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.683904761904762,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1133,
@@ -19239,7 +19239,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.681681415929203,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1134,
@@ -19256,7 +19256,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.681681415929203,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1135,
@@ -19273,7 +19273,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.681415929203541,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1136,
@@ -19290,7 +19290,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.681238938053098,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1137,
@@ -19307,7 +19307,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.680733944954129,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1138,
@@ -19324,7 +19324,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.680088495575222,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1139,
@@ -19341,7 +19341,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.679541284403669,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1140,
@@ -19358,7 +19358,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.678849557522124,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1141,
@@ -19375,7 +19375,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.678623853211009,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1142,
@@ -19392,7 +19392,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 7.678214285714286,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1143,
@@ -19409,7 +19409,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.676605504587156,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1144,
@@ -19426,7 +19426,7 @@ var data =
     "cr4": 22,
     "cr5": 25,
     "cgpa": 7.674954954954956,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1145,
@@ -19443,7 +19443,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.672831858407079,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1146,
@@ -19460,7 +19460,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 7.672363636363636,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1147,
@@ -19477,7 +19477,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.672035398230088,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1148,
@@ -19494,7 +19494,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 7.671818181818182,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1149,
@@ -19511,7 +19511,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.6716814159292035,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1150,
@@ -19528,7 +19528,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.6707339449541285,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1151,
@@ -19545,7 +19545,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.669357798165138,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1152,
@@ -19562,7 +19562,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.668073394495412,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1153,
@@ -19579,7 +19579,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.66447619047619,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1154,
@@ -19596,7 +19596,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.66302752293578,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1155,
@@ -19613,7 +19613,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.662920353982302,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1156,
@@ -19630,7 +19630,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.661009174311927,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1157,
@@ -19647,7 +19647,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.660091743119266,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1158,
@@ -19664,7 +19664,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.6594495412844035,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1159,
@@ -19681,7 +19681,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.655398230088495,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1160,
@@ -19698,7 +19698,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.654601769911504,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1161,
@@ -19715,7 +19715,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.654424778761062,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1162,
@@ -19732,7 +19732,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.653805309734512,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1163,
@@ -19749,7 +19749,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.6530973451327435,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1164,
@@ -19766,7 +19766,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.652743362831858,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1165,
@@ -19783,7 +19783,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 7.648205128205128,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1166,
@@ -19800,7 +19800,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.6481415929203544,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1167,
@@ -19817,7 +19817,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.6441284403669725,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1168,
@@ -19834,7 +19834,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.6422018348623855,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1169,
@@ -19851,7 +19851,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.641743119266056,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1170,
@@ -19868,7 +19868,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.641376146788991,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1171,
@@ -19885,7 +19885,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.637964601769913,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1172,
@@ -19902,7 +19902,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.636725663716813,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1173,
@@ -19919,7 +19919,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.63637168141593,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1174,
@@ -19936,7 +19936,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.634867256637168,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1175,
@@ -19953,7 +19953,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.633394495412845,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1176,
@@ -19970,7 +19970,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.62858407079646,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1177,
@@ -19985,7 +19985,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 7.627674418604651,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1178,
@@ -20002,7 +20002,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.6267889908256885,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1179,
@@ -20019,7 +20019,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.625504587155964,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1180,
@@ -20036,7 +20036,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.62394495412844,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1181,
@@ -20053,7 +20053,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.623853211009175,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1182,
@@ -20070,7 +20070,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.623394495412844,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1183,
@@ -20087,7 +20087,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.623302752293578,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1184,
@@ -20104,7 +20104,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.623211009174312,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1185,
@@ -20121,7 +20121,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 7.622678571428572,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1186,
@@ -20138,7 +20138,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.622201834862385,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1187,
@@ -20155,7 +20155,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.621834862385321,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1188,
@@ -20172,7 +20172,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.621100917431192,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1189,
@@ -20189,7 +20189,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.619469026548672,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1190,
@@ -20206,7 +20206,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.61929203539823,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1191,
@@ -20223,7 +20223,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.615504587155963,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1192,
@@ -20240,7 +20240,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.615321100917431,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1193,
@@ -20257,7 +20257,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.612660550458715,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1194,
@@ -20274,7 +20274,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.612212389380532,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1195,
@@ -20291,7 +20291,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.610176991150443,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1196,
@@ -20308,7 +20308,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.608256880733945,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1197,
@@ -20325,7 +20325,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.6059633027522935,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1198,
@@ -20342,7 +20342,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 7.604905660377359,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1199,
@@ -20359,7 +20359,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.604862385321102,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1200,
@@ -20376,7 +20376,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.60283185840708,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1201,
@@ -20393,7 +20393,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.602566371681416,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1202,
@@ -20410,7 +20410,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.6021238938053095,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1203,
@@ -20427,7 +20427,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.601769911504425,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1204,
@@ -20444,7 +20444,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.601238938053097,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1205,
@@ -20461,7 +20461,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.601238938053097,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1206,
@@ -20478,7 +20478,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.594862385321101,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1207,
@@ -20495,7 +20495,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.59433628318584,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1208,
@@ -20512,7 +20512,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.59283185840708,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1209,
@@ -20529,7 +20529,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.591619047619048,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1210,
@@ -20546,7 +20546,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.588165137614679,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1211,
@@ -20563,7 +20563,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.587798165137614,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1212,
@@ -20580,7 +20580,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.587614678899082,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1213,
@@ -20597,7 +20597,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.586422018348624,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1214,
@@ -20614,7 +20614,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.58605504587156,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1215,
@@ -20631,7 +20631,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.585688073394494,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1216,
@@ -20648,7 +20648,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.584690265486725,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1217,
@@ -20665,7 +20665,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.584070796460177,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1218,
@@ -20682,7 +20682,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 7.583931623931624,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1219,
@@ -20699,7 +20699,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.583716814159291,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1220,
@@ -20716,7 +20716,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.583362831858408,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1221,
@@ -20733,7 +20733,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.57954128440367,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1222,
@@ -20750,7 +20750,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.578348623853211,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1223,
@@ -20767,7 +20767,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.578073394495413,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1224,
@@ -20784,7 +20784,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.577889908256879,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1225,
@@ -20801,7 +20801,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.577247706422019,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1226,
@@ -20818,7 +20818,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.575132743362832,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1227,
@@ -20835,7 +20835,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.5724761904761895,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1228,
@@ -20852,7 +20852,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.571743119266055,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1229,
@@ -20869,7 +20869,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.568807339449541,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1230,
@@ -20886,7 +20886,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.568715596330275,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1231,
@@ -20903,7 +20903,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.568407079646017,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1232,
@@ -20920,7 +20920,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.568141592920354,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1233,
@@ -20937,7 +20937,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.567522935779817,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1234,
@@ -20954,7 +20954,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 7.566603773584906,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1235,
@@ -20971,7 +20971,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.566238532110091,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1236,
@@ -20988,7 +20988,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.5660176991150445,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1237,
@@ -21005,7 +21005,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.564070796460177,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1238,
@@ -21022,7 +21022,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.561467889908258,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1239,
@@ -21039,7 +21039,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.560183486238532,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1240,
@@ -21056,7 +21056,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.554070796460177,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1241,
@@ -21073,7 +21073,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.552293577981652,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1242,
@@ -21090,7 +21090,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.550733944954129,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1243,
@@ -21107,7 +21107,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.549380530973452,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1244,
@@ -21124,7 +21124,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.549082568807339,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1245,
@@ -21141,7 +21141,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.54778761061947,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1246,
@@ -21158,7 +21158,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.547522123893804,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1247,
@@ -21175,7 +21175,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.54637168141593,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1248,
@@ -21192,7 +21192,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.543761467889908,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1249,
@@ -21209,7 +21209,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.543119266055047,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1250,
@@ -21226,7 +21226,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.541559633027522,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1251,
@@ -21243,7 +21243,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.5411009174311925,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1252,
@@ -21260,7 +21260,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.540796460176991,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1253,
@@ -21277,7 +21277,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.540176991150442,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1254,
@@ -21294,7 +21294,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.54,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1255,
@@ -21311,7 +21311,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.538761061946904,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1256,
@@ -21328,7 +21328,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.538407079646018,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1257,
@@ -21345,7 +21345,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 7.536481481481482,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1258,
@@ -21362,7 +21362,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.531834862385321,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1259,
@@ -21379,7 +21379,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.531150442477876,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1260,
@@ -21396,7 +21396,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.530973451327433,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1261,
@@ -21413,7 +21413,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.5301769911504435,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1262,
@@ -21430,7 +21430,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 7.528545454545454,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1263,
@@ -21447,7 +21447,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.524495412844036,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1264,
@@ -21464,7 +21464,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.5240366972477055,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1265,
@@ -21481,7 +21481,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.521769911504424,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1266,
@@ -21498,7 +21498,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.521681415929204,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1267,
@@ -21515,7 +21515,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.521467889908257,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1268,
@@ -21532,7 +21532,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.521284403669724,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1269,
@@ -21549,7 +21549,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.520442477876107,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1270,
@@ -21566,7 +21566,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.5162385321100915,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1271,
@@ -21583,7 +21583,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.514159292035397,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1272,
@@ -21600,7 +21600,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.513853211009173,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1273,
@@ -21617,7 +21617,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 7.513675213675213,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1274,
@@ -21634,7 +21634,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.513394495412844,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1275,
@@ -21651,7 +21651,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.513097345132742,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1276,
@@ -21668,7 +21668,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.511858407079647,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1277,
@@ -21685,7 +21685,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.511284403669725,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1278,
@@ -21702,7 +21702,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.506283185840708,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1279,
@@ -21719,7 +21719,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.505221238938053,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1280,
@@ -21736,7 +21736,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.504862385321101,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1281,
@@ -21753,7 +21753,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.504311926605505,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1282,
@@ -21770,7 +21770,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.504220183486239,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1283,
@@ -21787,7 +21787,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.50394495412844,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1284,
@@ -21804,7 +21804,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.503669724770642,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1285,
@@ -21821,7 +21821,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.497247706422018,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1286,
@@ -21838,7 +21838,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.496548672566372,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1287,
@@ -21855,7 +21855,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.495321100917431,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1288,
@@ -21872,7 +21872,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.494666666666667,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1289,
@@ -21889,7 +21889,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.494495412844038,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1290,
@@ -21906,7 +21906,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.49424778761062,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1291,
@@ -21923,7 +21923,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.492920353982301,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1292,
@@ -21940,7 +21940,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 7.488490566037735,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1293,
@@ -21957,7 +21957,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.487155963302752,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1294,
@@ -21974,7 +21974,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.485840707964603,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1295,
@@ -21991,7 +21991,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.478141592920354,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1296,
@@ -22008,7 +22008,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.47716814159292,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1297,
@@ -22025,7 +22025,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.476571428571428,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1298,
@@ -22042,7 +22042,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.475929203539823,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1299,
@@ -22059,7 +22059,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.4692920353982295,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1300,
@@ -22076,7 +22076,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.468849557522124,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1301,
@@ -22093,7 +22093,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.461559633027522,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1302,
@@ -22110,7 +22110,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.459908256880734,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1303,
@@ -22127,7 +22127,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.459557522123894,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1304,
@@ -22144,7 +22144,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.459541284403669,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1305,
@@ -22161,7 +22161,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.459082568807339,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1306,
@@ -22178,7 +22178,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.4589908256880735,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1307,
@@ -22195,7 +22195,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.458256880733944,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1308,
@@ -22212,7 +22212,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.457999999999999,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1309,
@@ -22229,7 +22229,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.449633027522935,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1310,
@@ -22246,7 +22246,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.449266055045872,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1311,
@@ -22263,7 +22263,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.448165137614679,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1312,
@@ -22280,7 +22280,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.442743362831858,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1313,
@@ -22297,7 +22297,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.441681415929204,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1314,
@@ -22314,7 +22314,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.44141592920354,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1315,
@@ -22329,7 +22329,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 7.440930232558141,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1316,
@@ -22346,7 +22346,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.4407964601769905,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1317,
@@ -22363,7 +22363,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.440000000000001,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1318,
@@ -22380,7 +22380,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.44,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1319,
@@ -22397,7 +22397,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.4396330275229365,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1320,
@@ -22414,7 +22414,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.43908256880734,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1321,
@@ -22431,7 +22431,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.436106194690265,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1322,
@@ -22448,7 +22448,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.4360176991150455,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1323,
@@ -22465,7 +22465,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 7.435636363636364,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1324,
@@ -22482,7 +22482,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.433853211009174,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1325,
@@ -22499,7 +22499,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.433185840707965,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1326,
@@ -22516,7 +22516,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.432920353982301,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1327,
@@ -22533,7 +22533,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.4323893805309735,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1328,
@@ -22550,7 +22550,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.432201834862386,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1329,
@@ -22567,7 +22567,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.432123893805309,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1330,
@@ -22584,7 +22584,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.432018348623854,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1331,
@@ -22601,7 +22601,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.432018348623854,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1332,
@@ -22618,7 +22618,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.425398230088495,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1333,
@@ -22635,7 +22635,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.424690265486726,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1334,
@@ -22652,7 +22652,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.423716814159292,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1335,
@@ -22669,7 +22669,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.423577981651377,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1336,
@@ -22686,7 +22686,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.421559633027522,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1337,
@@ -22703,7 +22703,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.419999999999999,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1338,
@@ -22720,7 +22720,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 7.417435897435897,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1339,
@@ -22737,7 +22737,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.416902654867257,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1340,
@@ -22754,7 +22754,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.415575221238939,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1341,
@@ -22771,7 +22771,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.414495412844038,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1342,
@@ -22788,7 +22788,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.4133027522935775,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1343,
@@ -22805,7 +22805,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.407964601769913,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1344,
@@ -22822,7 +22822,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.406814159292035,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1345,
@@ -22839,7 +22839,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.405663716814159,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1346,
@@ -22856,7 +22856,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.402385321100916,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1347,
@@ -22873,7 +22873,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.398761061946902,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1348,
@@ -22890,7 +22890,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.39778761061947,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1349,
@@ -22907,7 +22907,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.397345132743362,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1350,
@@ -22922,7 +22922,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 7.395581395348837,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1351,
@@ -22939,7 +22939,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.395504587155964,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1352,
@@ -22956,7 +22956,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.391284403669725,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1353,
@@ -22973,7 +22973,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.388849557522123,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1354,
@@ -22990,7 +22990,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.387079646017698,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1355,
@@ -23007,7 +23007,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.384403669724771,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1356,
@@ -23024,7 +23024,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.384311926605505,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1357,
@@ -23041,7 +23041,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.383577981651376,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1358,
@@ -23058,7 +23058,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 7.3825641025641024,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1359,
@@ -23075,7 +23075,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.382389380530974,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1360,
@@ -23092,7 +23092,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 7.381709401709402,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1361,
@@ -23109,7 +23109,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.380973451327433,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1362,
@@ -23126,7 +23126,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.376788990825688,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1363,
@@ -23143,7 +23143,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.375596330275229,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1364,
@@ -23160,7 +23160,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.374778761061947,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1365,
@@ -23177,7 +23177,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.373362831858407,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1366,
@@ -23194,7 +23194,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.372920353982301,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1367,
@@ -23211,7 +23211,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.37283185840708,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1368,
@@ -23228,7 +23228,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.371504424778761,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1369,
@@ -23245,7 +23245,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 7.370930232558139,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1370,
@@ -23262,7 +23262,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.367706422018348,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1371,
@@ -23279,7 +23279,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.3674311926605505,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1372,
@@ -23296,7 +23296,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.365486725663717,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1373,
@@ -23313,7 +23313,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.365229357798165,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1374,
@@ -23330,7 +23330,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.36362831858407,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1375,
@@ -23347,7 +23347,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.362389380530973,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1376,
@@ -23364,7 +23364,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.3618584070796445,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1377,
@@ -23381,7 +23381,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.361681415929204,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1378,
@@ -23398,7 +23398,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.361592920353982,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1379,
@@ -23415,7 +23415,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 7.35943396226415,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1380,
@@ -23432,7 +23432,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.357798165137614,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1381,
@@ -23449,7 +23449,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.357339449541285,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1382,
@@ -23466,7 +23466,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.354601769911504,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1383,
@@ -23483,7 +23483,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.353893805309735,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1384,
@@ -23500,7 +23500,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.352857142857142,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1385,
@@ -23517,7 +23517,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.351504424778761,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1386,
@@ -23534,7 +23534,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 7.35111111111111,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1387,
@@ -23551,7 +23551,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.349174311926605,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1388,
@@ -23568,7 +23568,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.347247706422019,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1389,
@@ -23585,7 +23585,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.346972477064221,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1390,
@@ -23602,7 +23602,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.346283185840707,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1391,
@@ -23619,7 +23619,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.3458407079646015,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1392,
@@ -23636,7 +23636,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.345596330275229,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1393,
@@ -23653,7 +23653,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.34424778761062,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1394,
@@ -23670,7 +23670,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.3437142857142845,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1395,
@@ -23687,7 +23687,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.34091743119266,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1396,
@@ -23704,7 +23704,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.339633027522936,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1397,
@@ -23721,7 +23721,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 7.339107142857143,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1398,
@@ -23738,7 +23738,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.338440366972477,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1399,
@@ -23755,7 +23755,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.337787610619469,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1400,
@@ -23772,7 +23772,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.337339449541284,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1401,
@@ -23789,7 +23789,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.334955752212389,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1402,
@@ -23806,7 +23806,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.33495238095238,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1403,
@@ -23823,7 +23823,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.332018348623853,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1404,
@@ -23840,7 +23840,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.330091743119266,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1405,
@@ -23857,7 +23857,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.329908256880734,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1406,
@@ -23874,7 +23874,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.329633027522935,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1407,
@@ -23891,7 +23891,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.32867256637168,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1408,
@@ -23908,7 +23908,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 7.3269090909090915,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1409,
@@ -23925,7 +23925,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.32566371681416,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1410,
@@ -23940,7 +23940,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 7.323953488372092,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1411,
@@ -23957,7 +23957,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.322660550458715,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1412,
@@ -23974,7 +23974,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.321009174311927,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1413,
@@ -23991,7 +23991,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.320088495575222,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1414,
@@ -24008,7 +24008,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.319380530973451,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1415,
@@ -24025,7 +24025,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.31858407079646,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1416,
@@ -24042,7 +24042,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.318318584070797,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1417,
@@ -24059,7 +24059,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.316637168141592,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1418,
@@ -24076,7 +24076,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.314495412844037,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1419,
@@ -24093,7 +24093,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.312110091743119,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1420,
@@ -24110,7 +24110,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.311743119266056,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1421,
@@ -24127,7 +24127,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.310353982300885,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1422,
@@ -24144,7 +24144,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 7.308000000000001,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1423,
@@ -24161,7 +24161,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.303944954128441,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1424,
@@ -24178,7 +24178,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.303944954128441,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1425,
@@ -24195,7 +24195,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.302654867256638,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1426,
@@ -24212,7 +24212,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.30150442477876,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1427,
@@ -24229,7 +24229,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.296285714285713,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1428,
@@ -24246,7 +24246,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.294678899082569,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1429,
@@ -24263,7 +24263,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.294601769911505,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1430,
@@ -24280,7 +24280,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.294220183486239,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1431,
@@ -24297,7 +24297,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.293805309734513,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1432,
@@ -24314,7 +24314,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 7.2855357142857144,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1433,
@@ -24331,7 +24331,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.284495412844037,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1434,
@@ -24348,7 +24348,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.284311926605505,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1435,
@@ -24365,7 +24365,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.283805309734513,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1436,
@@ -24382,7 +24382,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.282660550458716,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1437,
@@ -24399,7 +24399,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.2814678899082566,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1438,
@@ -24416,7 +24416,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.279724770642202,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1439,
@@ -24433,7 +24433,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.27724770642202,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1440,
@@ -24450,7 +24450,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.274159292035398,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1441,
@@ -24467,7 +24467,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.273451327433628,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1442,
@@ -24484,7 +24484,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.273274336283186,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1443,
@@ -24501,7 +24501,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.272385321100917,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1444,
@@ -24518,7 +24518,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.272035398230088,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1445,
@@ -24535,7 +24535,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.269816513761468,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1446,
@@ -24552,7 +24552,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.268348623853211,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1447,
@@ -24569,7 +24569,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.268348623853211,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1448,
@@ -24586,7 +24586,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.266972477064219,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1449,
@@ -24603,7 +24603,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.266697247706422,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1450,
@@ -24620,7 +24620,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.2661467889908256,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1451,
@@ -24637,7 +24637,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.264601769911505,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1452,
@@ -24654,7 +24654,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.2587610619469025,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1453,
@@ -24671,7 +24671,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 7.258727272727273,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1454,
@@ -24688,7 +24688,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.257079646017699,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1455,
@@ -24705,7 +24705,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.256548672566372,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1456,
@@ -24722,7 +24722,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.2530275229357795,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1457,
@@ -24739,7 +24739,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 7.25188679245283,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1458,
@@ -24756,7 +24756,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.249174311926606,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1459,
@@ -24773,7 +24773,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.247247706422018,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1460,
@@ -24790,7 +24790,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 7.246324786324787,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1461,
@@ -24807,7 +24807,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.245904761904761,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1462,
@@ -24824,7 +24824,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.245779816513761,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1463,
@@ -24841,7 +24841,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.2456637168141595,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1464,
@@ -24858,7 +24858,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 7.244150943396226,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1465,
@@ -24875,7 +24875,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.240550458715597,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1466,
@@ -24892,7 +24892,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.2376146788990825,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1467,
@@ -24909,7 +24909,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.237339449541285,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1468,
@@ -24926,7 +24926,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.237339449541284,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1469,
@@ -24943,7 +24943,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 7.236000000000001,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1470,
@@ -24958,7 +24958,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 7.2334883720930225,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1471,
@@ -24973,7 +24973,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 7.232325581395349,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1472,
@@ -24990,7 +24990,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.230796460176991,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1473,
@@ -25007,7 +25007,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.230619469026548,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1474,
@@ -25024,7 +25024,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.230442477876106,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1475,
@@ -25041,7 +25041,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.23,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1476,
@@ -25058,7 +25058,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.229911504424779,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1477,
@@ -25075,7 +25075,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.229724770642202,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1478,
@@ -25092,7 +25092,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.229266055045872,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1479,
@@ -25109,7 +25109,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.228476190476191,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1480,
@@ -25126,7 +25126,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.228318584070796,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1481,
@@ -25143,7 +25143,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.228256880733945,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1482,
@@ -25160,7 +25160,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.226972477064219,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1483,
@@ -25177,7 +25177,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.221834862385322,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1484,
@@ -25194,7 +25194,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.221376146788991,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1485,
@@ -25211,7 +25211,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.221238938053097,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1486,
@@ -25228,7 +25228,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.221061946902655,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1487,
@@ -25245,7 +25245,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.22,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1488,
@@ -25262,7 +25262,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.218990825688073,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1489,
@@ -25279,7 +25279,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.216238532110091,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1490,
@@ -25296,7 +25296,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.212935779816514,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1491,
@@ -25313,7 +25313,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.211926605504586,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1492,
@@ -25330,7 +25330,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.20566371681416,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1493,
@@ -25347,7 +25347,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.204601769911505,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1494,
@@ -25364,7 +25364,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 7.204285714285715,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1495,
@@ -25381,7 +25381,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.2029203539823,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1496,
@@ -25398,7 +25398,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.202212389380531,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1497,
@@ -25415,7 +25415,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.201428571428571,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1498,
@@ -25432,7 +25432,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.2011926605504595,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1499,
@@ -25449,7 +25449,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.196902654867257,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1500,
@@ -25466,7 +25466,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.1957522123893805,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1501,
@@ -25483,7 +25483,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.19504424778761,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1502,
@@ -25500,7 +25500,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.1949557522123895,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1503,
@@ -25517,7 +25517,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.194867256637169,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1504,
@@ -25534,7 +25534,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.192293577981652,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1505,
@@ -25551,7 +25551,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.190761904761905,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1506,
@@ -25568,7 +25568,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.186106194690265,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1507,
@@ -25583,7 +25583,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 7.185581395348837,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1508,
@@ -25600,7 +25600,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.183982300884956,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1509,
@@ -25617,7 +25617,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.182293577981652,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1510,
@@ -25634,7 +25634,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.17787610619469,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1511,
@@ -25651,7 +25651,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.176283185840708,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1512,
@@ -25668,7 +25668,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.1761061946902664,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1513,
@@ -25685,7 +25685,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.175663716814159,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1514,
@@ -25702,7 +25702,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.175229357798165,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1515,
@@ -25719,7 +25719,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.174954128440367,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1516,
@@ -25736,7 +25736,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.174587155963303,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1517,
@@ -25753,7 +25753,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.16834862385321,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1518,
@@ -25770,7 +25770,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.168053097345132,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1519,
@@ -25787,7 +25787,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.167345132743364,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1520,
@@ -25804,7 +25804,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.1667889908256885,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1521,
@@ -25821,7 +25821,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.166146788990826,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1522,
@@ -25838,7 +25838,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.164862385321102,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1523,
@@ -25855,7 +25855,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.164403669724772,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1524,
@@ -25872,7 +25872,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.162660550458715,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1525,
@@ -25889,7 +25889,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 7.162142857142858,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1526,
@@ -25906,7 +25906,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.1604424778761055,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1527,
@@ -25923,7 +25923,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.159557522123895,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1528,
@@ -25940,7 +25940,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.158495575221239,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1529,
@@ -25957,7 +25957,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.156697247706423,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1530,
@@ -25974,7 +25974,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.152654867256638,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1531,
@@ -25991,7 +25991,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.150884955752212,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1532,
@@ -26008,7 +26008,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.150707964601771,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1533,
@@ -26025,7 +26025,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.150530973451327,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1534,
@@ -26042,7 +26042,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.150353982300885,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1535,
@@ -26059,7 +26059,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.150088495575222,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1536,
@@ -26076,7 +26076,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.147981651376147,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1537,
@@ -26093,7 +26093,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.147247706422019,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1538,
@@ -26110,7 +26110,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.14559633027523,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1539,
@@ -26127,7 +26127,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.141769911504426,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1540,
@@ -26144,7 +26144,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.141327433628319,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1541,
@@ -26161,7 +26161,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.140973451327433,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1542,
@@ -26178,7 +26178,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.137431192660551,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1543,
@@ -26195,7 +26195,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.136788990825689,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1544,
@@ -26212,7 +26212,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.1348623853211,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1545,
@@ -26229,7 +26229,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.134159292035398,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1546,
@@ -26246,7 +26246,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.133274336283185,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1547,
@@ -26263,7 +26263,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.132035398230088,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1548,
@@ -26280,7 +26280,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.131592920353981,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1549,
@@ -26297,7 +26297,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.128256880733945,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1550,
@@ -26314,7 +26314,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.127981651376147,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1551,
@@ -26331,7 +26331,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.127706422018349,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1552,
@@ -26348,7 +26348,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.126422018348624,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1553,
@@ -26365,7 +26365,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.124955752212389,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1554,
@@ -26382,7 +26382,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.124285714285714,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1555,
@@ -26399,7 +26399,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.1238053097345135,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1556,
@@ -26416,7 +26416,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.123428571428571,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1557,
@@ -26433,7 +26433,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.120091743119265,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1558,
@@ -26450,7 +26450,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.118899082568808,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1559,
@@ -26467,7 +26467,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.109816513761469,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1560,
@@ -26484,7 +26484,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.109816513761468,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1561,
@@ -26501,7 +26501,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.108073394495412,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1562,
@@ -26518,7 +26518,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.107256637168143,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1563,
@@ -26535,7 +26535,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.10697247706422,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1564,
@@ -26552,7 +26552,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.10646017699115,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1565,
@@ -26569,7 +26569,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.104128440366972,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1566,
@@ -26586,7 +26586,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.1021100917431195,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1567,
@@ -26603,7 +26603,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.100733944954128,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1568,
@@ -26620,7 +26620,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.099449541284403,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1569,
@@ -26637,7 +26637,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.093486238532109,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1570,
@@ -26652,7 +26652,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 7.092325581395349,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1571,
@@ -26669,7 +26669,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.092293577981652,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1572,
@@ -26686,7 +26686,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.091926605504587,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1573,
@@ -26703,7 +26703,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.090183486238532,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1574,
@@ -26712,7 +26712,7 @@ var data =
     "s5": 7.09,
     "cr5": 23,
     "cgpa": 7.09,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1575,
@@ -26729,7 +26729,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 7.089245283018867,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1576,
@@ -26746,7 +26746,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.087964601769912,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1577,
@@ -26763,7 +26763,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.087610619469026,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1578,
@@ -26780,7 +26780,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.087522123893805,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1579,
@@ -26797,7 +26797,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 7.085470085470085,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1580,
@@ -26814,7 +26814,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.08256880733945,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1581,
@@ -26831,7 +26831,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.080619469026548,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1582,
@@ -26848,7 +26848,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.077787610619469,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1583,
@@ -26865,7 +26865,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.074952380952381,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1584,
@@ -26882,7 +26882,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.07256880733945,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1585,
@@ -26899,7 +26899,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.070353982300885,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1586,
@@ -26916,7 +26916,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.064678899082569,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1587,
@@ -26933,7 +26933,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.0637614678899086,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1588,
@@ -26950,7 +26950,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.06348623853211,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1589,
@@ -26967,7 +26967,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.063451327433629,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1590,
@@ -26984,7 +26984,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.062293577981651,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1591,
@@ -27001,7 +27001,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.062110091743119,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1592,
@@ -27018,7 +27018,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.056880733944954,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1593,
@@ -27035,7 +27035,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.055321100917432,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1594,
@@ -27052,7 +27052,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.055137614678899,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1595,
@@ -27069,7 +27069,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.053669724770643,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1596,
@@ -27086,7 +27086,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 7.053454545454547,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1597,
@@ -27103,7 +27103,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.050884955752212,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1598,
@@ -27118,7 +27118,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 7.047209302325581,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1599,
@@ -27135,7 +27135,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.045575221238937,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1600,
@@ -27152,7 +27152,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.045044247787611,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1601,
@@ -27169,7 +27169,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.0448672566371675,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1602,
@@ -27186,7 +27186,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.044336283185841,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1603,
@@ -27203,7 +27203,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.043451327433629,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1604,
@@ -27220,7 +27220,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.03862385321101,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1605,
@@ -27237,7 +27237,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 7.037547169811321,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1606,
@@ -27254,7 +27254,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.036788990825689,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1607,
@@ -27271,7 +27271,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.036788990825688,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1608,
@@ -27288,7 +27288,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.036371681415928,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1609,
@@ -27305,7 +27305,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.025963302752294,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1610,
@@ -27322,7 +27322,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 7.019823008849557,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1611,
@@ -27339,7 +27339,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.017522935779818,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1612,
@@ -27356,7 +27356,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 7.010476190476191,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1613,
@@ -27373,7 +27373,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.010183486238533,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1614,
@@ -27390,7 +27390,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.009174311926605,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1615,
@@ -27407,7 +27407,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.007981651376147,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1616,
@@ -27424,7 +27424,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.006238532110091,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1617,
@@ -27441,7 +27441,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 7.002018348623855,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1618,
@@ -27458,7 +27458,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.999357798165138,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1619,
@@ -27475,7 +27475,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.998761061946903,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1620,
@@ -27492,7 +27492,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.998532110091744,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1621,
@@ -27509,7 +27509,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.991743119266054,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1622,
@@ -27526,7 +27526,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.989908256880733,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1623,
@@ -27543,7 +27543,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.982477876106195,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1624,
@@ -27560,7 +27560,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.982300884955753,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1625,
@@ -27577,7 +27577,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.981681415929203,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1626,
@@ -27594,7 +27594,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.981238938053098,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1627,
@@ -27611,7 +27611,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.981192660550458,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1628,
@@ -27628,7 +27628,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.981192660550458,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1629,
@@ -27645,7 +27645,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.981009174311926,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1630,
@@ -27662,7 +27662,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.980917431192661,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1631,
@@ -27679,7 +27679,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 6.980740740740742,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1632,
@@ -27694,7 +27694,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.977906976744186,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1633,
@@ -27711,7 +27711,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.972660550458716,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1634,
@@ -27728,7 +27728,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 6.97059405940594,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1635,
@@ -27745,7 +27745,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.963185840707964,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1636,
@@ -27762,7 +27762,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.96302752293578,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1637,
@@ -27779,7 +27779,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.96256880733945,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1638,
@@ -27796,7 +27796,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.962201834862387,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1639,
@@ -27813,7 +27813,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.957155963302752,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1640,
@@ -27830,7 +27830,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.9567256637168144,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1641,
@@ -27847,7 +27847,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.95394495412844,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1642,
@@ -27864,7 +27864,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 6.951851851851852,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1643,
@@ -27881,7 +27881,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.951651376146788,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1644,
@@ -27896,7 +27896,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.951395348837209,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1645,
@@ -27913,7 +27913,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.951100917431193,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1646,
@@ -27930,7 +27930,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.948141592920354,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1647,
@@ -27947,7 +27947,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.947433628318584,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1648,
@@ -27964,7 +27964,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.945929203539822,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1649,
@@ -27981,7 +27981,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.945840707964603,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1650,
@@ -27998,7 +27998,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.945412844036697,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1651,
@@ -28015,7 +28015,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.937964601769911,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1652,
@@ -28032,7 +28032,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.937079646017699,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1653,
@@ -28049,7 +28049,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.935412844036697,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1654,
@@ -28066,7 +28066,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.935229357798166,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1655,
@@ -28083,7 +28083,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.935229357798166,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1656,
@@ -28100,7 +28100,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 6.931965811965812,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1657,
@@ -28117,7 +28117,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.931769911504425,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1658,
@@ -28134,7 +28134,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.927889908256881,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1659,
@@ -28151,7 +28151,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.920884955752212,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1660,
@@ -28168,7 +28168,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.918407079646017,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1661,
@@ -28185,7 +28185,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.917614678899082,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1662,
@@ -28202,7 +28202,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.911327433628319,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1663,
@@ -28219,7 +28219,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.910530973451327,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1664,
@@ -28236,7 +28236,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.909266055045871,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1665,
@@ -28253,7 +28253,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.908256880733945,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1666,
@@ -28270,7 +28270,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.908165137614679,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1667,
@@ -28285,7 +28285,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.907674418604651,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1668,
@@ -28300,7 +28300,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.906744186046512,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1669,
@@ -28317,7 +28317,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 6.904871794871795,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1670,
@@ -28334,7 +28334,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.904336283185841,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1671,
@@ -28351,7 +28351,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.904285714285715,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1672,
@@ -28368,7 +28368,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.9029203539823,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1673,
@@ -28385,7 +28385,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.902389380530975,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1674,
@@ -28402,7 +28402,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.902123893805309,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1675,
@@ -28419,7 +28419,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.901061946902655,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1676,
@@ -28436,7 +28436,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.901061946902654,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1677,
@@ -28453,7 +28453,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.900619469026548,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1678,
@@ -28470,7 +28470,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.899082568807338,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1679,
@@ -28487,7 +28487,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.898715596330276,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1680,
@@ -28504,7 +28504,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.898532110091744,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1681,
@@ -28521,7 +28521,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.89743119266055,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1682,
@@ -28538,7 +28538,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.897247706422018,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1683,
@@ -28555,7 +28555,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.894571428571428,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1684,
@@ -28572,7 +28572,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.891376146788992,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1685,
@@ -28589,7 +28589,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.8882568807339455,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1686,
@@ -28606,7 +28606,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 6.88622641509434,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1687,
@@ -28623,7 +28623,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.886194690265486,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1688,
@@ -28640,7 +28640,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.885221238938053,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1689,
@@ -28657,7 +28657,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.879816513761467,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1690,
@@ -28674,7 +28674,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.873628318584071,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1691,
@@ -28691,7 +28691,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.870183486238531,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1692,
@@ -28708,7 +28708,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.870091743119266,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1693,
@@ -28725,7 +28725,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.866330275229358,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1694,
@@ -28742,7 +28742,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.865398230088495,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1695,
@@ -28759,7 +28759,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.85858407079646,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1696,
@@ -28776,7 +28776,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.858230088495575,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1697,
@@ -28793,7 +28793,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.858230088495575,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1698,
@@ -28810,7 +28810,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.853119266055046,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1699,
@@ -28827,7 +28827,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.849026548672567,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1700,
@@ -28844,7 +28844,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.848672566371682,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1701,
@@ -28861,7 +28861,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.848190476190475,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1702,
@@ -28878,7 +28878,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.844954128440368,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1703,
@@ -28895,7 +28895,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 6.844700854700855,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1704,
@@ -28912,7 +28912,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.844036697247706,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1705,
@@ -28929,7 +28929,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.843853211009175,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1706,
@@ -28946,7 +28946,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.841926605504587,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1707,
@@ -28963,7 +28963,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.841858407079646,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1708,
@@ -28980,7 +28980,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.840884955752213,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1709,
@@ -28997,7 +28997,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.8408849557522124,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1710,
@@ -29014,7 +29014,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.840530973451328,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1711,
@@ -29031,7 +29031,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.83697247706422,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1712,
@@ -29046,7 +29046,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.836279069767443,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1713,
@@ -29063,7 +29063,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.834862385321101,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1714,
@@ -29080,7 +29080,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.832389380530973,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1715,
@@ -29097,7 +29097,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.832212389380531,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1716,
@@ -29114,7 +29114,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.828807339449542,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1717,
@@ -29131,7 +29131,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.824311926605504,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1718,
@@ -29148,7 +29148,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.817431192660551,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1719,
@@ -29165,7 +29165,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.816814159292036,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1720,
@@ -29182,7 +29182,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.816788990825689,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1721,
@@ -29197,7 +29197,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.815116279069766,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1722,
@@ -29214,7 +29214,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.814159292035399,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1723,
@@ -29231,7 +29231,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 6.813396226415095,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1724,
@@ -29248,7 +29248,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.813097345132744,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1725,
@@ -29265,7 +29265,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.811946902654867,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1726,
@@ -29282,7 +29282,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.8070796460177,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1727,
@@ -29299,7 +29299,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.8062385321100916,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1728,
@@ -29316,7 +29316,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.806194690265488,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1729,
@@ -29333,7 +29333,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.805132743362832,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1730,
@@ -29350,7 +29350,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.803893805309734,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1731,
@@ -29367,7 +29367,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.798440366972477,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1732,
@@ -29384,7 +29384,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.797155963302752,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1733,
@@ -29401,7 +29401,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.79637168141593,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1734,
@@ -29418,7 +29418,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.795929203539822,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1735,
@@ -29435,7 +29435,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.788440366972477,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1736,
@@ -29452,7 +29452,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.7883185840707965,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1737,
@@ -29469,7 +29469,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.7870642201834865,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1738,
@@ -29486,7 +29486,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.78,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1739,
@@ -29503,7 +29503,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.774587155963302,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1740,
@@ -29520,7 +29520,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.770733944954129,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1741,
@@ -29537,7 +29537,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.770619469026549,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1742,
@@ -29554,7 +29554,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.769469026548672,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1743,
@@ -29571,7 +29571,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.769115044247787,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1744,
@@ -29588,7 +29588,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.763539823008849,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1745,
@@ -29605,7 +29605,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.762660550458716,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1746,
@@ -29622,7 +29622,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.762110091743119,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1747,
@@ -29639,7 +29639,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.761504424778762,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1748,
@@ -29656,7 +29656,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 6.759107142857142,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1749,
@@ -29673,7 +29673,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.7547706422018345,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1750,
@@ -29690,7 +29690,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.751238938053097,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1751,
@@ -29707,7 +29707,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.747247706422018,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1752,
@@ -29724,7 +29724,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.745044247787611,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1753,
@@ -29741,7 +29741,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.743853211009173,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1754,
@@ -29758,7 +29758,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.741926605504588,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1755,
@@ -29775,7 +29775,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.735333333333334,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1756,
@@ -29792,7 +29792,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.73440366972477,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1757,
@@ -29809,7 +29809,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.732660550458716,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1758,
@@ -29826,7 +29826,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 6.726363636363637,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1759,
@@ -29843,7 +29843,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.725504587155963,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1760,
@@ -29860,7 +29860,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.7234513274336285,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1761,
@@ -29877,7 +29877,7 @@ var data =
     "cr4": 22,
     "cr5": 21,
     "cgpa": 6.71841121495327,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1762,
@@ -29894,7 +29894,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.718318584070797,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1763,
@@ -29911,7 +29911,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.71788990825688,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1764,
@@ -29928,7 +29928,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.71787610619469,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1765,
@@ -29945,7 +29945,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.715963302752293,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1766,
@@ -29962,7 +29962,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.7069724770642205,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1767,
@@ -29979,7 +29979,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.706238532110092,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1768,
@@ -29996,7 +29996,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.706146788990826,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1769,
@@ -30013,7 +30013,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.705045871559634,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1770,
@@ -30030,7 +30030,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 6.698679245283018,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1771,
@@ -30047,7 +30047,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.697876106194691,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1772,
@@ -30064,7 +30064,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.697155963302753,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1773,
@@ -30081,7 +30081,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.696880733944955,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1774,
@@ -30098,7 +30098,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 6.693333333333333,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1775,
@@ -30115,7 +30115,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.690088495575221,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1776,
@@ -30132,7 +30132,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.689266055045873,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1777,
@@ -30149,7 +30149,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.688623853211008,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1778,
@@ -30166,7 +30166,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.6878761061946905,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1779,
@@ -30183,7 +30183,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.686190476190477,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1780,
@@ -30200,7 +30200,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.680707964601768,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1781,
@@ -30217,7 +30217,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.678807339449541,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1782,
@@ -30234,7 +30234,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.677247706422018,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1783,
@@ -30251,7 +30251,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.674761904761904,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1784,
@@ -30268,7 +30268,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 6.672909090909091,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1785,
@@ -30285,7 +30285,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.669908256880734,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1786,
@@ -30302,7 +30302,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.669357798165138,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1787,
@@ -30319,7 +30319,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 6.6692857142857145,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1788,
@@ -30336,7 +30336,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.66908256880734,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1789,
@@ -30353,7 +30353,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.668807339449542,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1790,
@@ -30370,7 +30370,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.667904761904763,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1791,
@@ -30387,7 +30387,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.664424778761063,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1792,
@@ -30404,7 +30404,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.663893805309734,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1793,
@@ -30421,7 +30421,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.663716814159292,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1794,
@@ -30438,7 +30438,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.662477064220184,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 1795,
@@ -30455,7 +30455,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.660642201834862,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1796,
@@ -30472,7 +30472,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.65834862385321,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1797,
@@ -30489,7 +30489,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.6552212389380525,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1798,
@@ -30506,7 +30506,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 6.653750000000001,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1799,
@@ -30523,7 +30523,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.6536697247706424,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1800,
@@ -30540,7 +30540,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.6518348623853205,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1801,
@@ -30555,7 +30555,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.6506976744186055,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1802,
@@ -30572,7 +30572,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.649809523809523,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1803,
@@ -30589,7 +30589,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.6497247706422025,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1804,
@@ -30606,7 +30606,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.648000000000001,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1805,
@@ -30623,7 +30623,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.646371681415929,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1806,
@@ -30640,7 +30640,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.643211009174312,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1807,
@@ -30657,7 +30657,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.636371681415929,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1808,
@@ -30674,7 +30674,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.633394495412845,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1809,
@@ -30691,7 +30691,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.6327522935779815,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1810,
@@ -30708,7 +30708,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.629809523809524,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1811,
@@ -30725,7 +30725,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.624403669724771,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1812,
@@ -30742,7 +30742,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.624220183486238,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1813,
@@ -30759,7 +30759,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.622568807339451,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1814,
@@ -30776,7 +30776,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.617787610619469,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1815,
@@ -30793,7 +30793,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.6154128440366975,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1816,
@@ -30810,7 +30810,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.614770642201836,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1817,
@@ -30827,7 +30827,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.613944954128441,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1818,
@@ -30844,7 +30844,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.611415929203539,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1819,
@@ -30861,7 +30861,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.606146788990825,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1820,
@@ -30878,7 +30878,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.605321100917432,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1821,
@@ -30895,7 +30895,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.6051376146789,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1822,
@@ -30912,7 +30912,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.603853211009174,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1823,
@@ -30929,7 +30929,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.602566371681416,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1824,
@@ -30946,7 +30946,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.60221238938053,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1825,
@@ -30963,7 +30963,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.601061946902655,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1826,
@@ -30980,7 +30980,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 6.597264957264957,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1827,
@@ -30997,7 +30997,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.596972477064222,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1828,
@@ -31014,7 +31014,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.596605504587156,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1829,
@@ -31031,7 +31031,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.596605504587155,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1830,
@@ -31048,7 +31048,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.596238532110092,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1831,
@@ -31065,7 +31065,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.595688073394496,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1832,
@@ -31082,7 +31082,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.594678899082568,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1833,
@@ -31099,7 +31099,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.588532110091742,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1834,
@@ -31116,7 +31116,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.587339449541285,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1835,
@@ -31133,7 +31133,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.585871559633029,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1836,
@@ -31150,7 +31150,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.577798165137615,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1837,
@@ -31167,7 +31167,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.576017699115044,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1838,
@@ -31184,7 +31184,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.5753211009174315,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1839,
@@ -31201,7 +31201,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.5677981651376145,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1840,
@@ -31218,7 +31218,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.566814159292035,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1841,
@@ -31235,7 +31235,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.56646017699115,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1842,
@@ -31252,7 +31252,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.56646017699115,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1843,
@@ -31269,7 +31269,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.564955752212389,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1844,
@@ -31286,7 +31286,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 6.561071428571428,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1845,
@@ -31303,7 +31303,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.559174311926606,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1846,
@@ -31320,7 +31320,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.557699115044247,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1847,
@@ -31337,7 +31337,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.557699115044247,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1848,
@@ -31352,7 +31352,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.557441860465117,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1849,
@@ -31369,7 +31369,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.556283185840707,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1850,
@@ -31386,7 +31386,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.553904761904763,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1851,
@@ -31403,7 +31403,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.552761904761905,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1852,
@@ -31420,7 +31420,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.551559633027523,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1853,
@@ -31437,7 +31437,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.550733944954128,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1854,
@@ -31454,7 +31454,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.5500884955752205,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1855,
@@ -31471,7 +31471,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.542201834862384,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1856,
@@ -31488,7 +31488,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.5410091743119265,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1857,
@@ -31505,7 +31505,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.54,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1858,
@@ -31522,7 +31522,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.539357798165137,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1859,
@@ -31537,7 +31537,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.535581395348837,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1860,
@@ -31554,7 +31554,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.532752293577982,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1861,
@@ -31571,7 +31571,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.531238938053098,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1862,
@@ -31588,7 +31588,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.53091743119266,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1863,
@@ -31605,7 +31605,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.529734513274335,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1864,
@@ -31622,7 +31622,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.523577981651376,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1865,
@@ -31639,7 +31639,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.523119266055046,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1866,
@@ -31656,7 +31656,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.5229203539823,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1867,
@@ -31673,7 +31673,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.522660550458717,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1868,
@@ -31690,7 +31690,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.521743119266056,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1869,
@@ -31707,7 +31707,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.515871559633028,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1870,
@@ -31724,7 +31724,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.5145132743362835,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1871,
@@ -31741,7 +31741,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.512752293577982,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1872,
@@ -31758,7 +31758,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 6.509433962264151,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1873,
@@ -31775,7 +31775,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.505871559633027,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1874,
@@ -31792,7 +31792,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.505333333333333,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1875,
@@ -31809,7 +31809,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.505221238938053,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1876,
@@ -31826,7 +31826,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.50504424778761,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1877,
@@ -31843,7 +31843,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.504587155963303,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1878,
@@ -31860,7 +31860,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.5029357798165135,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1879,
@@ -31877,7 +31877,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.499809523809523,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1880,
@@ -31894,7 +31894,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.4975221238938055,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1881,
@@ -31911,7 +31911,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.496880733944954,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1882,
@@ -31928,7 +31928,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.495504587155963,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1883,
@@ -31945,7 +31945,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.495412844036697,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1884,
@@ -31962,7 +31962,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.495398230088496,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1885,
@@ -31979,7 +31979,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.4950458715596335,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1886,
@@ -31996,7 +31996,7 @@ var data =
     "cr4": 22,
     "cr5": 16,
     "cgpa": 6.491176470588235,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1887,
@@ -32013,7 +32013,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.489714285714285,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1888,
@@ -32028,7 +32028,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.486511627906975,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1889,
@@ -32045,7 +32045,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.485504587155964,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1890,
@@ -32062,7 +32062,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.4851376146789,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1891,
@@ -32079,7 +32079,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.477610619469027,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1892,
@@ -32096,7 +32096,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.475486725663717,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1893,
@@ -32113,7 +32113,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.468348623853211,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1894,
@@ -32130,7 +32130,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.467522935779816,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1895,
@@ -32147,7 +32147,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.4590265486725675,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1896,
@@ -32164,7 +32164,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.458899082568808,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1897,
@@ -32181,7 +32181,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.458440366972478,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1898,
@@ -32198,7 +32198,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.4549541284403675,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1899,
@@ -32215,7 +32215,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.45,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1900,
@@ -32232,7 +32232,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.4494495412844035,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1901,
@@ -32249,7 +32249,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.448440366972476,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1902,
@@ -32266,7 +32266,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.443394495412844,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1903,
@@ -32283,7 +32283,7 @@ var data =
     "cr4": 22,
     "cr5": 18,
     "cgpa": 6.442115384615383,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1904,
@@ -32300,7 +32300,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.439724770642202,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1905,
@@ -32317,7 +32317,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.4342201834862385,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1906,
@@ -32334,7 +32334,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.433805309734514,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1907,
@@ -32351,7 +32351,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.433302752293578,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1908,
@@ -32368,7 +32368,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.431284403669726,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1909,
@@ -32385,7 +32385,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.429449541284404,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1910,
@@ -32402,7 +32402,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.423805309734513,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1911,
@@ -32419,7 +32419,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.421926605504587,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1912,
@@ -32436,7 +32436,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.421743119266055,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1913,
@@ -32453,7 +32453,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.419908256880734,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1914,
@@ -32470,7 +32470,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 6.419821428571429,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1915,
@@ -32487,7 +32487,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.414036697247706,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1916,
@@ -32504,7 +32504,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.4113761467889905,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1917,
@@ -32521,7 +32521,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.407964601769911,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1918,
@@ -32538,7 +32538,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.404954128440367,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1919,
@@ -32555,7 +32555,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.403944954128441,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1920,
@@ -32572,7 +32572,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.403027522935781,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1921,
@@ -32589,7 +32589,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.402568807339449,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1922,
@@ -32606,7 +32606,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.3984070796460175,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1923,
@@ -32621,7 +32621,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.395581395348837,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1924,
@@ -32638,7 +32638,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.395045871559634,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1925,
@@ -32655,7 +32655,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.392110091743119,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1926,
@@ -32672,7 +32672,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.391619047619047,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1927,
@@ -32689,7 +32689,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.385321100917431,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1928,
@@ -32706,7 +32706,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.385137614678899,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1929,
@@ -32723,7 +32723,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 6.380925925925927,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1930,
@@ -32740,7 +32740,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.377247706422018,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1931,
@@ -32757,7 +32757,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.376238532110093,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1932,
@@ -32774,7 +32774,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.376055045871561,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1933,
@@ -32791,7 +32791,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.375137614678899,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1934,
@@ -32808,7 +32808,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.371904761904762,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1935,
@@ -32825,7 +32825,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.3707079646017695,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1936,
@@ -32842,7 +32842,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.355321100917432,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1937,
@@ -32859,7 +32859,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.354867256637167,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1938,
@@ -32876,7 +32876,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.354778761061946,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1939,
@@ -32893,7 +32893,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.353982300884955,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1940,
@@ -32910,7 +32910,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.350642201834862,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1941,
@@ -32927,7 +32927,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.34716814159292,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1942,
@@ -32942,7 +32942,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.346511627906977,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1943,
@@ -32959,7 +32959,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.346106194690265,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1944,
@@ -32976,7 +32976,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.345486725663718,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1945,
@@ -32993,7 +32993,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.338899082568807,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1946,
@@ -33010,7 +33010,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.331559633027523,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1947,
@@ -33027,7 +33027,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.330091743119266,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 1948,
@@ -33044,7 +33044,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.329724770642202,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1949,
@@ -33061,7 +33061,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 6.324259259259259,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1950,
@@ -33078,7 +33078,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.322660550458716,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1951,
@@ -33095,7 +33095,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.321467889908257,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1952,
@@ -33112,7 +33112,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.303761467889909,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1953,
@@ -33129,7 +33129,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.300619469026548,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1954,
@@ -33146,7 +33146,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.298952380952381,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1955,
@@ -33163,7 +33163,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.295871559633028,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1956,
@@ -33180,7 +33180,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.294495412844037,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1957,
@@ -33197,7 +33197,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.292752293577981,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1958,
@@ -33214,7 +33214,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.292571428571429,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1959,
@@ -33231,7 +33231,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.284220183486239,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1960,
@@ -33248,7 +33248,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.283008849557521,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1961,
@@ -33265,7 +33265,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.2820353982300885,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1962,
@@ -33282,7 +33282,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.277904761904761,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1963,
@@ -33299,7 +33299,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 6.2770370370370365,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1964,
@@ -33316,7 +33316,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.274862385321101,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1965,
@@ -33333,7 +33333,7 @@ var data =
     "cr4": 22,
     "cr5": 4,
     "cgpa": 6.267777777777777,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1966,
@@ -33350,7 +33350,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.264954128440367,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1967,
@@ -33367,7 +33367,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.259633027522937,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1968,
@@ -33384,7 +33384,7 @@ var data =
     "cr4": 22,
     "cr5": 12,
     "cgpa": 6.259183673469387,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1969,
@@ -33401,7 +33401,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.258073394495413,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1970,
@@ -33418,7 +33418,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.256697247706422,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1971,
@@ -33435,7 +33435,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.253577981651375,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1972,
@@ -33452,7 +33452,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 6.25,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1973,
@@ -33469,7 +33469,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.245963302752293,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 1974,
@@ -33486,7 +33486,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.2396330275229355,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1975,
@@ -33503,7 +33503,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.238440366972477,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1976,
@@ -33520,7 +33520,7 @@ var data =
     "cr4": 22,
     "cr5": 21,
     "cgpa": 6.235981308411215,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1977,
@@ -33535,7 +33535,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.234651162790699,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1978,
@@ -33552,7 +33552,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.230088495575221,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1979,
@@ -33569,7 +33569,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.221559633027522,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1980,
@@ -33586,7 +33586,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.2145871559633035,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 1981,
@@ -33603,7 +33603,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.21302752293578,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1982,
@@ -33620,7 +33620,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.211100917431192,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1983,
@@ -33637,7 +33637,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.2109174311926605,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1984,
@@ -33654,7 +33654,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.202018348623854,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1985,
@@ -33671,7 +33671,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.195575221238938,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1986,
@@ -33688,7 +33688,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.194761904761905,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1987,
@@ -33705,7 +33705,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.1938938053097345,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1988,
@@ -33722,7 +33722,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.1935779816513765,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 1989,
@@ -33739,7 +33739,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.192110091743118,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1990,
@@ -33756,7 +33756,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.191809523809523,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 1991,
@@ -33773,7 +33773,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.187787610619469,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 1992,
@@ -33788,7 +33788,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.186744186046511,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 1993,
@@ -33805,7 +33805,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 6.186581196581197,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 1994,
@@ -33822,7 +33822,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.183211009174312,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 1995,
@@ -33839,7 +33839,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.183119266055045,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 1996,
@@ -33856,7 +33856,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.181559633027523,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 1997,
@@ -33873,7 +33873,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 6.179999999999999,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 1998,
@@ -33890,7 +33890,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.1782568807339455,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 1999,
@@ -33907,7 +33907,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.175504587155963,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2000,
@@ -33924,7 +33924,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.165688073394496,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2001,
@@ -33941,7 +33941,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.1575229357798165,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 2002,
@@ -33958,7 +33958,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.156238532110091,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2003,
@@ -33975,7 +33975,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.152389380530973,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2004,
@@ -33992,7 +33992,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.150442477876106,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 2005,
@@ -34009,7 +34009,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.150380952380952,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2006,
@@ -34026,7 +34026,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 6.150188679245282,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2007,
@@ -34043,7 +34043,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.145504587155964,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2008,
@@ -34060,7 +34060,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.138440366972477,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 2009,
@@ -34077,7 +34077,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.136605504587157,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2010,
@@ -34094,7 +34094,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.132095238095239,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2011,
@@ -34111,7 +34111,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.131769911504425,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2012,
@@ -34128,7 +34128,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.131651376146789,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2013,
@@ -34145,7 +34145,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.128623853211009,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2014,
@@ -34162,7 +34162,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.126460176991151,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 2015,
@@ -34179,7 +34179,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.121743119266055,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2016,
@@ -34196,7 +34196,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.118256880733946,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2017,
@@ -34213,7 +34213,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.114247787610619,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2018,
@@ -34230,7 +34230,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.113008849557522,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2019,
@@ -34247,7 +34247,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.108532110091742,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2020,
@@ -34264,7 +34264,7 @@ var data =
     "cr4": 22,
     "cr5": 30,
     "cgpa": 6.103103448275863,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2021,
@@ -34281,7 +34281,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.0963716814159294,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 2022,
@@ -34298,7 +34298,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.091100917431192,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2023,
@@ -34315,7 +34315,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.085619047619048,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2024,
@@ -34332,7 +34332,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.08348623853211,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2025,
@@ -34349,7 +34349,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.074403669724771,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2026,
@@ -34366,7 +34366,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.073302752293578,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2027,
@@ -34383,7 +34383,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 6.0716363636363635,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2028,
@@ -34400,7 +34400,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 6.071523809523811,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2029,
@@ -34415,7 +34415,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.067441860465116,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2030,
@@ -34432,7 +34432,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 6.056296296296296,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2031,
@@ -34449,7 +34449,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 6.054074074074073,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2032,
@@ -34466,7 +34466,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.053944954128441,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2033,
@@ -34483,7 +34483,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.046422018348625,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2034,
@@ -34500,7 +34500,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.03954128440367,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2035,
@@ -34517,7 +34517,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 6.037924528301887,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2036,
@@ -34534,7 +34534,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.037889908256881,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2037,
@@ -34551,7 +34551,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.034601769911504,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2038,
@@ -34568,7 +34568,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.028715596330275,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2039,
@@ -34585,7 +34585,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 6.026902654867256,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2040,
@@ -34600,7 +34600,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 6.023023255813953,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2041,
@@ -34617,7 +34617,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 6.018348623853211,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 2042,
@@ -34634,7 +34634,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.99867256637168,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2043,
@@ -34651,7 +34651,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.991009174311927,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2044,
@@ -34668,7 +34668,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.990530973451328,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2045,
@@ -34685,7 +34685,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 5.971296296296296,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2046,
@@ -34702,7 +34702,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.970642201834862,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2047,
@@ -34719,7 +34719,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.963761467889908,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2048,
@@ -34736,7 +34736,7 @@ var data =
     "cr4": 22,
     "cr5": 4,
     "cgpa": 5.960444444444445,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2049,
@@ -34753,7 +34753,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.95394495412844,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2050,
@@ -34770,7 +34770,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 5.946964285714286,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2051,
@@ -34787,7 +34787,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.9457522123893805,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2052,
@@ -34804,7 +34804,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.938761061946902,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2053,
@@ -34821,7 +34821,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.936571428571428,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2054,
@@ -34838,7 +34838,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.934954128440367,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 2055,
@@ -34855,7 +34855,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.9340366972477065,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2056,
@@ -34872,7 +34872,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.92929203539823,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2057,
@@ -34889,7 +34889,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.927798165137615,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2058,
@@ -34906,7 +34906,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.917706422018347,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2059,
@@ -34923,7 +34923,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.916857142857142,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2060,
@@ -34938,7 +34938,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.908604651162791,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2061,
@@ -34955,7 +34955,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.907889908256881,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2062,
@@ -34972,7 +34972,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.906880733944955,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2063,
@@ -34989,7 +34989,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.906761904761905,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 2064,
@@ -35006,7 +35006,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.902212389380531,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2065,
@@ -35023,7 +35023,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.892566371681415,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2066,
@@ -35040,7 +35040,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.891192660550459,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2067,
@@ -35057,7 +35057,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.889174311926605,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2068,
@@ -35074,7 +35074,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.875752212389381,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2069,
@@ -35091,7 +35091,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.875045871559633,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2070,
@@ -35108,7 +35108,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.874495412844037,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2071,
@@ -35125,7 +35125,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.873982300884956,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2072,
@@ -35142,7 +35142,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.865779816513761,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2073,
@@ -35159,7 +35159,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.862293577981651,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2074,
@@ -35176,7 +35176,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.856761904761905,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2075,
@@ -35193,7 +35193,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.85302752293578,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2076,
@@ -35210,7 +35210,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.836605504587156,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2077,
@@ -35227,7 +35227,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.83348623853211,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2078,
@@ -35244,7 +35244,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.816788990825689,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 2079,
@@ -35261,7 +35261,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.816106194690266,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2080,
@@ -35278,7 +35278,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.8157798165137615,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2081,
@@ -35295,7 +35295,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.8120183486238535,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2082,
@@ -35304,7 +35304,7 @@ var data =
     "s5": 5.81,
     "cr5": 27,
     "cgpa": 5.809999999999999,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2083,
@@ -35321,7 +35321,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.80651376146789,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2084,
@@ -35338,7 +35338,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.805663716814159,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2085,
@@ -35355,7 +35355,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.791284403669724,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2086,
@@ -35372,7 +35372,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.7911926605504584,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2087,
@@ -35389,7 +35389,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.7891743119266055,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2088,
@@ -35406,7 +35406,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 5.782079207920792,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2089,
@@ -35423,7 +35423,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 5.780891089108911,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2090,
@@ -35440,7 +35440,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.778495575221239,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2091,
@@ -35457,7 +35457,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.772389380530973,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2092,
@@ -35474,7 +35474,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.772190476190476,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2093,
@@ -35489,7 +35489,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.766976744186047,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2094,
@@ -35506,7 +35506,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 5.764554455445545,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2095,
@@ -35523,7 +35523,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.761834862385321,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2096,
@@ -35540,7 +35540,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.760183486238533,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2097,
@@ -35557,7 +35557,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.760088495575221,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2098,
@@ -35574,7 +35574,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.752477064220184,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 2099,
@@ -35591,7 +35591,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.752018348623854,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2100,
@@ -35608,7 +35608,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.751926605504588,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2101,
@@ -35625,7 +35625,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.735132743362831,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2102,
@@ -35642,7 +35642,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.734770642201834,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2103,
@@ -35659,7 +35659,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.724220183486238,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2104,
@@ -35676,7 +35676,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.706055045871559,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2105,
@@ -35693,7 +35693,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.7011926605504595,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2106,
@@ -35710,7 +35710,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.699523809523809,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2107,
@@ -35727,7 +35727,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.697706422018348,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2108,
@@ -35742,7 +35742,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.697209302325581,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2109,
@@ -35759,7 +35759,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.689646017699116,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2110,
@@ -35776,7 +35776,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 5.685555555555555,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2111,
@@ -35793,7 +35793,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.6782568807339455,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2112,
@@ -35808,7 +35808,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.675116279069767,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2113,
@@ -35823,7 +35823,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.674883720930233,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2114,
@@ -35840,7 +35840,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.654036697247706,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2115,
@@ -35855,7 +35855,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.652558139534883,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2116,
@@ -35872,7 +35872,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.64954128440367,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2117,
@@ -35887,7 +35887,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.627906976744186,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2118,
@@ -35904,7 +35904,7 @@ var data =
     "cr4": 22,
     "cr5": 21,
     "cgpa": 5.62766355140187,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2119,
@@ -35921,7 +35921,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.622752293577982,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2120,
@@ -35938,7 +35938,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.616330275229358,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2121,
@@ -35955,7 +35955,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.615779816513761,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2122,
@@ -35972,7 +35972,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.612110091743119,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2123,
@@ -35989,7 +35989,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.596605504587155,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2124,
@@ -35998,7 +35998,7 @@ var data =
     "s5": 5.59,
     "cr5": 27,
     "cgpa": 5.59,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2125,
@@ -36015,7 +36015,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.587522935779816,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2126,
@@ -36032,7 +36032,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.586605504587156,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 2127,
@@ -36049,7 +36049,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.58394495412844,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2128,
@@ -36064,7 +36064,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.581860465116279,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2129,
@@ -36081,7 +36081,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.57954128440367,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2130,
@@ -36098,7 +36098,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.571681415929204,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2131,
@@ -36115,7 +36115,7 @@ var data =
     "cr4": 22,
     "cr5": 12,
     "cgpa": 5.571632653061224,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2132,
@@ -36132,7 +36132,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.56743119266055,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2133,
@@ -36149,7 +36149,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.564513274336283,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2134,
@@ -36166,7 +36166,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.5523853211009175,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2135,
@@ -36183,7 +36183,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.548256880733945,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2136,
@@ -36200,7 +36200,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 5.547777777777777,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2137,
@@ -36217,7 +36217,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.532844036697247,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2138,
@@ -36234,7 +36234,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.530366972477064,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2139,
@@ -36251,7 +36251,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.514862385321101,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2140,
@@ -36266,7 +36266,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.5125581395348835,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2141,
@@ -36283,7 +36283,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 5.511794871794872,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2142,
@@ -36300,7 +36300,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 5.4976237623762385,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2143,
@@ -36317,7 +36317,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.494495412844037,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2144,
@@ -36334,7 +36334,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.492761904761905,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2145,
@@ -36351,7 +36351,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.488095238095238,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2146,
@@ -36368,7 +36368,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.486146788990826,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2147,
@@ -36385,7 +36385,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.485309734513274,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2148,
@@ -36402,7 +36402,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.476857142857142,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2149,
@@ -36419,7 +36419,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.472568807339449,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2150,
@@ -36436,7 +36436,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.467981651376147,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2151,
@@ -36453,7 +36453,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.467155963302752,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2152,
@@ -36470,7 +36470,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.451061946902655,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2153,
@@ -36487,7 +36487,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.449816513761467,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2154,
@@ -36504,7 +36504,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.440183486238531,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2155,
@@ -36521,7 +36521,7 @@ var data =
     "cr4": 22,
     "cr5": 8,
     "cgpa": 5.438085106382978,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2156,
@@ -36538,7 +36538,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.424424778761061,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2157,
@@ -36555,7 +36555,7 @@ var data =
     "cr4": 22,
     "cr5": 25,
     "cgpa": 5.421081081081081,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2158,
@@ -36572,7 +36572,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 5.412772277227722,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2159,
@@ -36589,7 +36589,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.408285714285714,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2160,
@@ -36606,7 +36606,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 5.406851851851853,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2161,
@@ -36623,7 +36623,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.404311926605504,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2162,
@@ -36640,7 +36640,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.40394495412844,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2163,
@@ -36657,7 +36657,7 @@ var data =
     "cr4": 22,
     "cr5": 16,
     "cgpa": 5.392156862745098,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2164,
@@ -36674,7 +36674,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 5.388514851485149,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2165,
@@ -36691,7 +36691,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.382477064220184,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2166,
@@ -36708,7 +36708,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.376422018348624,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 2167,
@@ -36725,7 +36725,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.362844036697249,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2168,
@@ -36742,7 +36742,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.3560550458715595,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2169,
@@ -36759,7 +36759,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.35,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2170,
@@ -36774,7 +36774,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.348372093023255,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2171,
@@ -36791,7 +36791,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.338190476190476,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2172,
@@ -36808,7 +36808,7 @@ var data =
     "cr4": 22,
     "cr5": 3,
     "cgpa": 5.304044943820225,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2173,
@@ -36825,7 +36825,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.282190476190476,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2174,
@@ -36842,7 +36842,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.264690265486726,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2175,
@@ -36859,7 +36859,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.257798165137615,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2176,
@@ -36876,7 +36876,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 5.2483168316831685,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2177,
@@ -36893,7 +36893,7 @@ var data =
     "cr4": 22,
     "cr5": 8,
     "cgpa": 5.243617021276596,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2178,
@@ -36910,7 +36910,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.221284403669725,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2179,
@@ -36925,7 +36925,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.22046511627907,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2180,
@@ -36942,7 +36942,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.220095238095238,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2181,
@@ -36959,7 +36959,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.209816513761468,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2182,
@@ -36976,7 +36976,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.2031192660550465,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2183,
@@ -36993,7 +36993,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.198623853211009,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2184,
@@ -37010,7 +37010,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.1822935779816515,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2185,
@@ -37025,7 +37025,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.162093023255814,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2186,
@@ -37042,7 +37042,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 5.154639175257732,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2187,
@@ -37057,7 +37057,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.1388372093023245,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2188,
@@ -37074,7 +37074,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.128857142857143,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2189,
@@ -37091,7 +37091,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.118807339449542,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2190,
@@ -37106,7 +37106,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 5.114883720930233,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2191,
@@ -37123,7 +37123,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 5.073272727272728,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2192,
@@ -37140,7 +37140,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.056380952380953,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2193,
@@ -37157,7 +37157,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 5.052477876106195,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2194,
@@ -37174,7 +37174,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 5.050190476190476,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2195,
@@ -37191,7 +37191,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.0465137614678905,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2196,
@@ -37208,7 +37208,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 5.034954128440367,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2197,
@@ -37223,7 +37223,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 4.9762790697674415,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2198,
@@ -37240,7 +37240,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 4.959484536082475,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2199,
@@ -37257,7 +37257,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.935412844036698,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2200,
@@ -37274,7 +37274,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 4.917777777777778,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2201,
@@ -37291,7 +37291,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 4.905840707964602,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2202,
@@ -37308,7 +37308,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.862935779816513,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2203,
@@ -37323,7 +37323,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 4.851162790697674,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2204,
@@ -37340,7 +37340,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 4.849230769230769,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2205,
@@ -37357,7 +37357,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.809633027522936,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2206,
@@ -37374,7 +37374,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 4.799333333333333,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2207,
@@ -37389,7 +37389,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 4.790697674418604,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2208,
@@ -37406,7 +37406,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 4.721523809523809,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2209,
@@ -37423,7 +37423,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.716880733944955,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2210,
@@ -37440,7 +37440,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 4.712389380530974,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2211,
@@ -37457,7 +37457,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.691009174311927,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2212,
@@ -37474,7 +37474,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.617706422018348,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2213,
@@ -37491,7 +37491,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.613302752293579,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2214,
@@ -37508,7 +37508,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 4.61,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2215,
@@ -37525,7 +37525,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 4.604528301886792,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2216,
@@ -37542,7 +37542,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.551559633027523,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2217,
@@ -37559,7 +37559,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.522477064220183,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2218,
@@ -37576,7 +37576,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 4.512178217821782,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2219,
@@ -37593,7 +37593,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.495504587155963,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2220,
@@ -37610,7 +37610,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 4.471904761904762,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2221,
@@ -37627,7 +37627,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 4.459047619047619,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2222,
@@ -37644,7 +37644,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 4.456285714285714,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2223,
@@ -37661,7 +37661,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.438899082568808,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2224,
@@ -37678,7 +37678,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 4.431142857142857,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2225,
@@ -37695,7 +37695,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 4.360857142857142,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2226,
@@ -37712,7 +37712,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 4.328217821782179,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2227,
@@ -37729,7 +37729,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 4.306534653465346,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2228,
@@ -37744,7 +37744,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 4.301162790697674,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2229,
@@ -37761,7 +37761,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 4.292476190476191,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2230,
@@ -37778,7 +37778,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 4.282264150943396,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2231,
@@ -37793,7 +37793,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 4.279302325581395,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2232,
@@ -37810,7 +37810,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 4.273428571428572,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2233,
@@ -37827,7 +37827,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.248348623853212,
-    "Branch": "MCE"
+    "branch": "MCE"
    },
    {
     "Rank": 2234,
@@ -37842,7 +37842,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 4.232325581395349,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2235,
@@ -37859,7 +37859,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 4.202018348623853,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2236,
@@ -37874,7 +37874,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 4.142093023255814,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2237,
@@ -37891,7 +37891,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 4.100990099009901,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2238,
@@ -37908,7 +37908,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 4.076831683168317,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 2239,
@@ -37925,7 +37925,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 4.025714285714285,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2240,
@@ -37942,7 +37942,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 3.908811881188119,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2241,
@@ -37959,7 +37959,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 3.867029702970297,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2242,
@@ -37976,7 +37976,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 3.753669724770642,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2243,
@@ -37993,7 +37993,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 3.7454455445544554,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2244,
@@ -38010,7 +38010,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 3.5570796460176983,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2245,
@@ -38027,7 +38027,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 3.448139534883721,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 2246,
@@ -38042,7 +38042,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 3.418139534883721,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2247,
@@ -38059,7 +38059,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 3.3020930232558143,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2248,
@@ -38074,7 +38074,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 3.0937209302325583,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2249,
@@ -38089,7 +38089,7 @@ var data =
     "cr3": 22,
     "cr4": 22,
     "cgpa": 2.4413953488372093,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2250,
@@ -38102,7 +38102,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 2.3176991150442476,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2251,
@@ -38115,7 +38115,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 2.3176991150442476,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2252,
@@ -38128,7 +38128,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 2.3157264957264956,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2253,
@@ -38141,7 +38141,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 2.255575221238938,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2254,
@@ -38154,7 +38154,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 2.2484070796460176,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2255,
@@ -38167,7 +38167,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 2.2484070796460176,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2256,
@@ -38180,7 +38180,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 2.2484070796460176,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2257,
@@ -38193,7 +38193,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 2.2125663716814157,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2258,
@@ -38206,7 +38206,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 2.2125663716814157,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2259,
@@ -38219,7 +38219,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 2.212393162393162,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2260,
@@ -38232,7 +38232,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 2.186283185840708,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2261,
@@ -38245,7 +38245,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 2.0453097345132742,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2262,
@@ -38258,7 +38258,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.9831858407079648,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2263,
@@ -38271,7 +38271,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.9831858407079648,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2264,
@@ -38284,7 +38284,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.9640707964601771,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2265,
@@ -38297,7 +38297,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.9569026548672566,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2266,
@@ -38310,7 +38310,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.9473451327433628,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2267,
@@ -38323,7 +38323,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.9377876106194687,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2268,
@@ -38336,7 +38336,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.92651376146789,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2269,
@@ -38349,7 +38349,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.9115044247787611,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2270,
@@ -38362,7 +38362,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.9019469026548672,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2271,
@@ -38375,7 +38375,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.9019469026548672,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2272,
@@ -38388,7 +38388,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.8990825688073394,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2273,
@@ -38401,7 +38401,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 1.8849999999999998,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2274,
@@ -38414,7 +38414,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.8756637168141592,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2275,
@@ -38427,7 +38427,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.8756637168141592,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2276,
@@ -38440,7 +38440,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.8661061946902653,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2277,
@@ -38453,7 +38453,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.8661061946902653,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2278,
@@ -38466,7 +38466,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.863211009174312,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2279,
@@ -38479,7 +38479,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.8589380530973452,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2280,
@@ -38492,7 +38492,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.8326548672566372,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2281,
@@ -38505,7 +38505,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.8252293577981653,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2282,
@@ -38518,7 +38518,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.8252293577981653,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2283,
@@ -38531,7 +38531,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.8252293577981653,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2284,
@@ -38544,7 +38544,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.8252293577981653,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2285,
@@ -38557,7 +38557,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.8230973451327432,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2286,
@@ -38570,7 +38570,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.8135398230088495,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 2287,
@@ -38583,7 +38583,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 1.8123076923076922,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2288,
@@ -38596,7 +38596,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.806371681415929,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2289,
@@ -38609,7 +38609,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.7968141592920353,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2290,
@@ -38622,7 +38622,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.7968141592920353,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2291,
@@ -38635,7 +38635,7 @@ var data =
     "cr4": 22,
     "cr5": 28,
     "cgpa": 1.7905263157894737,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2292,
@@ -38648,7 +38648,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.7893577981651378,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2293,
@@ -38661,7 +38661,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.777699115044248,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2294,
@@ -38674,7 +38674,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 1.7758928571428572,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2295,
@@ -38687,7 +38687,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.761926605504587,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2296,
@@ -38700,7 +38700,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.7609734513274338,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2297,
@@ -38713,7 +38713,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.7609734513274338,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2298,
@@ -38726,7 +38726,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.7346902654867256,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2299,
@@ -38739,7 +38739,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.7155045871559633,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2300,
@@ -38752,7 +38752,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.7084070796460178,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2301,
@@ -38765,7 +38765,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.7070642201834862,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2302,
@@ -38778,7 +38778,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.6988495575221239,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2303,
@@ -38791,7 +38791,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.6821238938053098,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2304,
@@ -38804,7 +38804,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.6796330275229359,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2305,
@@ -38817,7 +38817,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.6796330275229359,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2306,
@@ -38830,7 +38830,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.6796330275229359,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2307,
@@ -38843,7 +38843,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.663008849557522,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2308,
@@ -38856,7 +38856,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.6558407079646016,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2309,
@@ -38869,7 +38869,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.641651376146789,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2310,
@@ -38882,7 +38882,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.6367256637168142,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2311,
@@ -38895,7 +38895,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.633211009174312,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2312,
@@ -38908,7 +38908,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.633211009174312,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2313,
@@ -38921,7 +38921,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.6271681415929202,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2314,
@@ -38934,7 +38934,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.62,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2315,
@@ -38947,7 +38947,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.62,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2316,
@@ -38960,7 +38960,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.6142201834862386,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2317,
@@ -38973,7 +38973,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.6142201834862386,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2318,
@@ -38986,7 +38986,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.5973394495412845,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2319,
@@ -38999,7 +38999,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 1.5905714285714285,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2320,
@@ -39012,7 +39012,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.5783486238532112,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 2321,
@@ -39025,7 +39025,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.5783486238532112,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2322,
@@ -39038,7 +39038,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.5783486238532112,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2323,
@@ -39051,7 +39051,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.5783486238532112,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2324,
@@ -39064,7 +39064,7 @@ var data =
     "cr4": 22,
     "cr5": 31,
     "cgpa": 1.573846153846154,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2325,
@@ -39077,7 +39077,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.5677981651376145,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2326,
@@ -39090,7 +39090,7 @@ var data =
     "cr4": 22,
     "cr5": 25,
     "cgpa": 1.5675675675675675,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2327,
@@ -39103,7 +39103,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.5403669724770643,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2328,
@@ -39116,7 +39116,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.5403669724770643,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2329,
@@ -39129,7 +39129,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.531926605504587,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2330,
@@ -39142,7 +39142,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.531926605504587,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2331,
@@ -39155,7 +39155,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.5129357798165137,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2332,
@@ -39168,7 +39168,7 @@ var data =
     "cr4": 22,
     "cr5": 22,
     "cgpa": 1.4911111111111113,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2333,
@@ -39181,7 +39181,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.4861946902654868,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2334,
@@ -39194,7 +39194,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.4855045871559631,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2335,
@@ -39207,7 +39207,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.4770642201834863,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 2336,
@@ -39220,7 +39220,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 1.471698113207547,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2337,
@@ -39233,7 +39233,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.4694690265486727,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2338,
@@ -39246,7 +39246,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.458073394495413,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2339,
@@ -39259,7 +39259,7 @@ var data =
     "cr4": 22,
     "cr5": 24,
     "cgpa": 1.455272727272727,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2340,
@@ -39272,7 +39272,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.450353982300885,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2341,
@@ -39285,7 +39285,7 @@ var data =
     "cr4": 22,
     "cr5": 21,
     "cgpa": 1.4484112149532709,
-    "Branch": "SE"
+    "branch": "SE"
    },
    {
     "Rank": 2342,
@@ -39298,7 +39298,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.4411926605504588,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 2343,
@@ -39311,7 +39311,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.4336283185840708,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2344,
@@ -39324,7 +39324,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.4336283185840708,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2345,
@@ -39337,7 +39337,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.4306422018348623,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2346,
@@ -39350,7 +39350,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.4306422018348623,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2347,
@@ -39363,7 +39363,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.4169026548672565,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2348,
@@ -39376,7 +39376,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 1.4113207547169813,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 2349,
@@ -39389,7 +39389,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.4032110091743122,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2350,
@@ -39402,7 +39402,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.3947706422018349,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2351,
@@ -39415,7 +39415,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.3757798165137614,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2352,
@@ -39428,7 +39428,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.3673394495412845,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2353,
@@ -39441,7 +39441,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.3673394495412845,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2354,
@@ -39454,7 +39454,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 1.3584905660377358,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2355,
@@ -39467,7 +39467,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.356788990825688,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2356,
@@ -39480,7 +39480,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.356788990825688,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 2357,
@@ -39493,7 +39493,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.3452212389380531,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 2358,
@@ -39506,7 +39506,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.3452212389380531,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2359,
@@ -39519,7 +39519,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.3209174311926604,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2360,
@@ -39532,7 +39532,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.3209174311926604,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2361,
@@ -39545,7 +39545,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.3124770642201835,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2362,
@@ -39558,7 +39558,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.2934862385321102,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2363,
@@ -39571,7 +39571,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.285045871559633,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2364,
@@ -39584,7 +39584,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 1.2666666666666666,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2365,
@@ -39597,7 +39597,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.2660550458715596,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2366,
@@ -39610,7 +39610,7 @@ var data =
     "cr4": 22,
     "cr5": 26,
     "cgpa": 1.2489285714285714,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2367,
@@ -39623,7 +39623,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.2470642201834863,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2368,
@@ -39636,7 +39636,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.2470642201834863,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2369,
@@ -39649,7 +39649,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 1.2467619047619047,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2370,
@@ -39662,7 +39662,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 1.2377142857142858,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2371,
@@ -39675,7 +39675,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.2196330275229357,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2372,
@@ -39688,7 +39688,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.2196330275229357,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2373,
@@ -39701,7 +39701,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.2196330275229357,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2374,
@@ -39714,7 +39714,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.2111926605504588,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2375,
@@ -39727,7 +39727,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.1922018348623855,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2376,
@@ -39740,7 +39740,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.1851327433628318,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2377,
@@ -39753,7 +39753,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 1.1707619047619047,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2378,
@@ -39766,7 +39766,7 @@ var data =
     "cr4": 22,
     "cr5": 27,
     "cgpa": 1.1684070796460178,
-    "Branch": "CH"
+    "branch": "CH"
    },
    {
     "Rank": 2379,
@@ -39779,7 +39779,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.1457798165137614,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2380,
@@ -39792,7 +39792,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.133119266055046,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2381,
@@ -39805,7 +39805,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.1288990825688072,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2382,
@@ -39818,7 +39818,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.109908256880734,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2383,
@@ -39831,7 +39831,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.109908256880734,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2384,
@@ -39844,7 +39844,7 @@ var data =
     "cr4": 22,
     "cr5": 16,
     "cgpa": 1.0980392156862746,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2385,
@@ -39857,7 +39857,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 1.0857142857142856,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2386,
@@ -39870,7 +39870,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 1.0693069306930694,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2387,
@@ -39883,7 +39883,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 1.0086238532110092,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2388,
@@ -39896,7 +39896,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 0.9246666666666667,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2389,
@@ -39909,7 +39909,7 @@ var data =
     "cr4": 22,
     "cr5": 23,
     "cgpa": 0.9221100917431193,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2390,
@@ -39922,7 +39922,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 0.912,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2391,
@@ -39935,7 +39935,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 0.912,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2392,
@@ -39948,7 +39948,7 @@ var data =
     "cr4": 22,
     "cr5": 20,
     "cgpa": 0.8811320754716981,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2393,
@@ -39961,7 +39961,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 0.8414285714285715,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2394,
@@ -39974,7 +39974,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 0.8341904761904763,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2395,
@@ -39987,7 +39987,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 0.8106666666666668,
-    "Branch": "AE"
+    "branch": "AE"
    },
    {
     "Rank": 2396,
@@ -40000,7 +40000,7 @@ var data =
     "cr4": 22,
     "cr5": 18,
     "cgpa": 0.7874999999999999,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2397,
@@ -40013,7 +40013,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 0.7797029702970297,
-    "Branch": "IT"
+    "branch": "IT"
    },
    {
     "Rank": 2398,
@@ -40026,7 +40026,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 0.740095238095238,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2399,
@@ -40039,7 +40039,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 0.7238095238095238,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2400,
@@ -40052,7 +40052,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 0.7075238095238096,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2401,
@@ -40065,7 +40065,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 0.7002857142857143,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2402,
@@ -40078,7 +40078,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 0.6831683168316832,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 2403,
@@ -40091,7 +40091,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.6702061855670104,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2404,
@@ -40104,7 +40104,7 @@ var data =
     "cr4": 22,
     "cr5": 19,
     "cgpa": 0.6695238095238095,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2405,
@@ -40117,7 +40117,7 @@ var data =
     "cr4": 22,
     "cr5": 18,
     "cgpa": 0.6680769230769231,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2406,
@@ -40130,7 +40130,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 0.6638613861386138,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2407,
@@ -40143,7 +40143,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.6600000000000001,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2408,
@@ -40156,7 +40156,7 @@ var data =
     "cr4": 22,
     "cr5": 18,
     "cgpa": 0.645576923076923,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2409,
@@ -40169,7 +40169,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 0.6415841584158417,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2410,
@@ -40182,7 +40182,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.6293814432989691,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2411,
@@ -40195,7 +40195,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 0.5554455445544555,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2412,
@@ -40208,7 +40208,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 0.5554455445544555,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2413,
@@ -40221,7 +40221,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 0.5495049504950495,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2414,
@@ -40234,7 +40234,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 0.5287128712871287,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 2415,
@@ -40247,7 +40247,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 0.5242574257425742,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2416,
@@ -40260,7 +40260,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.5216494845360824,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2417,
@@ -40273,7 +40273,7 @@ var data =
     "cr4": 22,
     "cr5": 16,
     "cgpa": 0.49098039215686273,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2418,
@@ -40286,7 +40286,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 0.48415841584158414,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2419,
@@ -40299,7 +40299,7 @@ var data =
     "cr4": 22,
     "cr5": 15,
     "cgpa": 0.48415841584158414,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2420,
@@ -40312,7 +40312,7 @@ var data =
     "cr4": 22,
     "cr5": 12,
     "cgpa": 0.45918367346938777,
-    "Branch": "EP"
+    "branch": "EP"
    },
    {
     "Rank": 2421,
@@ -40325,7 +40325,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.4536082474226804,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2422,
@@ -40338,7 +40338,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.43092783505154636,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2423,
@@ -40351,7 +40351,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.37762886597938145,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2424,
@@ -40364,7 +40364,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.37762886597938145,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2425,
@@ -40377,7 +40377,7 @@ var data =
     "cr4": 22,
     "cr5": 12,
     "cgpa": 0.3673469387755102,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2426,
@@ -40390,7 +40390,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.3152577319587629,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2427,
@@ -40403,7 +40403,7 @@ var data =
     "cr4": 22,
     "cr5": 7,
     "cgpa": 0.2875268817204301,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2428,
@@ -40416,7 +40416,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.28577319587628863,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2429,
@@ -40429,7 +40429,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.27103092783505156,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2430,
@@ -40442,7 +40442,7 @@ var data =
     "cr4": 22,
     "cr5": 11,
     "cgpa": 0.25628865979381443,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2431,
@@ -40455,7 +40455,7 @@ var data =
     "cr4": 22,
     "cr5": 7,
     "cgpa": 0.2529032258064516,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2432,
@@ -40468,7 +40468,7 @@ var data =
     "cr4": 22,
     "cr5": 7,
     "cgpa": 0.1904301075268817,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2433,
@@ -40481,7 +40481,7 @@ var data =
     "cr4": 22,
     "cr5": 8,
     "cgpa": 0.14808510638297873,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2434,
@@ -40494,7 +40494,7 @@ var data =
     "cr4": 22,
     "cr5": 7,
     "cgpa": 0.11440860215053764,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2435,
@@ -40507,7 +40507,7 @@ var data =
     "cr4": 22,
     "cr5": 3,
     "cgpa": 0.07348314606741574,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2436,
@@ -40520,7 +40520,7 @@ var data =
     "cr4": 22,
     "cr5": 3,
     "cgpa": 0.0643820224719101,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2437,
@@ -40533,7 +40533,7 @@ var data =
     "cr4": 22,
     "cr5": 3,
     "cgpa": 0.05056179775280899,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2438,
@@ -40546,7 +40546,7 @@ var data =
     "cr4": 22,
     "cr5": 3,
     "cgpa": 0.04584269662921348,
-    "Branch": "EN"
+    "branch": "EN"
    },
    {
     "Rank": 2439,
@@ -40559,7 +40559,7 @@ var data =
     "cr4": 22,
     "cr5": 3,
     "cgpa": 0.026629213483146067,
-    "Branch": "BT"
+    "branch": "BT"
    },
    {
     "Rank": 2440,
@@ -40572,7 +40572,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2441,
@@ -40585,7 +40585,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2442,
@@ -40598,7 +40598,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2443,
@@ -40611,7 +40611,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2444,
@@ -40624,7 +40624,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "CE"
+    "branch": "CE"
    },
    {
     "Rank": 2445,
@@ -40637,7 +40637,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2446,
@@ -40650,7 +40650,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2447,
@@ -40663,7 +40663,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "CO"
+    "branch": "CO"
    },
    {
     "Rank": 2448,
@@ -40676,7 +40676,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "EC"
+    "branch": "EC"
    },
    {
     "Rank": 2449,
@@ -40689,7 +40689,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2450,
@@ -40702,7 +40702,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "EE"
+    "branch": "EE"
    },
    {
     "Rank": 2451,
@@ -40715,7 +40715,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "ME"
+    "branch": "ME"
    },
    {
     "Rank": 2452,
@@ -40728,7 +40728,7 @@ var data =
     "cr4": 22,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "PE"
+    "branch": "PE"
    },
    {
     "Rank": 2453,
@@ -40745,7 +40745,7 @@ var data =
     "cr4": 0,
     "cr5": 0,
     "cgpa": 0,
-    "Branch": "MCE"
+    "branch": "MCE"
    }
 
 ]
