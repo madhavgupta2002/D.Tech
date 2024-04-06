@@ -40749,19 +40749,3 @@ var data =
     }
 
   ]
-function getNAme() {
-  var rollNo = document.getElementById('inputBox').value.toUpperCase();
-  console.log(rollNo)
-  let flag = 0;
-
-  for (let i = 0; i < data.length; i++) {
-    // console.log(data[i]['roll'])
-    if (data[i]['roll'] == rollNo) {
-      return data[i]['name']
-      break;
-    }
-  }
-  if (flag == 0)
-    return "null"
-
-}

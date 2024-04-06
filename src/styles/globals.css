@@ -1,11 +1,13 @@
-body, html{
+body,
+html {
   margin: 0px;
-  
+
 }
 
 @media (max-width: 600px) {
-  body, html {
+
+  body,
+  html {
     margin-left: 60px;
   }
 }
-
