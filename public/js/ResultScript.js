@@ -1,4 +1,4 @@
-var temp=document.getElementById('submit')
+var temp = document.getElementById('submit')
 const ctx = document.getElementById('myChart');
 
 myChart = new Chart(ctx, {
@@ -22,37 +22,33 @@ myChart = new Chart(ctx, {
 });
 
 function UpdateGraph(context) {
-    
+
     myChart.data.datasets[0].data = [context.s1, context.s2, context.s3, context.s4, context.s5];
-     myChart.update();
+    myChart.update();
 
-  }
-  
+}
 
-function calculateRank(cgpa, branch)
-{
+
+function calculateRank(cgpa, branch) {
     console.log(branch)
     console.log(cgpa)
-    let countTotal=0;
-    let countBranch=0;
-    for(let i=0; i<data.length; i++)
-    {
+    let countTotal = 0;
+    let countBranch = 0;
+    for (let i = 0; i < data.length; i++) {
         // console.log(data[i]['roll'])
-        if(data[i]['cgpa']>cgpa)
-        {
+        if (data[i]['cgpa'] > cgpa) {
             countTotal++;
-            if(data[i]['branch']==branch)
+            if (data[i]['branch'] == branch)
                 countBranch++;
         }
         console.log(countBranch, countTotal)
     }
     countBranch++;
     countTotal++;
-    return {countBranch, countTotal}
+    return { countBranch, countTotal }
 }
-function calculateProj(data)
-{
-    var res=((data.cgpa)*(86+data.cr5) + (10)*(172-(86+data.cr5)))/172
+function calculateProj(data) {
+    var res = ((data.cgpa) * (86 + data.cr5) + (10) * (172 - (86 + data.cr5))) / 172
     res = Math.round(res * 100000000) / 100000000;
 
     return res;
@@ -69,39 +65,37 @@ function display(data) {
     document.getElementById('sem4GPA').textContent = data.s4;
     document.getElementById('sem5GPA').textContent = data.s5;
 
-    
+
     var rank = calculateRank(data.cgpa, data.branch);
     document.getElementById('rank1').textContent = rank['countBranch'];
     document.getElementById('rank2').textContent = rank['countTotal'];
     document.getElementById('gpa').textContent = data.cgpa;
 
 
-    var projGPA=calculateProj(data);
-    var projRank=calculateRank(projGPA, data.branch);
+    var projGPA = calculateProj(data);
+    var projRank = calculateRank(projGPA, data.branch);
     document.getElementById('projGPA').textContent = projGPA;
     document.getElementById('projRank').textContent = projRank['countBranch'];
     UpdateGraph(data)
-    
+
 }
 
 
 function onClickHandler() {
-    var rollNo=document.getElementById('inputBox').value.toUpperCase();
+    var rollNo = document.getElementById('inputBox').value.toUpperCase();
     console.log(rollNo)
-    let flag=0;
+    let flag = 0;
 
-    for(let i=0; i<data.length; i++)
-    {
+    for (let i = 0; i < data.length; i++) {
         // console.log(data[i]['roll'])
-
-        if(data[i]['roll']==rollNo){
+        if (data[i]['roll'] == rollNo) {
             // alert(data[i]['name'])
-            flag=1;
+            flag = 1;
             display(data[i])
             break;
         }
     }
-    if(flag==0)
+    if (flag == 0)
         alert("Data Not Available")
 
 }
@@ -114,4 +108,4 @@ var crsr = document.querySelector("#cursor");
 document.addEventListener("mousemove", function (dets) {
     crsr.style.left = dets.x + "px";
     crsr.style.top = dets.y + "px";
-  });
+});

@@ -53,7 +53,7 @@ export default function DateSheet() {
         <br />
         <br />
         <div className="html-content" id="main-content">
-          <center><p id="p2"> DateSheet for B.Tech Odd End Semester Examination 2023-24</p>
+          <center><p id="p2"> DateSheet for B.Tech Even End Semester Examination May 2024 (2023-24)</p>
             <p id="p1" /></center>
           <table id="myTable">
             <tbody>
