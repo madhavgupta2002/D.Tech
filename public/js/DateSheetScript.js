@@ -71,7 +71,7 @@ function byRoll(code) {
 
     const newDate = myDates[code];
     const newCode = code;
-    const newSubject = (myList[code].toUpperCase().replace(/[^a-zA-Z0-9: ]/g, ""));
+    const newSubject = (myList[code].toUpperCase().replace(/[^a-zA-Z0-9:& ]/g, ""));
 
     if (morning.includes(code))
         newTime = '10:00AM - 1:00PM';
