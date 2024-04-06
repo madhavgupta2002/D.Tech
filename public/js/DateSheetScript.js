@@ -71,7 +71,7 @@ function byRoll(code) {
 
     const newDate = myDates[code];
     const newCode = code;
-    const newSubject = (myList[code].toUpperCase().replace(/[^a-zA-Z0-9 ]/g, ""));
+    const newSubject = (myList[code].toUpperCase().replace(/[^a-zA-Z0-9: ]/g, ""));
 
     if (morning.includes(code))
         newTime = '10:00AM - 1:00PM';
@@ -89,7 +89,6 @@ function byRoll(code) {
 
 };
 
-
 document.getElementById("addRollButton").addEventListener("click", async function () {
     const table = document.getElementById('myTable');
 
@@ -106,7 +105,13 @@ document.getElementById("addRollButton").addEventListener("click", async functio
     const newName = await getName(newRoll);
     console.log(newName);
     console.log(newRoll);
-    para.innerHTML = `${newName}'s DateSheet`; if (newRoll.substring(0, 4) == "2K21" || newRoll.substring(0, 4) == "2K20" || newRoll.substring(0, 2) == "23" || newRoll.substring(0, 4) == "2K22") {
+    // Assuming newName and newRoll are already defined
+    if (newName !== "null") {
+        para.innerHTML = `${newName} (${newRoll})'s DateSheet`;
+    } else {
+        para.innerHTML = `${newRoll}'s DateSheet`;
+    }
+    if (newRoll.substring(0, 4) == "2K21" || newRoll.substring(0, 4) == "2K20" || newRoll.substring(0, 2) == "23" || newRoll.substring(0, 4) == "2K22") {
         arr = studentData[newRoll];
     }
     else {

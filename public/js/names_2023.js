@@ -475,7 +475,7 @@ const myList = {
     "FEC18": "FINANCIAL  STATEMENTS ANALYSIS",
     "FEC18": "Financial Statements Analysis ",
     "FEC2": "SPORTS II",
-    "FEC2": "Sports II ",
+    "FEC2": "Sports II",
     "FEC22": "YOGA",
     "FEC24": "MUSIC",
     "FEC25": "Universal Human Values: I Self-Family",
