@@ -11,12 +11,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function DateSheet() {
   const router = useRouter();
-  
+
   const handleRefresh = () => {
     if (!window.location.hash) {
       window.location = window.location + '#loaded';
       window.location.reload();
-    } 
+    }
   };
   useEffect(() => {
     handleRefresh();
@@ -24,16 +24,16 @@ export default function DateSheet() {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>DTU Datesheet Generator</title>
         <meta
           name="D.Tech DTU Exam DateSheet Generator"
           content="One Click solution to automatically Generate your B.Tech exam datesheet."
         />
-    </Head>
+      </Head>
       {/* <div id="cursor" /> */}
       <div id="main">
-      <Header />
+        <Header />
 
         <div className="container">
           <div id="box" />
@@ -54,7 +54,7 @@ export default function DateSheet() {
         <br />
         <div className="html-content" id="main-content">
           <center><p id="p2"> DateSheet for B.Tech Odd End Semester Examination 2023-24</p>
-          <p id="p1" /></center>
+            <p id="p1" /></center>
           <table id="myTable">
             <tbody>
               <tr>
@@ -71,9 +71,9 @@ export default function DateSheet() {
             Generated using{" "}
             <a href="https://bit.ly/DTUexam"> DTU Exam DateSheet Generator </a>
           </center>
-          <br/>
-         <center> <b>Disclaimer: </b> Kindly <a href="http://exam.dtu.ac.in/DateSheet/TEN_BTECH_O23.pdf"> verify </a>  the corresponding dates.</center>
-        
+          <br />
+          <center> <b>Disclaimer: </b> Kindly <a href="http://exam.dtu.ac.in/DateSheet.htm"> verify </a>  the corresponding dates.</center>
+
         </div>
         <button id="print">Print</button>
         <br />

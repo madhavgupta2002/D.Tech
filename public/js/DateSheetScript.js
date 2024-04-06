@@ -3,25 +3,25 @@ var para = document.getElementById("p1");
 function convertDateFormat(inputDate) {
 
     var parts = inputDate.split('-');
-    
+
 
     if (parts.length === 3) {
-      var day = parts[0].length==1 ? '0' + parts[0] : parts[0];
-      var month = parts[1];
-      var year = parts[2];
-      
+        var day = parts[0].length == 1 ? '0' + parts[0] : parts[0];
+        var month = parts[1];
+        var year = parts[2];
 
-      var newDate = year + month + day;
-      
-      return newDate;
+
+        var newDate = year + month + day;
+
+        return newDate;
     }
-    else 
-      return "Invalid input date format";
-    
-  }
-  
+    else
+        return "Invalid input date format";
 
-  
+}
+
+
+
 function formatDateWithLineBreak(dateString) {
     const dateParts = dateString.split('-');
 
@@ -40,8 +40,7 @@ function formatDateWithLineBreak(dateString) {
 }
 
 
-document.getElementById("addRowButton").addEventListener("click", function() 
-{
+document.getElementById("addRowButton").addEventListener("click", function () {
     const table = document.querySelector("table");
     const newRow = table.insertRow(table.rows.length);
     const newCell1 = newRow.insertCell(0);
@@ -60,9 +59,11 @@ document.getElementById("addRowButton").addEventListener("click", function()
     document.getElementById("newCode").value = "";
     document.getElementById("newSubject").value = "";
 });
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
-function byRoll(code) 
-{
+function byRoll(code) {
     const table = document.querySelector("table");
     const newRow = table.insertRow(table.rows.length);
     const newCell1 = newRow.insertCell(0);
@@ -72,16 +73,17 @@ function byRoll(code)
 
     const newDate = myDates[code];
     const newCode = code;
-    const newSubject = myList[code];
-    if (morning.includes(code)) 
+    const newSubject = capitalizeFirstLetter(myList[code]);
+
+    if (morning.includes(code))
         newTime = '10:00AM - 1:00PM';
-    else if(morningFEC.includes(code))
+    else if (morningFEC.includes(code))
         newTime = '10:00AM - 12:00PM'
-    else if (evening.includes(code)) 
+    else if (evening.includes(code))
         newTime = '2:00PM - 5:00PM';
-    else 
+    else
         newTime = 'Undefined';
-    
+
     newCell1.innerHTML = formatDateWithLineBreak(newDate);
     newCell2.innerHTML = newCode;
     newCell3.innerHTML = newSubject;
@@ -90,7 +92,7 @@ function byRoll(code)
 };
 
 
-document.getElementById("addRollButton").addEventListener("click", function() {
+document.getElementById("addRollButton").addEventListener("click", function () {
     const table = document.getElementById('myTable');
 
     const tbody = table.querySelector('tbody');
@@ -98,28 +100,25 @@ document.getElementById("addRollButton").addEventListener("click", function() {
     const rows = tbody.querySelectorAll('tr:not(:first-child)');
 
     // Remove all non-first rows from the table
-    rows.forEach(function(row) {
+    rows.forEach(function (row) {
         tbody.removeChild(row);
     });
 
     const newRoll = document.getElementById("newRoll").value.toUpperCase();
-    para.innerHTML=`${newRoll} 's DateSheet`;
+    para.innerHTML = `${newRoll} 's DateSheet`;
     let arr;
 
-    if(newRoll.substring(0, 4)=="2K21" || newRoll.substring(0, 4)=="2K20" || newRoll.substring(0, 2)=="23" || newRoll.substring(0, 4)=="2K22")
-    {
+    if (newRoll.substring(0, 4) == "2K21" || newRoll.substring(0, 4) == "2K20" || newRoll.substring(0, 2) == "23" || newRoll.substring(0, 4) == "2K22") {
         arr = studentData[newRoll];
     }
-    else 
-    {
+    else {
         alert("Enter Valid Roll No 2K20-23");
         return;
     }
 
 
     let stampArr = [];
-    for(let i=0; i<arr.length; i++)
-    {
+    for (let i = 0; i < arr.length; i++) {
         stampArr[i] = myDates[arr[i]] ? convertDateFormat(myDates[arr[i]]) : null;
     }
 
@@ -130,15 +129,14 @@ document.getElementById("addRollButton").addEventListener("click", function() {
 
     // Sort the array of objects based on the stamp values
     stampArrWithIndexes.sort((a, b) => a.value - b.value);
-    
+
     // Reorder the original arr based on the sorted stampArrWithIndexes
     const sortedArr = stampArrWithIndexes.map(obj => arr[obj.index]);
 
     console.log(sortedArr)
 
-    for(var i=0; i<arr.length; i++)
-    {
-        if(myDates[sortedArr[i]])
+    for (var i = 0; i < arr.length; i++) {
+        if (myDates[sortedArr[i]])
             byRoll(sortedArr[i]);
     }
 
@@ -148,10 +146,10 @@ var crsr = document.querySelector("#cursor");
 document.addEventListener("mousemove", function (dets) {
     crsr.style.left = dets.x + "px";
     crsr.style.top = dets.y + "px";
-  });
+});
 
-  
-const printBtn=document.getElementById('print')
-printBtn.addEventListener('click', function(){
+
+const printBtn = document.getElementById('print')
+printBtn.addEventListener('click', function () {
     print();
 })
