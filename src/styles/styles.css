@@ -1,10 +1,16 @@
 @media print {
   #main *:not(#main-content):not(#main-content *) {
     display: none;
+
   }
 }
 
 /* styles.css */
+
+#main-content {
+  width: 80%;
+}
+
 h1 {
   text-align: center;
 }
@@ -12,12 +18,27 @@ h1 {
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
+  width: 100vw;
+}
+
+#main-content {
+  overflow-x: auto;
+  width: 100%;
+}
+
+#myTable {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+
 }
 
 table {
   border-collapse: collapse;
-  width: 80%;
   margin: 20px auto;
+  width: 90%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -88,11 +109,19 @@ button #addRowButton,
 @media (max-width: 600px) {
   table {
     width: 100%;
+    overflow-x: scroll;
   }
 
   th,
   td {
     padding: 8px;
+  }
+
+  #main-result-content {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -129,7 +158,7 @@ body {
   color: #333;
   background: #fcfcfc;
   font-family: 'Raleway', sans-serif;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 .faq-header {
@@ -162,7 +191,7 @@ body {
   padding: 0px 14px;
   margin: 0 40px;
   height: 0;
-  overflow: hidden;
+  overflow: auto;
   /* z-index: -1; */
   position: relative;
   opacity: 0;
@@ -523,14 +552,4 @@ span:hover {
 
 .advert:hover .image {
   opacity: 0.95;
-}
-
-html,
-body {
-  /* width: 100%;
-  height: 100%; */
-  /* margin: 0;
-  padding: 0; */
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
 }
