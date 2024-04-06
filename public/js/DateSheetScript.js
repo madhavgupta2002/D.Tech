@@ -59,9 +59,7 @@ document.getElementById("addRowButton").addEventListener("click", function () {
     document.getElementById("newCode").value = "";
     document.getElementById("newSubject").value = "";
 });
-function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-}
+
 
 function byRoll(code) {
     const table = document.querySelector("table");
@@ -73,7 +71,7 @@ function byRoll(code) {
 
     const newDate = myDates[code];
     const newCode = code;
-    const newSubject = capitalizeFirstLetter(myList[code]);
+    const newSubject = (myList[code].toUpperCase().replace(/[^a-zA-Z0-9 ]/g, ""));
 
     if (morning.includes(code))
         newTime = '10:00AM - 1:00PM';
@@ -92,7 +90,7 @@ function byRoll(code) {
 };
 
 
-document.getElementById("addRollButton").addEventListener("click", function () {
+document.getElementById("addRollButton").addEventListener("click", async function () {
     const table = document.getElementById('myTable');
 
     const tbody = table.querySelector('tbody');
@@ -105,10 +103,10 @@ document.getElementById("addRollButton").addEventListener("click", function () {
     });
 
     const newRoll = document.getElementById("newRoll").value.toUpperCase();
-    para.innerHTML = `${newRoll} 's DateSheet`;
-    let arr;
-
-    if (newRoll.substring(0, 4) == "2K21" || newRoll.substring(0, 4) == "2K20" || newRoll.substring(0, 2) == "23" || newRoll.substring(0, 4) == "2K22") {
+    const newName = await getName(newRoll);
+    console.log(newName);
+    console.log(newRoll);
+    para.innerHTML = `${newName}'s DateSheet`; if (newRoll.substring(0, 4) == "2K21" || newRoll.substring(0, 4) == "2K20" || newRoll.substring(0, 2) == "23" || newRoll.substring(0, 4) == "2K22") {
         arr = studentData[newRoll];
     }
     else {
@@ -153,3 +151,19 @@ const printBtn = document.getElementById('print')
 printBtn.addEventListener('click', function () {
     print();
 })
+
+async function getName(rollNo) {
+    console.log(rollNo)
+    let flag = 0;
+
+    for (let i = 0; i < data.length; i++) {
+        // console.log(data[i]['roll'])
+        if (data[i]['roll'] == rollNo) {
+            console.log(data[i]['name'])
+            return (data[i]['name'])
+        }
+    }
+    if (flag == 0)
+        return ("null")
+
+}
