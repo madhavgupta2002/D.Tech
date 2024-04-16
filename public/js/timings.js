@@ -10,7 +10,7 @@ var morning = [
     "EN104", "EP104", "IT104", "MC104", "ME104", "PE104", "SE104", "AE208", "BT208",
     "CE208", "CH208", "EC208", "EE208", "EN208", "EP208", "ME208", "PE208", "SE208a", "IT420",
     "CH416", "CO202", "CO206", "SE306", "CO302", "IT302", "CO204", "IT204", "CO304", "IT304",
-    "MC208", "CO208", "IT208", "CO306", "MC306", "IT306",
+    "MC208", "CO208", "IT208", "CO306", "MC306", "IT306", "SE206"
 ]
 var morningFEC = [
     "FEC15", "AEC2", "FEC14", "AEC3", "FEC10", "AEC5", "FEC53", "AEC6", "FEC28", "VAC5",
