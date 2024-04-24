@@ -1,0 +1,20 @@
+export const answers = {
+    "AP102 Applied Physics (till 2020 only Unit 2-4)": "https://drive.google.com/file/d/1a0KDV-GF5dy54Wt1C9HCY-e8FLE0Z3X9/view?usp=sharing",
+    "FEC7 Introduction to EVS (till 2022)": "https://drive.google.com/file/d/1yE_RGDprbhFlv1dR2NVUb8ub0R_ZlzSS/view?usp=sharing",
+    "CO201 Data Structures (till 2021)": "https://drive.google.com/file/d/1aYwmL0RvTzqXel2l9iGzw4clUBULTLRu/view?usp=sharing",
+    "CO202 Database Management System (till 2022)": "https://drive.google.com/file/d/12W6mkO40pOYWOl5FXVDM33PvUDaPhEri/view?usp=sharing",
+    "CO203 Object Oriented Programming (till 2021)": "https://drive.google.com/file/d/1Sxq_OwiEaIvI1niA4lK9YXmHtH1oGaNn/view?usp=sharing",
+    "CO204 Operating System Design (till 2022)": "https://drive.google.com/file/d/1A5tM80Hug7rwf0voUZGlRMf3gBWxKSZf/view?usp=sharing",
+    "CO205 Discrete Structures (till 2021)": "https://drive.google.com/file/d/11XcBxEZ-t78H_L0rx5ndYWsRjyuqpg8M/view?usp=sharing",
+    "CO206 Computer Organization and Architecture (till 2022)": "https://drive.google.com/file/d/1bBTGOyL9mY8F8JFeZSh1RjtbKOBdhqoO/view?usp=sharing",
+    "CO207 Modeling and Simulation (till 2021)": "https://drive.google.com/file/d/1Uv8Zkk78Y1-57C0Folf68T54WfGquX21/view?usp=sharing",
+    "CO208 Algorithm Design and Analysis (till 2022)": "https://drive.google.com/file/d/1u7jcXDY9lQo9kQQTmjTOa60BqmyQcgyh/view?usp=sharing",
+    "EC261 Analog Electronics (till 2021)": "https://drive.google.com/file/d/1fFQy_kXYF8UVzguhOupTVrLBjPLXiming/view?usp=sharing",
+    "EC262 Digital Electronics (till 2022)": "https://drive.google.com/file/d/1Tfru8uGAecb__nj1SMdRyX_KHoYgb_b-/view?usp=sharing",
+    "CO301 Software Engineering (till 2022)": "https://drive.google.com/file/d/1Feoca_FPH9gdnQ4YUGku67nOLn3IBTuY/view?usp=sharing",
+    "CO303 Theory of Computation (till 2022)": "https://drive.google.com/file/d/1RrHAIfshmCkElck-GFFb9EZm799gzZAn/view?usp=sharing",
+    "CO313 Computer Graphics (till 2023)": "https://drive.google.com/file/d/1f2RLtRH9GoAwtLZMH2Ui4HkXUZX1Nwo6/view?usp=sharing",
+    "CO325 Probability and Statistics (till 2023)": "https://drive.google.com/file/d/1wiHp_4hmmaAcasjy5bRkIerBPEKRuwmw/view?usp=sharing",
+    "HU301 Engineering Economics (till 2023)": "https://drive.google.com/file/d/1iLg8Agnf07H87jrduvOYcblSK6BESgQB/view?usp=sharing",
+    "HU307 Basic Econometrics (till 2022)": "https://drive.google.com/file/d/1V0BF9vg3tOmu5znr2WYekPJ3uPDAYmXm/view?usp=sharing"
+};

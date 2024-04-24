@@ -6,13 +6,13 @@ function changePDF(url) {
 }
 var listing = document.getElementById('display');
 
-listing.addEventListener('click', function() {
+listing.addEventListener('click', function () {
     var currentSubject = null; // Variable to keep track of the current subject
 
     for (var i = 0; i < drive.length; i++) {
         var clickableItem = document.createElement("span");
         clickableItem.style.cursor = "pointer"; // Make it look clickable
-        clickableItem.id="span-id";
+        clickableItem.id = "span-id";
         clickableItem.innerText = drive[i].Name;
 
         // Check if the subject has changed
@@ -40,7 +40,7 @@ listing.addEventListener('click', function() {
     var i;
 
     for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
+        coll[i].addEventListener("click", function () {
             this.classList.toggle("active");
             var content = this.nextElementSibling;
             if (content.style.display === "block") {
@@ -56,10 +56,10 @@ listing.addEventListener('click', function() {
     var elements = document.querySelectorAll('#click-me');
 
     // Simulate a click on each element
-    elements.forEach(function(element) {
+    elements.forEach(function (element) {
         element.click();
     });
-    elements.forEach(function(element) {
+    elements.forEach(function (element) {
         element.click();
     });
 
@@ -68,24 +68,19 @@ listing.addEventListener('click', function() {
 
 function CallchangePDF(element) {
 
-    for(let i=0; i<drive.length; i++)
-        if(drive[i].Name==element.innerText)
+    for (let i = 0; i < drive.length; i++)
+        if (drive[i].Name == element.innerText)
             changePDF(drive[i].URL)
-    
-  }
 
-  document.addEventListener("click", function(event) {
-    try{
-        if (event.target.innerText.trim() !== "" && event.target instanceof HTMLSpanElement) 
-            CallchangePDF(event.target);}
-    catch(err){
+}
+
+document.addEventListener("click", function (event) {
+    try {
+        if (event.target.innerText.trim() !== "" && event.target instanceof HTMLSpanElement)
+            CallchangePDF(event.target);
+    }
+    catch (err) {
         console.log(err)
     }
-    
-  });
 
-  var crsr = document.querySelector("#cursor");
-document.addEventListener("mousemove", function (dets) {
-    crsr.style.left = dets.x + "px";
-    crsr.style.top = dets.y + "px";
-  });
+});

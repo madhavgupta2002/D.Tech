@@ -145,11 +145,6 @@ document.getElementById("addRollButton").addEventListener("click", async functio
 
 });
 
-var crsr = document.querySelector("#cursor");
-document.addEventListener("mousemove", function (dets) {
-    crsr.style.left = dets.x + "px";
-    crsr.style.top = dets.y + "px";
-});
 
 
 const printBtn = document.getElementById('print')
