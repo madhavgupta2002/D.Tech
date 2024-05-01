@@ -119,7 +119,7 @@ export default function DateSheet() {
               Report Bug
             </label>
             <div className="panel-content">
-              <h4> Contact : 8851737950 </h4>
+              {/* <h4> Contact : 8851737950 </h4> */}
               <h4>
                 {" "}
                 Mail :{" "}
