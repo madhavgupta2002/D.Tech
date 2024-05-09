@@ -60,10 +60,10 @@ export default function Home() {
             Credits
           </label>
           <div className="panele-content">
-            <h4><a href='https://www.linkedin.com/in/madhav-g-6bb64a11a/' target="_blank">Madhav Gupta (2K21/CO/262)</a></h4>
-            <h4><a target="_blank">Mrinal Deb (Contributor)</a></h4>
-            <h4><a target="_blank">Piyush Bhawsar (Contributor)</a></h4>
-            <h4><a target="_blank">Mohit Gupta (Contributor)</a></h4>
+            <h4><a href='https://www.linkedin.com/in/madhav-g-6bb64a11a/' target="_blank">Madhav Gupta (Developer)</a></h4>
+            <h4><a target="_blank">Piyush Bhawsar (Contributor: Bugs)</a></h4>
+            <h4><a target="_blank">Mrinal Deb (Contributor: UI)</a></h4>
+            <h4><a target="_blank">Mohit Gupta (Contributor: Bugs)</a></h4>
           </div>
         </div>
 
