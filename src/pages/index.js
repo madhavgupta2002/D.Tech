@@ -43,8 +43,8 @@ export default function Home() {
                 </button>
               </Link>
               <Link id="routeButton" href="/PYQSolutions">
-                <button id="PYaQButton">
-                  PYQ Solution
+                <button id="PYQButton">
+                  PYQ Solutions
                 </button>
               </Link>
             </div>
@@ -61,6 +61,9 @@ export default function Home() {
           </label>
           <div className="panele-content">
             <h4><a href='https://www.linkedin.com/in/madhav-g-6bb64a11a/' target="_blank">Madhav Gupta (2K21/CO/262)</a></h4>
+            <h4><a target="_blank">Mrinal Deb (Contributor)</a></h4>
+            <h4><a target="_blank">Piyush Bhawsar (Contributor)</a></h4>
+            <h4><a target="_blank">Mohit Gupta (Contributor)</a></h4>
           </div>
         </div>
 
