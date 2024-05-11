@@ -17,4 +17,6 @@ export const answers = {
     "CO325 Probability and Statistics (till 2023)": "https://drive.google.com/file/d/1wiHp_4hmmaAcasjy5bRkIerBPEKRuwmw/view?usp=sharing",
     "HU301 Engineering Economics (till 2023)": "https://drive.google.com/file/d/1iLg8Agnf07H87jrduvOYcblSK6BESgQB/view?usp=sharing",
     "HU307 Basic Econometrics (till 2022)": "https://drive.google.com/file/d/1V0BF9vg3tOmu5znr2WYekPJ3uPDAYmXm/view?usp=sharing"
+    "HU314 Rhetoric and Public Speaking (till 2024)": "https://drive.google.com/file/d/1rVkHYvtIZrsaqzWxYpHwTJHNsC0-QLST/view?usp=sharing", 
+    "MG301-302 Fundamentals of Management (till 2023)": "https://drive.google.com/file/d/1uEAAZBT6Y6dH0_sbzYEkPCN1qnqYBDuz/view?usp=sharing", 
 };
