@@ -20,6 +20,10 @@ export default function PYQSolutions() {
 
   return (
     <>
+          <Head>
+        <title>DTU PYQ Solutions</title>
+      </Head>
+
       <div id="main">
         <Header />
         <div className="container">
