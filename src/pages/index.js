@@ -12,6 +12,9 @@ export default function Home() {
   return (
     <>
       {/* <div id="cursor" /> */}
+      <Head>
+        <title>D.Tech</title>
+      </Head>
 
 
       <div id="main">
