@@ -34,7 +34,7 @@ export default function PYQSolutions() {
             const { code, subjectName, year } = parseKey(key);
 
             return (
-              <Link href={value} key={key}>
+              <Link href={value} key={key} target="_blank" rel="noopener noreferrer">
                 <button className="solution-button">
                   <div>{code}</div>
                   <div>{subjectName}</div>
