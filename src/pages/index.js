@@ -25,6 +25,17 @@ export default function Home() {
           <div id="mid_box" className="text">
             <h1>D.Tech</h1>
             <div id="links">
+              <Link id="routeButton" href="https://subject-registration-clone-dtu.vercel.app/" target="_blank">
+                <button id="CGPAButton">
+                  Subject Analysis
+                </button>
+              </Link>
+              <Link id="routeButton" href="https://drive.google.com/file/d/1oSqkmZ7rm2rhgYIwzL_0X5srzW0DxCz4/view?usp=drive_link" target="_blank">
+                <button id="CGPAButton">
+                  B.Tech Breakdown
+                </button>
+              </Link>
+
               <Link id="routeButton" href="/datesheet">
                 <button id="datesheetButton">
                   DateSheet Generator
@@ -33,11 +44,6 @@ export default function Home() {
               <Link id="routeButton" href="/result">
                 <button id="CGPAButton">
                   Result Analysis
-                </button>
-              </Link>
-              <Link id="routeButton" href="https://subject-registration-clone-dtu.vercel.app/">
-                <button id="CGPAButton">
-                  Registration Simulator
                 </button>
               </Link>
               <Link id="routeButton" href="/question-papers">
@@ -63,7 +69,7 @@ export default function Home() {
             Credits
           </label>
           <div className="panele-content">
-            <h4><a href='https://www.linkedin.com/in/madhav-g-6bb64a11a/' target="_blank">Madhav Gupta (Developer)</a></h4>
+            <h4><a href='https://www.linkedin.com/in/madhavgupta2002/' target="_blank">Madhav Gupta (Developer)</a></h4>
             <h4><a target="_blank">Piyush Bhawsar (Contributor: Bugs)</a></h4>
             <h4><a target="_blank">Mrinal Deb (Contributor: UI)</a></h4>
             <h4><a target="_blank">Mohit Gupta (Contributor: Bugs)</a></h4>

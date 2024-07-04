@@ -20,7 +20,7 @@ export default function PYQSolutions() {
 
   return (
     <>
-          <Head>
+      <Head>
         <title>DTU PYQ Solutions</title>
       </Head>
 
@@ -58,7 +58,7 @@ export default function PYQSolutions() {
           </label>
           <div className="panele-content">
             <h4>
-              <a href='https://www.linkedin.com/in/madhav-g-6bb64a11a/' target="_blank" rel="noopener noreferrer">
+              <a href='https://www.linkedin.com/in/madhavgupta2002/' target="_blank" rel="noopener noreferrer">
                 Madhav Gupta (2K21/CO/262)
               </a>
             </h4>
