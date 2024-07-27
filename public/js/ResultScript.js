@@ -29,31 +29,23 @@ function UpdateGraph(context) {
 }
 
 
-function calculateRank(studentData, branch) {
-    console.log(branch);
-    const studentCGPA = calculateCGPA(studentData);
-    console.log(studentCGPA);
-
+function calculateRank(cgpa, branch) {
+    console.log(branch)
+    console.log(cgpa)
     let countTotal = 0;
     let countBranch = 0;
-
     for (let i = 0; i < data.length; i++) {
-        const currentStudentCGPA = calculateCGPA(data[i]);
-        if (currentStudentCGPA > studentCGPA) {
+        // console.log(data[i]['roll'])
+        if (data[i]['cgpa'] > cgpa) {
             countTotal++;
-            if (data[i]['branch'] == branch) {
+            if (data[i]['branch'] == branch)
                 countBranch++;
-            }
         }
-        console.log(countBranch, countTotal);
+        console.log(countBranch, countTotal)
     }
-
     countBranch++;
     countTotal++;
-
-    console.log(countTotal)
-
-    return { countBranch, countTotal };
+    return { countBranch, countTotal }
 }
 function calculateProj(data) {
     var res = ((data.cgpa) * (86 + data.cr5 + data.cr6) + (10) * (172 - (86 + data.cr5 + data.cr6))) / 172
