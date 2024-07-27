@@ -5,7 +5,7 @@ myChart = new Chart(ctx, {
     type: 'line',
     backgroundColor: 'rgba(01, 10, 10, 0.1)',
     data: {
-        labels: ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4', 'Sem 5'],
+        labels: ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4', 'Sem 5', 'Sem 6'],
         datasets: [{
             label: 'GPA',
             data: [0, 0, 0, 0],
@@ -23,7 +23,7 @@ myChart = new Chart(ctx, {
 
 function UpdateGraph(context) {
 
-    myChart.data.datasets[0].data = [context.s1, context.s2, context.s3, context.s4, context.s5];
+    myChart.data.datasets[0].data = [context.s1, context.s2, context.s3, context.s4, context.s5, context.s6];
     myChart.update();
 
 }
@@ -48,12 +48,32 @@ function calculateRank(cgpa, branch) {
     return { countBranch, countTotal }
 }
 function calculateProj(data) {
-    var res = ((data.cgpa) * (86 + data.cr5) + (10) * (172 - (86 + data.cr5))) / 172
+    var res = ((data.cgpa) * (86 + data.cr5 + data.cr6) + (10) * (172 - (86 + data.cr5 + data.cr6))) / 172
     res = Math.round(res * 100000000) / 100000000;
 
     return res;
 }
 
+function calculateCGPA(data) {
+    // Calculate the sum of (GPA * credits) for all semesters
+    const weightedSum =
+        data.s1 * data.cr1 +
+        data.s2 * data.cr2 +
+        data.s3 * data.cr3 +
+        data.s4 * data.cr4 +
+        data.s5 * data.cr5 +
+        data.s6 * data.cr6;
+
+    // Calculate the total credits
+    const totalCredits =
+        data.cr1 + data.cr2 + data.cr3 + data.cr4 + data.cr5 + data.cr6;
+
+    // Calculate CGPA
+    const cgpa = weightedSum / totalCredits;
+
+    // Round to 2 decimal places
+    return Math.round(cgpa * 100000000) / 100000000;
+}
 
 
 function display(data) {
@@ -64,12 +84,14 @@ function display(data) {
     document.getElementById('sem3GPA').textContent = data.s3;
     document.getElementById('sem4GPA').textContent = data.s4;
     document.getElementById('sem5GPA').textContent = data.s5;
+    document.getElementById('sem6GPA').textContent = data.s6;
 
 
     var rank = calculateRank(data.cgpa, data.branch);
     document.getElementById('rank1').textContent = rank['countBranch'];
     document.getElementById('rank2').textContent = rank['countTotal'];
-    document.getElementById('gpa').textContent = data.cgpa;
+    var aggCGPA = calculateCGPA(data);
+    document.getElementById('gpa').textContent = aggCGPA;
 
 
     var projGPA = calculateProj(data);

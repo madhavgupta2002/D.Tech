@@ -26,13 +26,13 @@ export default function DateSheet() {
 
   return (
     <>
-          <Head>
+      <Head>
         <title>D.Tech CGPA</title>
         <meta
           name="D.Tech CGPA Analysis"
           content="View and Compare your DTU CGPA with other students."
         />
-    </Head>
+      </Head>
 
       {/* <div id="cursor" /> */}
       <div id="main">
@@ -96,6 +96,11 @@ export default function DateSheet() {
                 <p className="label">Sem 5 GPA:</p>
                 <p id="sem5GPA" className="dynamic-content"></p>
               </div>
+
+              <div id="sem6GPADiv" className="data-div">
+                <p className="label">Sem 6 GPA:</p>
+                <p id="sem6GPA" className="dynamic-content"></p>
+              </div>
             </div>
 
             <div className="row">
@@ -152,6 +157,6 @@ export default function DateSheet() {
     </>
   );
 }
-          {/* <div class="advert">
+{/* <div class="advert">
           <Link href={"https://wrapyshop.in/"}><img src="./assets/img/ad-banner.jpg" href="https://wrapyshop.in/" alt="Your Image" className="image" /></Link>
         </div>  */}
