@@ -35,6 +35,11 @@ export default function Home() {
                   B.Tech Breakdown
                 </button>
               </Link>
+              <Link id="routeButton" href="https://dtu-timetable.vercel.app/" target="_blank">
+                <button id="CGPAButton">
+                  Time Table Generator
+                </button>
+              </Link>
 
               <Link id="routeButton" href="/datesheet">
                 <button id="datesheetButton">
