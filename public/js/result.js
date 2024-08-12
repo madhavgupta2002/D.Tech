@@ -1,4 +1,4 @@
-[
+var data =[
   {
     "Rank": 1,
     "roll": "2K21/EE/175",
