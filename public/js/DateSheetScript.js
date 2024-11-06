@@ -63,39 +63,55 @@ document.getElementById("addRowButton").addEventListener("click", function () {
 
 function byRoll(code) {
     var morning = [
-        "AM101", "MA101", "EE409", "EC455", "PE261", "MC251", "EC251", "PE251", "EC261", "EE251", "MC261", "CE251", "ME251",
-        "EC261", "CS251", "PE251", "ME261", "EC271a", "AP101", "CO427", "BT413", "CO415", "AE201", "CH201", "EC201", "EN201",
-        "EP201", "MC201", "ME201", "PE201", "SE201", "IT321", "CE101", "EC101", "EE105", "BT203", "HU309", "AE203", "CE203",
-        "CH203", "EC203", "EE203", "EN203", "EP203", "IT203", "MC203", "ME203", "PE203", "SE203", "CO207", "EE101", "AC101",
-        "ME107", "ME101", "ME105", "CO203", "EE201", "EP301", "PE301", "AE207", "BT207", "CE207", "CH207", "EC207", "EE207",
-        "EN207", "EP207", "IT207", "MC207", "ME207", "PE207", "CO313", "CO101",
-        "MC205", "EN301", "CO201", "IT201", "IT303", "ME101", "CE201", "BT201", "CH201", "AE205", "BT205", "CE205", "CH205", "CO205",
-        "EC205", "EE205", "EN205", "EP205", "IT205", "PE205", "SE205a", "CH303", "MBAMK211"
+        'AE201n', 'BT201n', 'CH201n', 'CE201n', 'CS201n', 'EC201n', 'EN201n', 'EN201', 'EP201n', 'EP201',
+        'IT201n', 'MC201n', 'CS251', 'ME201n', 'PE201n', 'SE201n', 'EE201n', 'CO201n', 'CO201', 'AE201',
+        'BT201', 'CE201', 'EC271a', 'IT203', 'ME261', 'AM101', 'MA101', 'AM-101', 'AE203n', 'AE203',
+        'BT203n', 'BT203', 'CE203n', 'CS203n', 'CO203', 'EC203n', 'EE203n', 'EN203n', 'EN203', 'EP203n',
+        'IT203n', 'IT201', 'SE203n', 'SE203', 'MC203n', 'MC203', 'ME203n', 'ME203', 'PE203n', 'PE203',
+        'AP101a', 'AP101', 'CH303', 'AE205n', 'BT205n', 'BT205', 'CH205n', 'CE205n', 'CE205', 'ME205n',
+        'CS205n', 'EN205n', 'EN205', 'EE205n', 'EE205', 'EC205n', 'EC205', 'EP205n', 'IT205n', 'MC205n',
+        'MC205', 'PE205n', 'SE205n', 'PE205', 'EP205', 'CE101', 'EC101', 'EE105', 'AE207n', 'BT207n',
+        'BT207', 'CE207n', 'CH207n', 'CH207', 'CS207n', 'EC207n', 'EC201', 'EE207n', 'EN207n', 'EP207n',
+        'IT207n', 'MC207n', 'ME207n', 'PE207n', 'SE207n', 'SE205a', 'CO207', 'IT207', 'PE251', 'PE201',
+        'CE207', 'ME207', 'CE251', 'EE207a', 'EN207', 'EP207', 'MC207', 'EE101', 'AC101a', 'AC101', 'ME107a',
+        'ME107', 'ME101a', 'ME101', 'ME105a', 'ME105', 'ME101', 'ME105', 'AC101', 'EE101', 'AE209n', 'BT209n',
+        'CH209n', 'CH201', 'CE209n', 'CS209n', 'EN209n', 'EE209n', 'EE201', 'EC209n', 'EP209n', 'IT209n', 'ME209n',
+        'ME201', 'MC209n', 'PE209n', 'PE261', 'SE209n', 'MC251', 'MA261', 'EE251', 'EE261', 'EC251', 'EC207', 'SE207a',
+        'PE207', 'MC201', 'CO101', 'EE203', 'CH203n', 'CH203', 'AE203'
+
     ]
     var morningFEC = [
-        "AEC2", "FEC15", "AEC3", "FEC14", "AEC5", "FEC10", "VAC5", "FEC28",
-        "VAC9", "FEC48", "VAC19", "FEC58", "VAC22", "FEC25", "VAC25", "FEC47", "VAC27", "FEC7", "FEC18", "FEC45", "FEC49", "FEC53",
-        "AEC1", "FEC16", "AEC4", "FEC12", "AEC11", "FEC11", "AEC13", "FEC32", "AEC18", "FEC9", "AEC19", "FEC46", "VAC3", "FEC6", "VAC13",
-        "FEC54", "VAC16", "FEC27", "AEC10", "FEC40", "AEC12", "FEC39", "VAC11", "FEC57", "VAC24", "FEC56", "FEC50"
+        'AEC1', 'FEC16', 'AEC2', 'FEC15', 'AEC3', 'FEC14', 'AEC4', 'FEC12', 'AEC5', 'FEC10',
+        'AEC6', 'FEC53', 'AEC10', 'FEC40', 'AEC11', 'FEC11', 'AEC12', 'FEC39', 'AEC13', 'FEC32',
+        'AEC18', 'FEC9', 'AEC19', 'FEC46', 'AEC20', 'FEC49', 'AEC21', 'FEC50', 'AEC25', 'FEC51',
+        'EN301', 'VAC3', 'FEC6', 'VAC5', 'FEC28', 'VAC9', 'FEC48', 'VAC11', 'FEC57', 'VAC13',
+        'FEC54', 'VAC16', 'FEC27', 'VAC19', 'FEC58', 'VAC22', 'FEC25', 'VAC24', 'FEC56', 'VAC25',
+        'FEC47', 'VAC27', 'FEC7', 'VAC28'
+
     ]
     var evening = [
-        "AM101", "MA101", "EE409", "EC455", "AE301", "EC301", "EE301", "IT301", "MC301", "SE301a", "BT301", "ME301",
-        "AE413", "BT421", "CE407", "CE429", "CH417", "CH429", "CO411", "CO429", "EN411", "EP405", "EP427a", "MBAMK215",
-        "MC419", "ME411", "ME413", "ME419", "PE411", "SE409", "HU409", "IT411", "AE303", "BT303", "EC303", "EE303",
-        "EN303", "EP303", "ME303", "PE303", "SE303a", "BT405", "CE413", "CE427", "CO431", "EC407", "EN421", "EP411",
-        "HU403", "MC407", "ME423", "ME429", "PE423", "SE425", "CO423", "CO433", "HU301", "HU301a", "MG301", "IT405",
-        "CE423", "CE435", "EC409", "MBA107", "MC405", "ME407", "ME409", "ME435", "SE429", "CO425", "HU315", "IT425",
-        "AE407", "BT319", "CE307", "CO305", "EC307", "EC313", "EE317", "EE319", "EP317", "IT315", "ME351a", "PE351",
-        "SE313", "SE323", "IT323", "MC305", "CO303", "CE301", "AE307", "CH407", "IT319", "IT429", "IT433", "MBAMK213",
-        "ME371", "PE353", "AE321", "BT325", "CE315", "CE317", "CH321", "EC315", "EE321", "EN317", "EP305", "HU307",
-        "HU313", "MBASC221", "MC315", "ME367", "PE315", "SE327", "CO327", "BT323", "CE313", "CE319", "CH307", "EC311",
-        "EC325", "EE325", "EN307", "EP309", "HU305", "ME353", "PE361", "SE305", "MBEALS2", "AE311", "BT317", "CE309",
-        "CH323", "CO325", "EC323", "EE305", "EE309", "EE323", "EN305", "EP307", "IT431", "MBASC211", "ME361", "PE305",
-        "SE325", "CE303", "MC303", "SE207a", "CE305", "CO301", "AE411", "BBA303", "BT407", "CE415", "CE431", "CH405",
-        "EN409", "EP423", "HU413", "MC409", "ME431", "PE417", "PE419", "SE427", "IT407", "AE317", "BT305", "CE321",
-        "CE327", "CH315", "EC305", "EC309", "EE307", "EE313a", "EE357", "EN311", "EP321", "IT307", "MC307", "ME365",
-        "PE357", "IT317"
+        'AE317', 'BT323', 'CE313', 'CH307', 'CO411', 'EC311', 'EC319', 'EE429', 'EN317', 'EP321',
+        'EP307', 'HU425', 'IT407', 'ME355a', 'MC319', 'SE327', 'SE323', 'MBASC213', 'BT325', 'CE317',
+        'CE305', 'CH405', 'CO305', 'EC323', 'EE305', 'EE409', 'EE315', 'EE313', 'EN311', 'EP309',
+        'EV351', 'HU327', 'HU407', 'ME353a', 'MBA-105', 'MBAMK221', 'PE353', 'AE321', 'BT305', 'CE309',
+        'CH315', 'CE315', 'EC325', 'EE321', 'EE427', 'EE323', 'EE425', 'EE407', 'EE327', 'EP317',
+        'EN305', 'EP305', 'EV301', 'HU305', 'HU325', 'HU403', 'HU413', 'IT427', 'MC305', 'ME367a',
+        'ME351a', 'MBAMK213', 'PE305', 'SE305', 'CO327', 'IT323', 'CE303', 'EP301', 'CO325', 'CE307',
+        'CE319', 'CO205', 'CO325', 'EC305', 'EC309', 'EE317', 'HU307', 'IT429', 'MBASC211', 'ME361a',
+        'ME365a', 'PE351', 'SE325', 'SE409', 'CO303', 'IT303', 'CH319', 'CH305', 'EC307', 'EC313',
+        'EE307', 'EP205', 'HU309', 'HU317', 'MBA107', 'MC307', 'PE361', 'SE209a', 'CO313', 'IT321',
+        'EV355', 'IT433', 'IT307', 'IT351a', 'IT409', 'IT417', 'BT407', 'PE411', 'CE431', 'EN421',
+        'CH429', 'MC405', 'PE417', 'EC457', 'ME435', 'EP423', 'CE415', 'AE411', 'AE303', 'BT303',
+        'CO303', 'EC303', 'EE303', 'EN303', 'EP303', 'ME303', 'MC303', 'PE303', 'SE303a', 'CO423',
+        'HU301', 'HU301a', 'MG301', 'AE407', 'BT411', 'CE435', 'CH409', 'CO431', 'EC455', 'EN407',
+        'EP415', 'MC407', 'ME409', 'ME431', 'PE405', 'CO433', 'IT425', 'BT413', 'CE413', 'CH417',
+        'EC409', 'EE357a', 'EN409', 'MC409', 'ME413', 'ME407', 'ME419', 'SE425', 'AE301', 'BT301',
+        'CO415', 'CO427', 'AE413', 'BT421', 'CE423', 'CO429', 'EC407', 'EE325', 'EP427', 'EN411',
+        'MC419', 'ME423', 'ME411', 'ME427', 'PE419', 'SE427', 'CE301', 'CH301', 'EC301', 'EE301',
+        'IT301', 'MC301', 'ME301', 'PE301', 'SE301a', 'CO425', 'IT411', 'CO301'
+
     ]
+
 
     const table = document.querySelector("table");
     const newRow = table.insertRow(table.rows.length);
