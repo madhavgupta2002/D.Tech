@@ -282,6 +282,7 @@ const myList = {
     "AEC13": "Logical Reasoning",
     "FEC32": "Logical Reasoning",
     "MBASC211": "Supply Chain Planning and Execution",
+    "MBASC221": "Supply Chain Planning and Execution",
     "AEC18": "Spoken Skills in English",
     "FEC9": "Spoken Skills in English",
     "ME361a": "Industrial Engineering",
