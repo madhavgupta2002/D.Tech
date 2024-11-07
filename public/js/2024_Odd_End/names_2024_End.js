@@ -95,6 +95,7 @@ const myList = {
     "AE303": "Fluid Mechanics and Hydraulic Machines",
     "BT303": "Genetic Engineering",
     "CO303": "Theory Of Computation",
+    "CO303E": "Theory Of Computation",
     "EC303": "Linear Integrated Circuits",
     "EE303": "Power Transmission and Distribution",
     "EN303": "Instrumentation Techniques for Environmental Monitoring",
