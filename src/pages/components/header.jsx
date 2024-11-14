@@ -19,12 +19,17 @@ const Header = () => {
           <Link href="https://subject-registration-clone-dtu.vercel.app/" target="_blank">
             <button className="header-item">Subject Analysis</button>
           </Link>
-
           <Link href="/question-papers">
             <button className="header-item">Question Papers</button>
           </Link>
-          <Link href="/PYQSolutions">
+          <Link href="https://dtu-pyq.vercel.app/">
             <button className="header-item">PYQ Solutions</button>
+          </Link>
+          <Link href="https://dtu-tnp.vercel.app/" target="_blank">
+            <button className="header-item">Placement Stats</button>
+          </Link>
+          <Link href="https://swayam-quiz.vercel.app/" target="_blank">
+            <button className="header-item">MOOC Practice</button>
           </Link>
         </div>
       </div>

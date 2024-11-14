@@ -25,42 +25,61 @@ export default function Home() {
           <div id="mid_box" className="text">
             <h1>D.Tech</h1>
             <div id="links">
-              <Link id="routeButton" href="https://subject-registration-clone-dtu.vercel.app/" target="_blank">
-                <button id="CGPAButton">
-                  Subject Analysis
-                </button>
-              </Link>
-              <Link id="routeButton" href="https://drive.google.com/file/d/1oSqkmZ7rm2rhgYIwzL_0X5srzW0DxCz4/view?usp=drive_link" target="_blank">
-                <button id="CGPAButton">
-                  B.Tech Breakdown
-                </button>
-              </Link>
-              <Link id="routeButton" href="https://dtu-timetable.vercel.app/" target="_blank">
-                <button id="CGPAButton">
-                  Time Table Generator
-                </button>
-              </Link>
-
-              <Link id="routeButton" href="/datesheet">
-                <button id="datesheetButton">
-                  DateSheet Generator
-                </button>
-              </Link>
-              <Link id="routeButton" href="/result">
-                <button id="CGPAButton">
-                  Result Analysis
-                </button>
-              </Link>
-              <Link id="routeButton" href="/question-papers">
-                <button id="PYQButton">
-                  Question Papers
-                </button>
-              </Link>
-              <Link id="routeButton" href="/PYQSolutions">
-                <button id="PYQButton">
-                  PYQ Solutions
-                </button>
-              </Link>
+              <div className="button-row">
+                <Link id="routeButton" href="https://subject-registration-clone-dtu.vercel.app/" target="_blank">
+                  <button id="CGPAButton">
+                    Subject Analysis
+                  </button>
+                </Link>
+                <Link id="routeButton" href="https://drive.google.com/file/d/1oSqkmZ7rm2rhgYIwzL_0X5srzW0DxCz4/view?usp=drive_link" target="_blank">
+                  <button id="CGPAButton">
+                    B.Tech Breakdown
+                  </button>
+                </Link>
+              </div>
+              <div className="button-row">
+                <Link id="routeButton" href="https://dtu-timetable.vercel.app/" target="_blank">
+                  <button id="CGPAButton">
+                    Time Table Generator
+                  </button>
+                </Link>
+                <Link id="routeButton" href="https://dtu-tnp.vercel.app/" target="_blank">
+                  <button id="CGPAButton">
+                    Placement Stats
+                  </button>
+                </Link>
+              </div>
+              <div className="button-row">
+                <Link id="routeButton" href="/datesheet">
+                  <button id="datesheetButton">
+                    DateSheet Generator
+                  </button>
+                </Link>
+                <Link id="routeButton" href="/result">
+                  <button id="CGPAButton">
+                    Result Analysis
+                  </button>
+                </Link>
+              </div>
+              <div className="button-row">
+                <Link id="routeButton" href="/question-papers">
+                  <button id="PYQButton">
+                    Question Papers
+                  </button>
+                </Link>
+                <Link id="routeButton" href="https://dtu-pyq.vercel.app/" target="_blank">
+                  <button id="PYQButton">
+                    PYQ Solutions
+                  </button>
+                </Link>
+              </div>
+              <div className="button-row">
+                <Link id="routeButton" href="https://swayam-quiz.vercel.app/" target="_blank">
+                  <button id="CGPAButton">
+                    MOOC Practice
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
           <div id="box2" className="c1" />
