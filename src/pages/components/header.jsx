@@ -19,7 +19,7 @@ const Header = () => {
           <Link href="https://subject-registration-clone-dtu.vercel.app/" target="_blank">
             <button className="header-item">Subject Analysis</button>
           </Link>
-          <Link href="/question-papers">
+          <Link href="https://drive.google.com/drive/folders/1ZbgeICr1FUBcmoyUyyULFhASHk3KEhPH?usp=drive_link" target="_blank">
             <button className="header-item">Question Papers</button>
           </Link>
           <Link href="https://dtu-pyq.vercel.app/">
