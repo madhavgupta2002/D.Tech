@@ -62,7 +62,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="button-row">
-                <Link id="routeButton" href="/question-papers" href="https://drive.google.com/drive/folders/1ZbgeICr1FUBcmoyUyyULFhASHk3KEhPH?usp=drive_link" target="_blank">
+                <Link id="routeButton" href="https://drive.google.com/drive/folders/1ZbgeICr1FUBcmoyUyyULFhASHk3KEhPH?usp=drive_link" target="_blank">
 
                   <button id="PYQButton">
                     Question Papers
