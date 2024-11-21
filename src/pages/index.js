@@ -63,7 +63,6 @@ export default function Home() {
               </div>
               <div className="button-row">
                 <Link id="routeButton" href="https://drive.google.com/drive/folders/1ZbgeICr1FUBcmoyUyyULFhASHk3KEhPH?usp=drive_link" target="_blank">
-
                   <button id="PYQButton">
                     Question Papers
                   </button>
@@ -81,6 +80,14 @@ export default function Home() {
                   </button>
                 </Link>
               </div>
+              <div className="button-row">
+                <Link id="routeButton" href="https://drive.google.com/file/d/1w5b1Pa4UN9y1WbsbFsKpHny0ouu_jO8F/view?usp=drive_link" target="_blank">
+                  <button id="CGPAButton">
+                    Internship Training Diary
+                  </button>
+                </Link>
+              </div>
+
             </div>
           </div>
           <div id="box2" className="c1" />
