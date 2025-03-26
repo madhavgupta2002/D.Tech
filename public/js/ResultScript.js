@@ -5,10 +5,10 @@ myChart = new Chart(ctx, {
     type: 'line',
     backgroundColor: 'rgba(01, 10, 10, 0.1)',
     data: {
-        labels: ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4', 'Sem 5', 'Sem 6'],
+        labels: ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4', 'Sem 5', 'Sem 6', 'Sem 7'],
         datasets: [{
             label: 'GPA',
-            data: [0, 0, 0, 0],
+            data: [0, 0, 0, 0, 0, 0, 0],
             borderWidth: 5
         }]
     },
@@ -23,7 +23,7 @@ myChart = new Chart(ctx, {
 
 function UpdateGraph(context) {
 
-    myChart.data.datasets[0].data = [context.s1, context.s2, context.s3, context.s4, context.s5, context.s6];
+    myChart.data.datasets[0].data = [context.s1, context.s2, context.s3, context.s4, context.s5, context.s6, context.s7];
     myChart.update();
 
 }
@@ -48,7 +48,7 @@ function calculateRank(cgpa, branch) {
     return { countBranch, countTotal }
 }
 function calculateProj(data) {
-    var res = ((data.cgpa) * (86 + data.cr5 + data.cr6) + (10) * (172 - (86 + data.cr5 + data.cr6))) / 172
+    var res = ((data.cgpa) * (86 + data.cr5 + data.cr6 + data.cr7) + (10) * (172 - (86 + data.cr5 + data.cr6 + data.cr7))) / 172
     res = Math.round(res * 100000000) / 100000000;
 
     return res;
@@ -62,11 +62,12 @@ function calculateCGPA(data) {
         data.s3 * data.cr3 +
         data.s4 * data.cr4 +
         data.s5 * data.cr5 +
-        data.s6 * data.cr6;
+        data.s6 * data.cr6 +
+        data.s7 * data.cr7;
 
     // Calculate the total credits
     const totalCredits =
-        data.cr1 + data.cr2 + data.cr3 + data.cr4 + data.cr5 + data.cr6;
+        data.cr1 + data.cr2 + data.cr3 + data.cr4 + data.cr5 + data.cr6 + data.cr7;
 
     // Calculate CGPA
     const cgpa = weightedSum / totalCredits;
@@ -85,6 +86,7 @@ function display(data) {
     document.getElementById('sem4GPA').textContent = data.s4;
     document.getElementById('sem5GPA').textContent = data.s5;
     document.getElementById('sem6GPA').textContent = data.s6;
+    document.getElementById('sem7GPA').textContent = data.s7;
 
 
     var rank = calculateRank(data.cgpa, data.branch);
@@ -123,4 +125,3 @@ function onClickHandler() {
 }
 
 temp.onclick = onClickHandler;
-
