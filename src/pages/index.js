@@ -5,10 +5,25 @@ import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
 import Header from './components/header'
+import { useState, useEffect } from 'react';
 // const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Home() {
+  const [showRedirectBar, setShowRedirectBar] = useState(true);
+  const [countdown, setCountdown] = useState(5); // Changed from 10 to 5
+  const router = useRouter();
+
+  useEffect(() => {
+    if (!showRedirectBar) return;
+    if (countdown === 0) {
+      window.location.href = 'https://d-tech-red.vercel.app/';
+      return;
+    }
+    const timer = setTimeout(() => setCountdown((c) => c - 1), 1000);
+    return () => clearTimeout(timer);
+  }, [countdown, showRedirectBar]);
+
   return (
     <>
       <Head>
@@ -17,6 +32,37 @@ export default function Home() {
 
       <div id="main" className="w-full border-4 border-white rounded-2xl overflow-hidden bg-gradient-to-br from-[#4FA4FF] via-[#4FA4FF]/70 to-white">
         <Header />
+
+        {/* Redirect Bar */}
+        {showRedirectBar && (
+          <div
+            className="flex items-center justify-center px-4 py-4 mb-6 rounded-2xl cursor-pointer mx-4 mt-6 bg-red-500"
+            onClick={(e) => {
+              // Prevent click on close button from triggering redirect
+              if (e.target.getAttribute('aria-label') === 'Close redirect bar') return;
+              window.location.href = 'https://d-tech-red.vercel.app/';
+            }}
+          >
+            <div className="flex flex-col items-center w-full">
+              <div className="text-white text-2xl font-bold text-center">
+                This Website is no longer maintained.
+              </div>
+              <div className="text-white text-lg text-center mt-1">
+                Redirecting to DTech Red in {countdown} second{countdown !== 1 ? 's' : ''}
+              </div>
+            </div>
+            <button
+              aria-label="Close redirect bar"
+              className="ml-4 text-white text-2xl font-bold hover:text-gray-200 focus:outline-none cursor-pointer rounded-full self-start"
+              onClick={(e) => {
+                e.stopPropagation();
+                setShowRedirectBar(false);
+              }}
+            >
+              ×
+            </button>
+          </div>
+        )}
 
         <div className="relative w-full m-0 p-0 bg-gradient-to-b from-[#4FA4FF] via-[#4FA4FF]/50 to-white">
           {/* <div id="box" className="w-full h-[30vh] bg-blue-600"></div> */}
