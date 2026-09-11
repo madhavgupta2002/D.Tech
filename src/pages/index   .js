@@ -56,7 +56,7 @@ export default function Home() {
                 </button>
               </Link>
 
-              <Link href="https://drive.google.com/drive/folders/1ZbgeICr1FUBcmoyUyyULFhASHk3KEhPH?usp=drive_link" target="_blank">
+              <Link href="https://drive.google.com/drive/folders/1qPI0QfHpfyK3UhsDhbsChGBLATmc7N1e?usp=drive_link" target="_blank">
                 <button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded">
                   Question Papers
                 </button>
