@@ -16,13 +16,13 @@ const Header = () => {
           <Link href="/result">
             <button className="header-item">Result</button>
           </Link>
-          <Link href="https://subject-registration-clone-dtu.vercel.app/" target="_blank">
+          <a href="/subject-analysis/index.html">
             <button className="header-item">Subject Analysis</button>
-          </Link>
+          </a>
           <Link href="https://drive.google.com/drive/folders/1qPI0QfHpfyK3UhsDhbsChGBLATmc7N1e?usp=drive_link" target="_blank">
             <button className="header-item">Question Papers</button>
           </Link>
-          <Link href="https://dtu-pyq.vercel.app/">
+          <Link href="/pyq">
             <button className="header-item">PYQ Solutions</button>
           </Link>
           <Link href="https://dtu-tnp.vercel.app/" target="_blank">

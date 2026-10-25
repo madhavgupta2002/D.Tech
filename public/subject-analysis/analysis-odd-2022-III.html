@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTU Subject Analysis 2020-24 (V-VII)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto 30px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .primary-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .nav-section {
+            margin-bottom: 20px;
+        }
+
+        .nav-section h3 {
+            color: #34495e;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+
+        .nav-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .nav-group a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: 500;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: #f8f9fa;
+            transition: all 0.3s ease;
+        }
+
+        .nav-group a:hover {
+            background-color: #3498db;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .nav-group a.active {
+            background-color: #3498db;
+            color: white;
+        }
+
+        #searchInput {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        th:hover {
+            background-color: #2980b9;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f8f8;
+        }
+
+        tr:hover {
+            background-color: #e8f4f8;
+        }
+
+        .sort-icon::after {
+            content: '\25B2';
+            margin-left: 5px;
+            font-size: 0.8em;
+        }
+
+        .sort-icon.desc::after {
+            content: '\25BC';
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #7f8c8d;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script src="analysis-odd-2022-III.js"></script>
+    <script src="codetoname-odd.js"></script>
+</head>
+<body>
+    <h1>DTU Subject Analysis 2022 (3rd Semester)</h1>
+    
+    <div class="nav-container">
+        <div class="primary-nav">
+            <a href="/">Return to DTech</a>
+            <a href="./index.html">Home</a>
+        </div>
+
+        <div class="nav-section">
+            <h3>Simulators</h3>
+            <div class="nav-group">
+                <a href="./simulator-even.html">3rd Year (2024 Even Sem)</a>
+                <a href="./simulator-odd.html">4th Year (2024 Odd Sem)</a>
+            </div>
+        </div>
+
+        <div class="nav-section">
+            <h3>Analysis</h3>
+            <div class="nav-group">
+                <a href="./analysis-2024-even.html">2024 Even Sem</a>
+                <a href="./analysis-odd-2023.html">2023 Odd Sem</a>
+                <a href="./analysis-odd-2023-VII.html">2023 7th Sem</a>
+                <a href="./analysis-odd-2022-III.html" class="active">2022 3rd Sem</a>
+                <a href="./analysis-odd.html">General Odd Sem</a>
+                <a href="./analysis-even.html">General Even Sem</a>
+            </div>
+        </div>
+    </div>
+
+    <input type="text" id="searchInput" oninput="filterTable()" placeholder="Search by code or name">
+
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th data-sort="sub-code">Code</th>
+                <th data-sort="name">Name</th>
+                <th data-sort="Students">Students</th>
+                <th data-sort="average">Average</th>
+                <th data-sort="O%">O%</th>
+                <th data-sort="A+%">A+%</th>
+                <th data-sort="A%">A%</th>
+                <th data-sort="B+%">B+%</th>
+                <th data-sort="B%">B%</th>
+                <th data-sort="C%">C%</th>
+                <th data-sort="P%">P%</th>
+                <th data-sort="F%">F%</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table data will be inserted here dynamically -->
+        </tbody>
+    </table>
+
+    <footer>
+        <p>Made By: <a href="https://www.linkedin.com/in/madhavgupta2002/" target="_blank">Madhav Gupta</a></p>
+    </footer>
+
+    <script>
+        var dataTable = document.getElementById("dataTable");
+        var searchInput = document.getElementById("searchInput");
+        var currentSort = { column: 'average', direction: 'desc' };
+
+        function updateTable(filteredData) {
+            sortData(filteredData, currentSort.column, currentSort.direction);
+
+            var tbody = dataTable.getElementsByTagName("tbody")[0];
+            tbody.innerHTML = "";
+
+            filteredData.forEach(data => {
+                var code = data["sub-code"];
+                var name = codetoname[code] || "N/A";
+
+                var row = tbody.insertRow();
+                row.insertCell(0).innerHTML = code;
+                row.insertCell(1).innerHTML = name;
+                row.insertCell(2).innerHTML = data["Students"];
+                row.insertCell(3).innerHTML = data["average"];
+                row.insertCell(4).innerHTML =  Math.round((data["O%"]/data["Students"]) * 10000) / 100;
+                row.insertCell(5).innerHTML =  Math.round((data["A+%"]/data["Students"]) * 10000) / 100;
+                row.insertCell(6).innerHTML =  Math.round((data["A%"]/data["Students"]) * 10000) / 100;
+                row.insertCell(7).innerHTML =  Math.round((data["B+%"]/data["Students"]) * 10000) / 100;
+                row.insertCell(8).innerHTML =  Math.round((data["B%"]/data["Students"]) * 10000) / 100;
+                row.insertCell(9).innerHTML =  Math.round((data["C%"]/data["Students"]) * 10000) / 100;
+                row.insertCell(10).innerHTML = Math.round((data["P%"]/data["Students"]) * 10000) / 100;
+                row.insertCell(11).innerHTML = Math.round((data["F%"]/data["Students"]) * 10000) / 100;
+            });
+
+            updateSortIcons();
+        }
+
+        function filterTable() {
+            var searchTerm = searchInput.value.toLowerCase();
+            var filteredData = cgpadata.filter(data => {
+                var code = data["sub-code"].toLowerCase();
+                var name = (codetoname[data["sub-code"]] || "").toLowerCase();
+                return code.includes(searchTerm) || name.includes(searchTerm);
+            });
+            updateTable(filteredData);
+        }
+
+        function sortData(data, column, direction) {
+            return data.sort((a, b) => {
+                let valueA = column === 'name' ? (codetoname[a["sub-code"]] || "").toLowerCase() : a[column];
+                let valueB = column === 'name' ? (codetoname[b["sub-code"]] || "").toLowerCase() : b[column];
+
+                if (column !== 'sub-code' && column !== 'name') {
+                    valueA = parseFloat(valueA);
+                    valueB = parseFloat(valueB);
+                }
+
+                if (valueA < valueB) return direction === 'asc' ? -1 : 1;
+                if (valueA > valueB) return direction === 'asc' ? 1 : -1;
+                return 0;
+            });
+        }
+
+        function updateSortIcons() {
+            var headers = dataTable.getElementsByTagName('th');
+            for (var i = 0; i < headers.length; i++) {
+                headers[i].classList.remove('sort-icon', 'desc');
+                if (headers[i].dataset.sort === currentSort.column) {
+                    headers[i].classList.add('sort-icon');
+                    if (currentSort.direction === 'desc') {
+                        headers[i].classList.add('desc');
+                    }
+                }
+            }
+        }
+
+        dataTable.addEventListener('click', function(e) {
+            var th = e.target.closest('th');
+            if (!th) return;
+
+            var column = th.dataset.sort;
+            var direction = currentSort.column === column && currentSort.direction === 'asc' ? 'desc' : 'asc';
+
+            currentSort = { column, direction };
+            updateTable(cgpadata);
+        });
+
+        updateTable(cgpadata);
+    </script>
+</body>
+</html>

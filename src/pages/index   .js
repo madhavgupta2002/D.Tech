@@ -23,18 +23,18 @@ export default function Home() {
           <div className="bg-black bg-opacity-70 p-8 text-center rounded-lg shadow-lg max-w-3xl mx-auto">
             <h1 className="text-4xl mb-4 text-white">D.Tech</h1>
             <div id="links" className="flex flex-col gap-4">
-              <Link href="https://subject-registration-clone-dtu.vercel.app/" target="_blank">
+              <a href="/subject-analysis/index.html">
                 <button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded">
                   Subject Analysis
                 </button>
-              </Link>
+              </a>
               <Link href="https://drive.google.com/file/d/1oSqkmZ7rm2rhgYIwzL_0X5srzW0DxCz4/view?usp=drive_link" target="_blank">
                 <button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded">
                   B.Tech Breakdown
                 </button>
               </Link>
 
-              <Link href="https://dtu-timetable.vercel.app/" target="_blank">
+              <Link href="/timetable">
                 <button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded">
                   Time Table Generator
                 </button>
@@ -61,7 +61,7 @@ export default function Home() {
                   Question Papers
                 </button>
               </Link>
-              <Link href="https://dtu-pyq.vercel.app/" target="_blank">
+              <Link href="/pyq">
                 <button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded">
                   PYQ Solutions
                 </button>
