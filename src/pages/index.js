@@ -1,127 +1,89 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-// import styles from '@/styles/Home.module.css' // Removed since we're using Tailwind
 import Link from 'next/link'
-import Header from './components/header'
-// const inter = Inter({ subsets: ['latin'] })
+import {
+  BarChart3, BookOpen, BriefcaseBusiness, CalendarDays, CalendarClock, FileText,
+  GraduationCap, NotebookPen, PieChart, ScrollText, ArrowUpRight,
+} from 'lucide-react'
 
+// kind: 'internal' -> next/link, 'static' -> full page load (public/), 'external' -> new tab
+const TOOLS = [
+  { title: 'Subject Analysis', description: 'Explore subjects, credits and grading trends.', href: '/subject-analysis/index.html', kind: 'static', icon: PieChart },
+  { title: 'B.Tech Breakdown', description: 'Course structure for every semester at a glance.', href: 'https://drive.google.com/file/d/1oSqkmZ7rm2rhgYIwzL_0X5srzW0DxCz4/view?usp=drive_link', kind: 'external', icon: GraduationCap },
+  { title: 'Time Table Generator', description: 'Build your weekly class timetable.', href: '/timetable', kind: 'internal', icon: CalendarClock },
+  { title: 'Placement Stats', description: 'Company-wise placement and package data.', href: 'https://dtu-tnp.vercel.app/', kind: 'external', icon: BriefcaseBusiness },
+  { title: 'DateSheet Generator', description: 'Your personal exam datesheet from your roll number.', href: '/datesheet', kind: 'internal', icon: CalendarDays },
+  { title: 'Result Analysis', description: 'Semester GPAs, CGPA and branch rank.', href: '/result', kind: 'internal', icon: BarChart3 },
+  { title: 'Question Papers', description: 'Previous year end-sem and mid-sem papers.', href: 'https://drive.google.com/drive/folders/1qPI0QfHpfyK3UhsDhbsChGBLATmc7N1e?usp=drive_link', kind: 'external', icon: FileText },
+  { title: 'PYQ Solutions', description: 'Browse and read solved previous year questions.', href: '/pyq', kind: 'internal', icon: BookOpen },
+  { title: 'MOOC Practice', description: 'Practice quizzes for SWAYAM / NPTEL courses.', href: 'https://swayam-quiz.vercel.app/', kind: 'external', icon: NotebookPen },
+  { title: 'Internship Training Diary', description: 'Template for the internship training diary.', href: 'https://drive.google.com/file/d/1w5b1Pa4UN9y1WbsbFsKpHny0ouu_jO8F/view?usp=drive_link', kind: 'external', icon: ScrollText },
+]
+
+const cardClass =
+  'group flex h-full items-start gap-4 rounded-lg border bg-card p-5 text-card-foreground shadow-sm transition-colors hover:border-primary/50 hover:bg-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring'
+
+function ToolCard({ tool }) {
+  const Icon = tool.icon
+  const body = (
+    <>
+      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-secondary text-secondary-foreground">
+        <Icon className="h-5 w-5" aria-hidden="true" />
+      </span>
+      <span className="min-w-0 flex-1">
+        <span className="flex items-center gap-1 font-semibold">
+          {tool.title}
+          {tool.kind === 'external' && (
+            <ArrowUpRight className="h-4 w-4 text-muted-foreground" aria-label="(opens in new tab)" />
+          )}
+        </span>
+        <span className="mt-1 block text-sm text-muted-foreground">{tool.description}</span>
+      </span>
+    </>
+  )
+  if (tool.kind === 'internal') return <Link href={tool.href} className={cardClass}>{body}</Link>
+  if (tool.kind === 'static') return <a href={tool.href} className={cardClass}>{body}</a>
+  return <a href={tool.href} target="_blank" rel="noopener noreferrer" className={cardClass}>{body}</a>
+}
 
 export default function Home() {
-
   return (
     <>
       <Head>
-        <title>D.Tech</title>
+        <title>D.Tech – Tools for DTU students</title>
+        <meta name="description" content="Datesheets, results, timetables, question papers and more for Delhi Technological University students." />
       </Head>
 
-      <div id="main" className="w-full border-4 border-white rounded-2xl overflow-hidden bg-gradient-to-br from-[#4FA4FF] via-[#4FA4FF]/70 to-white">
-        <Header />
-
-        <div className="relative w-full m-0 p-0 bg-gradient-to-b from-[#4FA4FF] via-[#4FA4FF]/50 to-white">
-          {/* <div id="box" className="w-full h-[30vh] bg-blue-600"></div> */}
-          <div className="bg-gradient-to-br from-black/90 to-black/70 p-8 text-center rounded-lg shadow-lg max-w-3xl mx-auto">
-            <h1 className="text-4xl mb-4 text-white">D.Tech</h1>
-            <div id="links" className="flex flex-col gap-4">
-              <a href="/subject-analysis/index.html">
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-5 rounded">
-                  Subject Analysis
-                </button>
-              </a>
-              <Link href="https://drive.google.com/file/d/1oSqkmZ7rm2rhgYIwzL_0X5srzW0DxCz4/view?usp=drive_link" target="_blank">
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-5 rounded">
-                  B.Tech Breakdown
-                </button>
-              </Link>
-
-              <Link href="/timetable">
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-5 rounded">
-                  Time Table Generator
-                </button>
-              </Link>
-              <Link href="https://dtu-tnp.vercel.app/" target="_blank">
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-5 rounded">
-                  Placement Stats
-                </button>
-              </Link>
-
-              <Link href="/datesheet">
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-5 rounded">
-                  DateSheet Generator
-                </button>
-              </Link>
-              <Link href="/result">
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-5 rounded">
-                  Result Analysis
-                </button>
-              </Link>
-
-              <Link href="https://drive.google.com/drive/folders/1qPI0QfHpfyK3UhsDhbsChGBLATmc7N1e?usp=drive_link" target="_blank">
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-5 rounded">
-                  Question Papers
-                </button>
-              </Link>
-              <Link href="/pyq">
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-5 rounded">
-                  PYQ Solutions
-                </button>
-              </Link>
-
-              <Link href="https://swayam-quiz.vercel.app/" target="_blank">
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-5 rounded">
-                  MOOC Practice
-                </button>
-              </Link>
-              <Link href="https://drive.google.com/file/d/1w5b1Pa4UN9y1WbsbFsKpHny0ouu_jO8F/view?usp=drive_link" target="_blank">
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold py-3 px-5 rounded">
-                  Internship Training Diary
-                </button>
-              </Link>
-            </div>
-          </div>
-          {/* <div id="box2" className="relative h-[50vh] rounded-full bg-blue-600 -mt-[25vh]"></div> */}
+      <section className="border-b bg-gradient-to-b from-brand/20 via-brand/5 to-background">
+        <div className="mx-auto max-w-7xl px-4 py-14 text-center sm:py-20">
+          <p className="mb-3 inline-flex rounded-full border bg-card px-3 py-1 text-xs font-medium text-muted-foreground">
+            For Delhi Technological University students
+          </p>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+            <span className="text-primary">D.</span>Tech
+          </h1>
+          <p className="mx-auto mt-4 max-w-2xl text-base text-muted-foreground sm:text-lg">
+            Every tool you need through the semester — datesheets, results, timetables, question papers and more.
+          </p>
         </div>
+      </section>
 
-        <img src="./assets/img/bg.png" alt="Your Image" className="image w-full h-auto block m-0 p-0" />
+      <section className="mx-auto max-w-7xl px-4 py-10" aria-labelledby="tools-heading">
+        <h2 id="tools-heading" className="sr-only">Tools</h2>
+        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {TOOLS.map((tool) => (
+            <li key={tool.title}><ToolCard tool={tool} /></li>
+          ))}
+        </ul>
+      </section>
 
-        <div className="faq-question my-4 bg-gradient-to-r from-[#4FA4FF] to-white">
-          <input id="q2" type="checkbox" className="panele hidden" />
-          <div className="plus text-2xl font-sans text-white">+</div>
-          <label htmlFor="q2" className="panel-title text-lg cursor-pointer block font-poppins text-white">
-            Credits
-          </label>
-          <div className="panele-content text-base mt-2 bg-gradient-to-br from-gray-100 to-gray-50 p-4 rounded-lg shadow-md">
-            <h4 className="mb-2">
-              <a href='https://www.linkedin.com/in/madhavgupta2002/' target="_blank"
-                className="text-indigo-600 hover:text-indigo-800 font-medium transition duration-200 flex items-center gap-2 font-inter">
-                <span>👨‍💻</span>
-                Madhav Gupta (Developer)
-              </a>
-            </h4>
-            {/* <h4 className="mb-4">
-                <a href="#" target="_blank"
-                  className="text-indigo-600 hover:text-indigo-800 font-medium transition duration-200 flex items-center gap-2 font-inter">
-                  <span>🐛</span>
-                  Piyush Bhawsar (Contributor: Bugs)
-                </a>
-              </h4> */}
-            <h4 className="mb-2">
-              <a href="#" target="_blank"
-                className="text-indigo-600 hover:text-indigo-800 font-medium transition duration-200 flex items-center gap-2 font-inter">
-                <span>🎨</span>
-                Mrinal Deb (Contributor: UI)
-              </a>
-            </h4>
-            {/* <h4 className="mb-4">
-              <a href="#" target="_blank"
-                className="text-indigo-600 hover:text-indigo-800 font-medium transition duration-200 flex items-center gap-2 font-inter">
-                <span>🐛</span>
-                Mohit Gupta (Contributor: Bugs)
-              </a>
-            </h4> */}
-          </div>
-        </div>
-      </div>
+      <section className="mx-auto max-w-7xl px-4 pb-12">
+        <img
+          src="/assets/img/bg.png"
+          alt="Illustration of the Delhi Technological University campus"
+          className="w-full rounded-lg border object-cover"
+          loading="lazy"
+        />
+      </section>
     </>
   )
-};
+}

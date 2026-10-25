@@ -1,6 +1,12 @@
-const isCOE = confirm("Are you from COE? Click OK for Yes, Cancel for No");
+// Branch is chosen with the COE / Other branches toggle on the page (remembered across visits)
+const isCOE = localStorage.getItem('sa-isCOE') === 'true';
 
-// Set the slottocode based on user's response
+function setBranch(coe) {
+    localStorage.setItem('sa-isCOE', String(coe));
+    location.reload();
+}
+
+// Set the slottocode based on the chosen branch
 let slottocode;
 if (isCOE) {
     slottocode = slottocodeCOE;
@@ -135,7 +141,12 @@ let totalCredits=0;
     }
 }
 window.onload = function () {
-    
+    document.querySelectorAll('[data-coe]').forEach(btn => {
+        const coe = btn.dataset.coe === 'true';
+        btn.setAttribute('aria-pressed', String(coe === isCOE));
+        btn.addEventListener('click', () => { if (coe !== isCOE) setBranch(coe); });
+    });
+
     renderSlots(slottocode);
     
 

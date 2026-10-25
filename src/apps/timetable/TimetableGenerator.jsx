@@ -1,11 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Search, Printer } from 'lucide-react';
+import { Search, Printer, Linkedin, ExternalLink, ChevronDown } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 import codetoname from './data/codetoname';
 import slottocode from './data/slottocode';
 import regData from './data/regData.json';
 import codetoslot from './data/codetoslot';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const TimetableGenerator = () => {
     const [timetableData, setTimetableData] = useState({});
@@ -17,6 +16,8 @@ const TimetableGenerator = () => {
     const [selectedSlots, setSelectedSlots] = useState({});
     const [newSubjectCode, setNewSubjectCode] = useState('');
     const [showSubjectNames, setShowSubjectNames] = useState(false);
+    const [branchFilter, setBranchFilter] = useState('ALL');
+    const [rollNotFound, setRollNotFound] = useState(false);
     const timetableRef = useRef(null);
 
     // Define a color mapping for slots
@@ -39,6 +40,7 @@ const TimetableGenerator = () => {
     const handleRollNumberSearch = () => {
         const subjects = regData[rollNumber.toUpperCase()] || [];
         setStudentSubjects(subjects);
+        setRollNotFound(rollNumber.trim() !== '' && subjects.length === 0);
         setTimetableData({});  // Clear the timetable
     };
 
@@ -167,13 +169,19 @@ const TimetableGenerator = () => {
         }
     };
 
+    const branchOf = (code) => (code.match(/^[A-Za-z]+/) || ['OTHER'])[0].toUpperCase();
+    const branches = Array.from(new Set(Object.values(slottocode).flat().map(branchOf))).sort();
     const filteredSlotToCode = Object.entries(slottocode).reduce((acc, [slot, codes]) => {
+        const q = searchTerm.toLowerCase();
         acc[slot] = codes.filter(code =>
-            code.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            (codetoname[code] && codetoname[code].toLowerCase().includes(searchTerm.toLowerCase()))
+            (branchFilter === 'ALL' || branchOf(code) === branchFilter) &&
+            (code.toLowerCase().includes(q) ||
+            (codetoname[code] && codetoname[code].toLowerCase().includes(q)))
         );
         return acc;
     }, {});
+    const isFiltering = searchTerm.trim() !== '' || branchFilter !== 'ALL';
+    const selectedCodes = new Set(Object.values(timetableData).map(cell => cell.code));
 
     const timetableSlots = [
         ['E1', 'E1', 'E8', 'E8', 'E9', 'E9', 'E7', 'E7', 'E2', 'E2'],
@@ -183,111 +191,132 @@ const TimetableGenerator = () => {
         ['E1', 'E1', 'E4', 'E4', 'E10', 'E10', 'E3', 'E3', 'E2', 'E2']
     ];
 
+    const inputCls = 'w-full rounded-lg border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2';
+    const labelCls = 'mb-1 block text-sm font-medium';
+    const cardCls = 'mb-4 rounded-lg border bg-card p-4 text-card-foreground';
+    const cellKey = activeCell ? `${activeCell.dayIndex}-${activeCell.slotIndex}` : null;
+    const days = ['MON', 'TUE', 'WED', 'THU', 'FRI'];
+    const times = ['8-9', '9-10', '10-11', '11-12', '12-1', '1-2', '2-3', '3-4', '4-5', '5-6'];
+
     return (
-        <div className="container mx-auto p-4 bg-gray-100 min-h-screen">
-            <h1 className="text-3xl font-bold text-center mb-6 text-blue-600">DTU Timetable Generator</h1>
+        <div className="mx-auto max-w-7xl px-4 py-4">
+            <h1 className="mb-4 text-xl font-bold sm:text-2xl">DTU Timetable Generator</h1>
 
-            <div className="mb-4 flex items-center bg-white rounded-lg shadow-md p-2">
-                <input
-                    type="text"
-                    placeholder="Enter Roll Number"
-                    value={rollNumber}
-                    onChange={(e) => setRollNumber(e.target.value)}
-                    className="w-full p-2 border rounded-l focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-                <button
-                    onClick={handleRollNumberSearch}
-                    className="bg-blue-500 text-white p-2 rounded-r hover:bg-blue-600 transition-colors duration-200"
+            <section className={cardCls} aria-labelledby="roll-heading">
+                <h2 id="roll-heading" className="mb-3 text-lg font-semibold">Find your subjects</h2>
+                <form
+                    className="flex gap-2"
+                    onSubmit={(e) => { e.preventDefault(); handleRollNumberSearch(); }}
                 >
-                    <Search size={24} />
-                </button>
-            </div>
+                    <div className="min-w-0 flex-1">
+                        <label htmlFor="roll-number" className="sr-only">Roll number</label>
+                        <input
+                            id="roll-number"
+                            type="text"
+                            placeholder="Roll number, e.g. 2K21/CO/262"
+                            value={rollNumber}
+                            onChange={(e) => setRollNumber(e.target.value)}
+                            className={inputCls}
+                        />
+                    </div>
+                    <Button type="submit" size="icon" aria-label="Search roll number">
+                        <Search className="h-5 w-5" aria-hidden="true" />
+                    </Button>
+                </form>
+                {rollNotFound && (
+                    <p className="mt-2 text-sm text-destructive" role="status">No registration data found for that roll number.</p>
+                )}
 
-            {studentSubjects.length > 0 && (
-                <div className="mb-4 bg-white rounded-lg shadow-md p-4">
-                    <h2 className="text-xl font-semibold mb-4 text-gray-700">Your Subjects</h2>
-                    {studentSubjects.map(subject => (
-                        <div key={subject} className="mb-2 flex items-center">
-                            <span className="mr-2">{subject} - {codetoname[subject] || ''}</span>
-                            <select
-                                value={selectedSlots[subject] || ''}
-                                onChange={(e) => handleSlotSelection(subject, e.target.value)}
-                                className="p-1 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            >
-                                <option value="">Select Slot</option>
-                                {codetoslot[subject]?.map(slot => (
-                                    <option key={slot} value={slot}>{slot}</option>
-                                ))}
-                            </select>
-                        </div>
-                    ))}
-                    <button
-                        onClick={fillTimetable}
-                        className="mt-4 bg-green-500 text-white p-2 rounded hover:bg-green-600 transition-colors duration-200"
-                    >
-                        Fill Timetable
-                    </button>
+                {studentSubjects.length > 0 && (
+                    <div className="mt-4">
+                        <h3 className="mb-2 font-semibold">Your subjects</h3>
+                        <ul className="space-y-2">
+                            {studentSubjects.map(subject => (
+                                <li key={subject} className="flex flex-wrap items-center justify-between gap-2 rounded-lg bg-secondary p-2 text-secondary-foreground">
+                                    <label htmlFor={`slot-${subject}`} className="min-w-0 text-sm">
+                                        <span className="font-medium">{subject}</span>
+                                        {codetoname[subject] ? <span className="text-muted-foreground"> - {codetoname[subject]}</span> : null}
+                                    </label>
+                                    <select
+                                        id={`slot-${subject}`}
+                                        value={selectedSlots[subject] || ''}
+                                        onChange={(e) => handleSlotSelection(subject, e.target.value)}
+                                        className={`${inputCls} w-auto py-1`}
+                                    >
+                                        <option value="">Select slot</option>
+                                        {codetoslot[subject]?.map(slot => (
+                                            <option key={slot} value={slot}>{slot}</option>
+                                        ))}
+                                    </select>
+                                </li>
+                            ))}
+                        </ul>
+                        <Button onClick={fillTimetable} className="mt-4">Fill Timetable</Button>
+                    </div>
+                )}
+            </section>
+
+            <section className={cardCls} aria-labelledby="tt-heading">
+                <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
+                    <h2 id="tt-heading" className="text-lg font-semibold">Timetable</h2>
+                    <div className="flex items-center gap-2">
+                        <input
+                            id="show-names"
+                            type="checkbox"
+                            checked={showSubjectNames}
+                            onChange={() => setShowSubjectNames(!showSubjectNames)}
+                            className="h-4 w-4 accent-primary"
+                        />
+                        <label htmlFor="show-names" className="text-sm font-medium">Show subject names</label>
+                    </div>
                 </div>
-            )}
-            <div className="mb-4 flex items-center justify-center">
-                <label className="mr-4 font-semibold text-gray-700">Show Subject Names</label>
-                <input
-                    type="checkbox"
-                    checked={showSubjectNames}
-                    onChange={() => setShowSubjectNames(!showSubjectNames)}
-                    className="w-6 h-6 text-blue-500"
-                />
-            </div>
-
-
-            <div className='timeTableClass2 mb-8 bg-white rounded-lg shadow-md p-4'>
-                <h2 className="text-xl font-semibold mb-4 text-gray-700">Timetable</h2>
-                <div ref={timetableRef} className=" TimetableClass">
-                    <div >
-                        <table className="w-full border-collapse">
+                <div className="overflow-x-auto rounded-lg border">
+                    <div ref={timetableRef} className="TimetableClass">
+                        <table className="w-full min-w-[900px] border-collapse text-sm">
                             <thead>
-                                <tr className="bg-blue-500 text-white">
-                                    <th className="border p-2"></th>
-                                    {['8-9', '9-10', '10-11', '11-12', '12-1', '1-2', '2-3', '3-4', '4-5', '5-6'].map(time => (
-                                        <th key={time} className="border p-2">{time}</th>
+                                <tr className="bg-primary text-primary-foreground">
+                                    <th scope="col" className="border border-border p-2"><span className="sr-only">Day</span></th>
+                                    {times.map(time => (
+                                        <th key={time} scope="col" className="min-w-[80px] whitespace-nowrap border border-border p-2 font-medium">{time}</th>
                                     ))}
                                 </tr>
                             </thead>
                             <tbody>
-                                {['MON', 'TUE', 'WED', 'THU', 'FRI'].map((day, dayIndex) => (
-                                    <tr key={day} className={dayIndex % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
-                                        <th className="border p-2 font-semibold text-gray-700">{day}</th>
+                                {days.map((day, dayIndex) => (
+                                    <tr key={day} className={dayIndex % 2 === 0 ? 'bg-muted/40' : 'bg-card'}>
+                                        <th scope="row" className="border border-border p-2 font-semibold">{day}</th>
                                         {timetableSlots[dayIndex].map((slot, slotIndex) => {
                                             const cellData = timetableData[`${dayIndex}-${slotIndex}`];
                                             const baseColor = slotColors[slot] || '#FFFFFF';
-                                            const cellColor = cellData
-                                                ? (cellData.type === 'lab' ? adjustColor(baseColor, -20) : baseColor)
-                                                : '#FFFFFF';
+                                            // Pastel slot colours are data; filled cells always use dark text so they stay readable in dark mode.
                                             const cellStyle = cellData
-                                                ? { backgroundColor: cellColor, border: '1px solid #000' }
-                                                : { backgroundColor: '#FFFFFF', border: '1px solid #ddd' };
+                                                ? { backgroundColor: cellData.type === 'lab' ? adjustColor(baseColor, -20) : baseColor, color: '#111827' }
+                                                : undefined;
                                             return (
-                                                <td key={slotIndex} className="p-2 text-center" style={cellStyle}>
+                                                <td key={slotIndex} className="border border-border p-1 text-center align-middle" style={cellStyle}>
                                                     {slot === 'Z' ? (
-                                                        <span className="text-gray-400">Zero Hour</span>
+                                                        <span className="text-xs text-muted-foreground">Zero Hour</span>
                                                     ) : (
                                                         <button
+                                                            style={cellData ? { color: '#111827' } : undefined}
                                                             onClick={() => handleCellClick(dayIndex, slotIndex)}
-                                                            className="w-full h-full p-4 rounded transition-colors duration-200"
+                                                            aria-label={cellData
+                                                                ? `${day} ${times[slotIndex]}: ${cellData.code}, edit`
+                                                                : `${day} ${times[slotIndex]} (slot ${slot}): empty, add subject`}
+                                                            className="h-full min-h-[3.5rem] w-full rounded-md p-2 transition-colors ring-offset-background hover:bg-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                                                         >
                                                             {cellData && (
                                                                 <>
                                                                     <p className={`font-semibold ${showSubjectNames ? 'text-sm' : ''}`}>{cellData.code}</p>
                                                                     {showSubjectNames && (
-                                                                        <p className="text-xs text-gray-700">{codetoname[cellData.code]}</p>
+                                                                        <p className="text-xs">{codetoname[cellData.code]}</p>
                                                                     )}
+                                                                    <div className="text-xs">
+                                                                        <div>{cellData.teacher}</div>
+                                                                        <div>{cellData.classroom}</div>
+                                                                        <div>{cellData.type}</div>
+                                                                    </div>
                                                                 </>
-                                                            )}                                                            {cellData && (
-                                                                <div className="text-xs">
-                                                                    <div>{cellData.teacher}</div>
-                                                                    <div>{cellData.classroom}</div>
-                                                                    <div>{cellData.type}</div>
-                                                                </div>
                                                             )}
                                                         </button>
                                                     )}
@@ -300,172 +329,165 @@ const TimetableGenerator = () => {
                         </table>
                     </div>
                 </div>
-                <button
-                    onClick={handlePrint}
-                    className="mt-4 bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition-colors duration-200 flex items-center"
-                >
-                    <Printer className="mr-2" size={20} />
+                <Button variant="outline" onClick={handlePrint} className="mt-4">
+                    <Printer className="mr-2 h-4 w-4" aria-hidden="true" />
                     Print Timetable
-                </button>
-            </div>
+                </Button>
+            </section>
 
             {activeCell && (
-                <div className="mb-4 bg-white rounded-lg shadow-md p-4">
-                    <h3 className="text-lg font-semibold mb-2">Update Cell Details</h3>
-                    <div className="space-y-2">
-                        {activeCell.isEmpty ? (
-                            <>
-                                <input
-                                    type="text"
-                                    placeholder="Subject Code"
-                                    value={newSubjectCode}
-                                    onChange={(e) => setNewSubjectCode(e.target.value)}
-                                    className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                />
-                                <button
-                                    onClick={addNewSubject}
-                                    className="w-full bg-green-500 text-white p-2 rounded hover:bg-green-600 transition-colors duration-200"
-                                >
-                                    OK
-                                </button>
-                                <p className="text-sm text-gray-600">Enter a subject code and click OK to add a new subject to this cell.</p>
-                            </>
-                        ) : (
-                            <>
-                                <input
-                                    type="text"
-                                    placeholder="Teacher Name"
-                                    value={timetableData[`${activeCell.dayIndex}-${activeCell.slotIndex}`]?.teacher || ''}
-                                    onChange={(e) => updateCellDetails('teacher', e.target.value)}
-                                    className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                />
-                                <input
-                                    type="text"
-                                    placeholder="Classroom"
-                                    value={timetableData[`${activeCell.dayIndex}-${activeCell.slotIndex}`]?.classroom || ''}
-                                    onChange={(e) => updateCellDetails('classroom', e.target.value)}
-                                    className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                />
-                                <select
-                                    value={timetableData[`${activeCell.dayIndex}-${activeCell.slotIndex}`]?.type || 'lecture'}
-                                    onChange={(e) => updateCellDetails('type', e.target.value)}
-                                    className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                >
-                                    <option value="lecture">Lecture</option>
-                                    <option value="lab">Lab</option>
-                                </select>
-                                <button
-                                    onClick={() => deleteCell(activeCell.dayIndex, activeCell.slotIndex)}
-                                    className="w-full bg-red-500 text-white p-2 rounded hover:bg-red-600 transition-colors duration-200"
-                                >
-                                    Delete Cell
-                                </button>
-                            </>
-                        )}
-                    </div>
-                </div>
-            )}
-
-            <div className="mb-4 flex items-center bg-white rounded-lg shadow-md p-2">
-                <p>Compulsory Subjects can be manually added by clicking empty cells.</p>
-                <p>Currently, all slots are being populated on subject selection, click on the period to delete slot, change classroom, faculty details or navigate to slot form to make bulk changes based on the official time table.</p>
-                <button
-                    onClick={() => window.open('https://drive.google.com/drive/folders/1jLgWRiJo21AUesZbc_rOZTkKvl0CNcSt?usp=sharing', '_blank')}
-                    className="bg-blue-500 text-white p-2 rounded-r hover:bg-blue-600 transition-colors duration-200 m-1"
-                >
-                    Official Time Tables
-                </button>
-                <button
-                    onClick={() => window.open('https://bit.ly/dtugroups', '_blank')}
-                    className="bg-blue-500 text-white p-2 rounded-r hover:bg-blue-600 transition-colors duration-200 m-1"
-                >
-                    WhatsApp Groups
-                </button>
-            </div>
-
-            <div className="mb-4 flex items-center bg-white rounded-lg shadow-md p-2">
-                <input
-                    type="text"
-                    placeholder="Search subjects..."
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    className="w-full p-2 border rounded-l focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-                <button className="bg-blue-500 text-white p-2 rounded-r hover:bg-blue-600 transition-colors duration-200">
-                    <Search size={24} />
-                </button>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-md p-4">
-                <h2 className="text-xl font-semibold mb-4 text-gray-700">Subject Selection</h2>
-                <div className="space-y-4">
-                    {Object.entries(filteredSlotToCode).map(([slot, codes]) => (
-                        <div key={slot} className="bg-gray-50 p-3 rounded-md">
-                            <h3 className="font-semibold text-lg mb-2 text-blue-600">{slot}</h3>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {codes.map(code => (
-                                    <button
-                                        key={code}
-                                        onClick={() => toggleSubject(slot, code)}
-                                        className={`px-3 py-2 rounded text-sm font-medium transition-colors duration-200 ${Object.values(timetableData).some(cell => cell.code === code)
-                                            ? 'bg-green-500 text-white hover:bg-green-600'
-                                            : 'bg-blue-500 text-white hover:bg-blue-600'
-                                            }`}
-                                    >
-                                        {code} - {codetoname[code] || ''}
-                                    </button>
-                                ))}
+                <section className={cardCls} aria-labelledby="cell-heading">
+                    <h3 id="cell-heading" className="mb-3 text-lg font-semibold">
+                        Update cell: {days[activeCell.dayIndex]} {times[activeCell.slotIndex]}
+                    </h3>
+                    {activeCell.isEmpty ? (
+                        <form className="space-y-3" onSubmit={(e) => { e.preventDefault(); addNewSubject(); }}>
+                            <div>
+                                <label htmlFor="new-code" className={labelCls}>Subject code</label>
+                                <input id="new-code" type="text" value={newSubjectCode} onChange={(e) => setNewSubjectCode(e.target.value)} className={inputCls} />
                             </div>
-                            <div className="space-y-2">
-                                <input
-                                    type="text"
-                                    placeholder="Teacher Name (All instances)"
-                                    value={batchUpdateData[slot]?.teacher || ''}
-                                    onChange={(e) => updateBatchData(slot, 'teacher', e.target.value)}
-                                    className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                />
-                                <input
-                                    type="text"
-                                    placeholder="Classroom (All instances)"
-                                    value={batchUpdateData[slot]?.classroom || ''}
-                                    onChange={(e) => updateBatchData(slot, 'classroom', e.target.value)}
-                                    className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                />
-                                <select
-                                    value={batchUpdateData[slot]?.type || ''}
-                                    onChange={(e) => updateBatchData(slot, 'type', e.target.value)}
-                                    className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                >
-                                    <option value="">Select Type (All instances)</option>
+                            <p className="text-sm text-muted-foreground">Enter a subject code and click OK to add a new subject to this cell.</p>
+                            <Button type="submit">OK</Button>
+                        </form>
+                    ) : (
+                        <div className="grid gap-3 sm:grid-cols-3">
+                            <div>
+                                <label htmlFor="cell-teacher" className={labelCls}>Teacher</label>
+                                <input id="cell-teacher" type="text" value={timetableData[cellKey]?.teacher || ''} onChange={(e) => updateCellDetails('teacher', e.target.value)} className={inputCls} />
+                            </div>
+                            <div>
+                                <label htmlFor="cell-room" className={labelCls}>Classroom</label>
+                                <input id="cell-room" type="text" value={timetableData[cellKey]?.classroom || ''} onChange={(e) => updateCellDetails('classroom', e.target.value)} className={inputCls} />
+                            </div>
+                            <div>
+                                <label htmlFor="cell-type" className={labelCls}>Type</label>
+                                <select id="cell-type" value={timetableData[cellKey]?.type || 'lecture'} onChange={(e) => updateCellDetails('type', e.target.value)} className={inputCls}>
                                     <option value="lecture">Lecture</option>
                                     <option value="lab">Lab</option>
                                 </select>
-                                <button
-                                    onClick={() => submitBatchUpdate(slot)}
-                                    className="w-full bg-green-500 text-white p-2 rounded hover:bg-green-600 transition-colors duration-200"
-                                >
-                                    Update All {slot} Slots
-                                </button>
+                            </div>
+                            <div className="sm:col-span-3">
+                                <Button variant="destructive" onClick={() => deleteCell(activeCell.dayIndex, activeCell.slotIndex)}>Delete Cell</Button>
                             </div>
                         </div>
-                    ))}
+                    )}
+                </section>
+            )}
+
+            <section className={cardCls} aria-label="Help and links">
+                <div className="space-y-2 text-sm text-muted-foreground">
+                    <p>Compulsory subjects can be manually added by clicking empty cells.</p>
+                    <p>Currently, all slots are populated on subject selection. Click a period to delete it or change classroom and faculty details, or use the slot forms below to make bulk changes based on the official timetable.</p>
                 </div>
-            </div>
-            <div className="mb-4 mt-4 bg-white rounded-lg shadow-md p-4">
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">Credits</h2>
-                <h3>
-                    Madhav Gupta : 2K21/CO/262{' '}
-                    <a href='https://www.linkedin.com/in/madhavgupta2002/'>
-                        <FontAwesomeIcon style={{ position: 'relative', top: 5 }} icon={faLinkedin} size="2x" color="#0e76a8" />
-                    </a>
-                </h3>
-                <h3>
-                    Mrinal Deb : 2K21/CO/292{' '}
-                    <a href='https://www.linkedin.com/in/mrinal-deb/'>
-                        <FontAwesomeIcon style={{ position: 'relative', top: 5 }} icon={faLinkedin} size="2x" color="#0e76a8" />
-                    </a>
-                </h3>
-            </div>
+                <div className="mt-3 flex flex-wrap gap-2">
+                    <Button asChild variant="secondary" size="sm">
+                        <a href="https://drive.google.com/drive/folders/1jLgWRiJo21AUesZbc_rOZTkKvl0CNcSt?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            Official Time Tables <ExternalLink className="ml-2 h-4 w-4" aria-hidden="true" />
+                        </a>
+                    </Button>
+                    <Button asChild variant="secondary" size="sm">
+                        <a href="https://bit.ly/dtugroups" target="_blank" rel="noopener noreferrer">
+                            WhatsApp Groups <ExternalLink className="ml-2 h-4 w-4" aria-hidden="true" />
+                        </a>
+                    </Button>
+                </div>
+            </section>
+
+            <section className={cardCls} aria-labelledby="subj-heading">
+                <h2 id="subj-heading" className="mb-3 text-lg font-semibold">Subject Selection</h2>
+                <div className="mb-4 grid gap-3 sm:grid-cols-[1fr_200px]">
+                    <div>
+                        <label htmlFor="subject-search" className={labelCls}>Search subjects</label>
+                        <div className="relative">
+                            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" aria-hidden="true" />
+                            <input id="subject-search" type="search" placeholder="Code or name..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className={`${inputCls} pl-9`} />
+                        </div>
+                    </div>
+                    <div>
+                        <label htmlFor="branch-filter" className={labelCls}>Branch</label>
+                        <select id="branch-filter" value={branchFilter} onChange={(e) => setBranchFilter(e.target.value)} className={inputCls}>
+                            <option value="ALL">All branches</option>
+                            {branches.map(b => <option key={b} value={b}>{b}</option>)}
+                        </select>
+                    </div>
+                </div>
+                <div className="space-y-3">
+                    {Object.entries(filteredSlotToCode).map(([slot, codes]) => {
+                        if (isFiltering && codes.length === 0) return null;
+                        const chosen = codes.filter(c => selectedCodes.has(c)).length;
+                        return (
+                            <details key={slot} open={isFiltering || undefined} className="group rounded-lg border bg-background">
+                                <summary className="flex cursor-pointer list-none items-center justify-between gap-2 rounded-lg p-3 font-semibold ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring [&::-webkit-details-marker]:hidden">
+                                    <span>
+                                        <span className="text-primary">{slot}</span>
+                                        <span className="ml-2 text-sm font-normal text-muted-foreground">
+                                            {codes.length} subjects{chosen ? `, ${chosen} selected` : ''}
+                                        </span>
+                                    </span>
+                                    <ChevronDown className="h-4 w-4 transition-transform group-open:rotate-180" aria-hidden="true" />
+                                </summary>
+                                <div className="border-t p-3">
+                                    <div className="mb-4 flex flex-wrap gap-2">
+                                        {codes.map(code => {
+                                            const on = selectedCodes.has(code);
+                                            return (
+                                                <Button
+                                                    key={code}
+                                                    size="sm"
+                                                    variant={on ? 'default' : 'secondary'}
+                                                    aria-pressed={on}
+                                                    onClick={() => toggleSubject(slot, code)}
+                                                    className="h-auto whitespace-normal py-1.5 text-left"
+                                                >
+                                                    {code}{codetoname[code] ? ` - ${codetoname[code]}` : ''}
+                                                </Button>
+                                            );
+                                        })}
+                                    </div>
+                                    <div className="grid gap-3 sm:grid-cols-4 sm:items-end">
+                                        <div>
+                                            <label htmlFor={`bt-${slot}`} className={labelCls}>Teacher (all {slot})</label>
+                                            <input id={`bt-${slot}`} type="text" value={batchUpdateData[slot]?.teacher || ''} onChange={(e) => updateBatchData(slot, 'teacher', e.target.value)} className={inputCls} />
+                                        </div>
+                                        <div>
+                                            <label htmlFor={`bc-${slot}`} className={labelCls}>Classroom (all {slot})</label>
+                                            <input id={`bc-${slot}`} type="text" value={batchUpdateData[slot]?.classroom || ''} onChange={(e) => updateBatchData(slot, 'classroom', e.target.value)} className={inputCls} />
+                                        </div>
+                                        <div>
+                                            <label htmlFor={`bty-${slot}`} className={labelCls}>Type (all {slot})</label>
+                                            <select id={`bty-${slot}`} value={batchUpdateData[slot]?.type || ''} onChange={(e) => updateBatchData(slot, 'type', e.target.value)} className={inputCls}>
+                                                <option value="">Unchanged</option>
+                                                <option value="lecture">Lecture</option>
+                                                <option value="lab">Lab</option>
+                                            </select>
+                                        </div>
+                                        <Button variant="outline" onClick={() => submitBatchUpdate(slot)}>Update all {slot} slots</Button>
+                                    </div>
+                                </div>
+                            </details>
+                        );
+                    })}
+                </div>
+            </section>
+
+            <section className={cardCls} aria-labelledby="credits-heading">
+                <h2 id="credits-heading" className="mb-3 text-lg font-semibold">Credits</h2>
+                <ul className="space-y-2 text-sm">
+                    {[
+                        ['Madhav Gupta', '2K21/CO/262', 'https://www.linkedin.com/in/madhavgupta2002/'],
+                        ['Mrinal Deb', '2K21/CO/292', 'https://www.linkedin.com/in/mrinal-deb/'],
+                    ].map(([name, roll, url]) => (
+                        <li key={name} className="flex items-center gap-2">
+                            <span>{name} : {roll}</span>
+                            <Button asChild variant="ghost" size="icon" className="h-8 w-8">
+                                <a href={url} target="_blank" rel="noopener noreferrer" aria-label={`${name} on LinkedIn`}>
+                                    <Linkedin className="h-4 w-4 text-primary" aria-hidden="true" />
+                                </a>
+                            </Button>
+                        </li>
+                    ))}
+                </ul>
+            </section>
         </div>
     );
 };

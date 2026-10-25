@@ -2,7 +2,7 @@
 
 import { Download, FileText, Beaker } from "lucide-react";
 import { Subject } from "@/apps/pyq/lib/types";
-import { getEmbedUrl, getDownloadUrl } from "@/apps/pyq/lib/utils";
+import { getEmbedUrl, getDownloadUrl } from "@/lib/utils";
 
 interface PDFViewerProps {
   subject: Subject & { code: string };
@@ -27,12 +27,13 @@ export function PDFViewer({ subject, type }: PDFViewerProps) {
   }
 
   return (
-    <div className="h-[calc(100vh-270px)] flex flex-col sm:px-24">
+    <div className="h-full min-h-0 flex flex-col">
       <div className="flex-grow bg-background rounded-lg overflow-hidden border">
         {embedUrl ? (
           <iframe
             src={embedUrl}
             className="w-full h-full"
+            title={`${subject.name} PDF`}
             allow="autoplay"
             loading="lazy"
             sandbox="allow-forms allow-modals allow-popups allow-same-origin allow-scripts"
@@ -43,7 +44,7 @@ export function PDFViewer({ subject, type }: PDFViewerProps) {
           </div>
         )}
       </div>
-      <div className="mt-4 flex items-center justify-between p-4 rounded-lg bg-secondary">
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-3 p-4 rounded-lg bg-secondary text-secondary-foreground">
         <div className="flex items-start gap-3">
           {type === 'pyq' ? (
             <FileText className="h-5 w-5 mt-1 text-primary" />
@@ -65,7 +66,7 @@ export function PDFViewer({ subject, type }: PDFViewerProps) {
             href={downloadUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 rounded-md bg-primary text-white hover:bg-primary/90 transition-colors"
+            className="flex items-center gap-2 px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           >
             <Download className="h-4 w-4" />
             Download PDF

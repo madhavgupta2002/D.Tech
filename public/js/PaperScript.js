@@ -4,9 +4,9 @@ function changePDF(url) {
     myIframe.src = url;
 
 }
-var listing = document.getElementById('display');
-
-listing.addEventListener('click', function () {
+// Page markup is rendered by React (src/pages/question-papers.js); it calls window.initPapers() on mount.
+function showPapers() {
+    document.getElementById("navigator").innerHTML = "";
     var currentSubject = null; // Variable to keep track of the current subject
 
     for (var i = 0; i < drive.length; i++) {
@@ -63,7 +63,11 @@ listing.addEventListener('click', function () {
         element.click();
     });
 
-});
+}
+
+window.initPapers = function () {
+    document.getElementById('display').onclick = showPapers;
+};
 
 
 function CallchangePDF(element) {

@@ -1,39 +1,55 @@
 "use client";
 
 import { Search } from "lucide-react";
+import { cn } from "@/lib/utils";
+
+export type Department = "all" | "cs" | "others";
 
 interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
+  department: Department;
   onDepartmentChange: (department: Department) => void;
 }
 
-type Department = 'all' | 'cs' | 'others';
+const DEPTS: { id: Department; label: string }[] = [
+  { id: "all", label: "All" },
+  { id: "cs", label: "Computer Sci." },
+  { id: "others", label: "Others" },
+];
 
-export function SearchBar({ value, onChange, onDepartmentChange }: SearchBarProps) {
+export function SearchBar({ value, onChange, department, onDepartmentChange }: SearchBarProps) {
   return (
-    <div className="space-y-4">
+    <div className="space-y-3">
       <div className="relative">
-        <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+        <label htmlFor="pyq-search" className="sr-only">
+          Search subjects by name or code
+        </label>
+        <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" aria-hidden="true" />
         <input
+          id="pyq-search"
+          type="search"
           value={value}
           onChange={(e) => onChange(e.target.value)}
           placeholder="Search by name or code..."
-          className="w-full pl-9 pr-4 py-2 rounded-md border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+          className="w-full rounded-lg border border-input bg-background py-2 pl-9 pr-4 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
         />
       </div>
-      <div className="flex gap-2">
-        {['all', 'cs', 'others'].map((dept) => (
+      <div role="group" aria-label="Department filter" className="grid grid-cols-3 gap-2">
+        {DEPTS.map(({ id, label }) => (
           <button
-            key={dept}
-            onClick={() => onDepartmentChange(dept as Department)}
-            className={`flex-1 px-4 py-2 rounded-md transition-colors ${
-              value === dept
-                ? 'bg-primary text-white'
-                : 'bg-secondary hover:bg-secondary/80'
-            }`}
+            key={id}
+            type="button"
+            aria-pressed={department === id}
+            onClick={() => onDepartmentChange(id)}
+            className={cn(
+              "whitespace-nowrap rounded-lg border px-2 py-1.5 text-sm font-medium transition-colors ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
+              department === id
+                ? "border-primary bg-primary text-primary-foreground"
+                : "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
+            )}
           >
-            {dept === 'cs' ? 'Computer Science' : dept.charAt(0).toUpperCase() + dept.slice(1)}
+            {label}
           </button>
         ))}
       </div>

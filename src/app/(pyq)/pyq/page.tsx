@@ -3,140 +3,151 @@
 import { useState } from "react";
 import { SubjectList } from "@/apps/pyq/components/subject-list";
 import { PDFViewer } from "@/apps/pyq/components/pdf-viewer";
-import { SearchBar } from "@/apps/pyq/components/search-bar";
-import { ThemeToggle } from "@/apps/pyq/components/theme-toggle";
+import { SearchBar, type Department } from "@/apps/pyq/components/search-bar";
 import { subjectsData, labData } from "@/apps/pyq/lib/data";
 import { GroupedSubjects } from "@/apps/pyq/lib/types";
-import { BookOpen, Linkedin, Beaker } from "lucide-react";
+import { BookOpen, Linkedin, Beaker, ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+
+// Sticky SiteHeader is 56px (h-14); panel heights subtract it plus page chrome.
+const PANEL_HEIGHT = "md:h-[calc(100vh-56px-2rem)]";
 
 export default function Home() {
   const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
-  const [currentDepartment, setCurrentDepartment] = useState<'all' | 'cs' | 'others'>('all');
-  const [activeTab, setActiveTab] = useState<'pyq' | 'lab'>('pyq');
+  const [currentDepartment, setCurrentDepartment] = useState<Department>("all");
+  const [activeTab, setActiveTab] = useState<"pyq" | "lab">("pyq");
 
-  const handleTabChange = (tab: 'pyq' | 'lab') => {
+  const handleTabChange = (tab: "pyq" | "lab") => {
     setActiveTab(tab);
-    setSelectedSubject(null); // Reset selected subject when switching tabs
+    setSelectedSubject(null);
   };
 
-  const getFilteredAndGroupedData = () => {
-    const data = activeTab === 'pyq' ? subjectsData : labData;
-    
-    return Object.entries(data).reduce((acc, [code, data]) => {
-      const matchesSearch =
-        data.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        code.toLowerCase().includes(searchQuery.toLowerCase());
-
-      const matchesDepartment =
-        currentDepartment === 'all' ||
-        (currentDepartment === 'cs' && code.startsWith('CO')) ||
-        (currentDepartment === 'others' && !code.startsWith('CO'));
-
-      if (matchesSearch && matchesDepartment) {
-        const sem = data.semester;
-        if (!acc[sem]) acc[sem] = [];
-        acc[sem].push({ code, ...data });
-        acc[sem].sort((a, b) => a.code.localeCompare(b.code));
-      }
-      return acc;
-    }, {} as GroupedSubjects);
+  const handleSelect = (code: string) => {
+    setSelectedSubject(code);
+    if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const filteredAndGroupedSubjects = getFilteredAndGroupedData();
+  const data = activeTab === "pyq" ? subjectsData : labData;
+  const filteredAndGroupedSubjects = Object.entries(data).reduce((acc, [code, d]) => {
+    const q = searchQuery.toLowerCase();
+    const matchesSearch = d.name.toLowerCase().includes(q) || code.toLowerCase().includes(q);
+    const matchesDepartment =
+      currentDepartment === "all" ||
+      (currentDepartment === "cs" && code.startsWith("CO")) ||
+      (currentDepartment === "others" && !code.startsWith("CO"));
+    if (matchesSearch && matchesDepartment) {
+      const sem = d.semester;
+      if (!acc[sem]) acc[sem] = [];
+      acc[sem].push({ code, ...d });
+      acc[sem].sort((a, b) => a.code.localeCompare(b.code));
+    }
+    return acc;
+  }, {} as GroupedSubjects);
 
-  const currentData = activeTab === 'pyq' ? subjectsData : labData;
-  const selectedSubjectData = selectedSubject ? currentData[selectedSubject] : null;
+  const selectedSubjectData = selectedSubject ? data[selectedSubject] : null;
+  const hasSelection = Boolean(selectedSubject && selectedSubjectData);
+
+  const tabs = [
+    { id: "pyq" as const, label: "PYQ Solutions", Icon: BookOpen },
+    { id: "lab" as const, label: "Lab Manuals", Icon: Beaker },
+  ];
 
   return (
-    <div className="min-h-screen bg-background px-4 sm:px-40">
-      <header className="border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex flex-col sm:flex-row items-center justify-between mb-4 gap-4">
-            <div className="flex items-center gap-2">
-              <BookOpen className="h-6 w-6 text-primary" />
-              <h1 className="text-xl sm:text-2xl font-bold">DTU PYQ Solutions</h1>
-            </div>
-            <div className="flex items-center gap-4">
-              <a
-                href="https://www.linkedin.com/in/madhavgupta2002"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-md bg-primary text-white hover:bg-primary/90 transition-colors"
+    <div className="mx-auto max-w-7xl px-4 py-4">
+      <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex items-center gap-2">
+          <BookOpen className="h-6 w-6 text-primary" aria-hidden="true" />
+          <h1 className="text-xl font-bold sm:text-2xl">DTU PYQ Solutions</h1>
+        </div>
+        <Button asChild size="sm" className="self-start sm:self-auto">
+          <a href="https://www.linkedin.com/in/madhavgupta2002" target="_blank" rel="noopener noreferrer">
+            Made by Madhav Gupta
+            <Linkedin className="ml-2 h-4 w-4" aria-hidden="true" />
+          </a>
+        </Button>
+      </div>
+
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-[minmax(0,400px)_minmax(0,1fr)] lg:grid-cols-[450px_minmax(0,1fr)]">
+        <section
+          aria-label="Subjects"
+          className={cn(
+            "flex min-w-0 flex-col rounded-lg border bg-card p-4",
+            PANEL_HEIGHT,
+            hasSelection && "hidden md:flex"
+          )}
+        >
+          <div role="tablist" aria-label="Content type" className="mb-4 grid grid-cols-2 gap-2">
+            {tabs.map(({ id, label, Icon }) => (
+              <button
+                key={id}
+                role="tab"
+                aria-selected={activeTab === id}
+                onClick={() => handleTabChange(id)}
+                className={cn(
+                  "flex items-center justify-center gap-2 whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background",
+                  activeTab === id
+                    ? "bg-primary text-primary-foreground"
+                    : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
+                )}
               >
-                <span className="hidden sm:inline">Made by Madhav Gupta</span>
-                <span className="sm:hidden">Madhav Gupta</span>
-                <Linkedin className="h-4 w-4" />
-              </a>
-              <ThemeToggle />
-            </div>
-          </div>
-          <div className="flex gap-4 mb-4">
-            <button
-              onClick={() => handleTabChange('pyq')}
-              className={`flex items-center gap-2 px-4 py-2 rounded-md transition-colors ${
-                activeTab === 'pyq'
-                  ? 'bg-primary text-white'
-                  : 'bg-secondary hover:bg-secondary/80'
-              }`}
-            >
-              <BookOpen className="h-4 w-4" />
-              PYQ Solutions
-            </button>
-            <button
-              onClick={() => handleTabChange('lab')}
-              className={`flex items-center gap-2 px-4 py-2 rounded-md transition-colors ${
-                activeTab === 'lab'
-                  ? 'bg-primary text-white'
-                  : 'bg-secondary hover:bg-secondary/80'
-              }`}
-            >
-              <Beaker className="h-4 w-4" />
-              Lab Manuals
-            </button>
+                <Icon className="h-4 w-4 shrink-0" aria-hidden="true" />
+                {label}
+              </button>
+            ))}
           </div>
           <SearchBar
             value={searchQuery}
             onChange={setSearchQuery}
+            department={currentDepartment}
             onDepartmentChange={setCurrentDepartment}
           />
-        </div>
-      </header>
-
-      <main className="container mx-auto p-4">
-        <div className="grid grid-cols-1 md:grid-cols-[450px_1fr] gap-6">
-          <div className="p-4 h-[calc(100vh-220px)] bg-card rounded-lg border">
+          <div className="mt-4 min-h-0 flex-1 max-md:h-[60vh]">
             <SubjectList
               groupedSubjects={filteredAndGroupedSubjects}
               selectedSubject={selectedSubject}
-              onSubjectSelect={setSelectedSubject}
+              onSubjectSelect={handleSelect}
               type={activeTab}
             />
           </div>
+        </section>
 
-          <div className="p-4 h-[calc(100vh-220px)] bg-card rounded-lg border">
-            <div className="max-w-[800px] mx-auto h-full">
-              {selectedSubject && selectedSubjectData ? (
-                <PDFViewer
-                  subject={{ code: selectedSubject, ...selectedSubjectData }}
-                  type={activeTab}
-                />
-              ) : (
-                <div className="h-full flex flex-col items-center justify-center text-muted-foreground">
-                  {activeTab === 'pyq' ? (
-                    <BookOpen className="h-24 w-24 mb-6 opacity-50" />
-                  ) : (
-                    <Beaker className="h-24 w-24 mb-6 opacity-50" />
-                  )}
-                  <p className="text-xl">
-                    Select a {activeTab === 'pyq' ? 'subject' : 'lab manual'} to view
-                  </p>
-                </div>
-              )}
-            </div>
+        <section
+          aria-label="Viewer"
+          className={cn(
+            "min-w-0 flex-col rounded-lg border bg-card p-4",
+            PANEL_HEIGHT,
+            hasSelection ? "flex h-[calc(100vh-56px-2rem)]" : "hidden md:flex"
+          )}
+        >
+          {hasSelection && (
+            <Button
+              variant="outline"
+              size="sm"
+              className="mb-3 self-start md:hidden"
+              onClick={() => setSelectedSubject(null)}
+            >
+              <ArrowLeft className="mr-2 h-4 w-4" aria-hidden="true" />
+              Back to list
+            </Button>
+          )}
+          <div className="mx-auto h-full min-h-0 w-full max-w-[800px] flex-1">
+            {selectedSubject && selectedSubjectData ? (
+              <PDFViewer subject={{ code: selectedSubject, ...selectedSubjectData }} type={activeTab} />
+            ) : (
+              <div className="flex h-full flex-col items-center justify-center text-muted-foreground">
+                {activeTab === "pyq" ? (
+                  <BookOpen className="mb-6 h-24 w-24 opacity-50" aria-hidden="true" />
+                ) : (
+                  <Beaker className="mb-6 h-24 w-24 opacity-50" aria-hidden="true" />
+                )}
+                <p className="text-xl">Select a {activeTab === "pyq" ? "subject" : "lab manual"} to view</p>
+              </div>
+            )}
           </div>
-        </div>
-      </main>
+        </section>
+      </div>
     </div>
   );
 }

@@ -1,167 +1,110 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import { useRouter } from "next/router";
-import React, { useEffect } from "react";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Head from 'next/head'
+import { useEffect, useState } from 'react'
+import { useTheme } from 'next-themes'
+import { Button } from '@/components/ui/button'
+import { loadScripts } from '@/lib/load-scripts'
 
-import Link from 'next/link'
+// Legacy vanilla scripts (public/js) fill the element IDs below; keep them stable.
+const SCRIPTS = ['https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js', '/js/result.js', '/js/ResultScript.js']
 
-const inter = Inter({ subsets: ["latin"] });
+const SEMS = [1, 2, 3, 4, 5, 6, 7]
 
-export default function DateSheet() {
-  const router = useRouter();
+function Stat({ id, label, highlight }) {
+  return (
+    <div id={`${id}Div`} className="data-div rounded-lg border bg-card p-4 shadow-sm">
+      <p className="label text-xs font-medium uppercase tracking-wide text-muted-foreground">{label}</p>
+      <p id={id} className={`dynamic-content mt-1 min-h-[1.75rem] break-words font-semibold ${highlight ? 'text-xl text-primary' : 'text-lg'}`} />
+    </div>
+  )
+}
 
-  const handleRefresh = () => {
-    if (!window.location.hash) {
-      window.location = window.location + "#loaded";
-      window.location.reload();
-    }
-  };
+export default function Result() {
+  const [ready, setReady] = useState(false)
+
   useEffect(() => {
-    handleRefresh();
-  }, []); // The empty dependency array ensures it runs only once on mount
+    let active = true
+    loadScripts(SCRIPTS)
+      .then(() => {
+        if (!active) return
+        window.initResult()
+        setReady(true)
+      })
+      .catch((e) => console.error(e))
+    return () => { active = false }
+  }, [])
+
+  const { resolvedTheme } = useTheme()
+  useEffect(() => {
+    // Wait a frame so the .dark class (and CSS variables) are applied before re-reading colours.
+    if (ready) requestAnimationFrame(() => window.refreshResultChart?.())
+  }, [resolvedTheme, ready])
 
   return (
     <>
       <Head>
         <title>D.Tech CGPA</title>
-        <meta
-          name="D.Tech CGPA Analysis"
-          content="View and Compare your DTU CGPA with other students."
-        />
+        <meta name="description" content="View and compare your DTU CGPA with other students." />
       </Head>
 
-      {/* <div id="cursor" /> */}
-      <div id="main">
-        <Header />
+      <div className="mx-auto max-w-5xl space-y-6 px-4 py-10">
+        <header>
+          <h1 className="text-3xl font-bold tracking-tight">Result Analysis</h1>
+          <p className="mt-2 text-muted-foreground">See your semester GPAs, CGPA and rank in your branch.</p>
+        </header>
 
-        <div className="container">
-          <div id="box" />
-          <div id="mid_box" className="text">
-            <p> Result Analysis </p>
-            <input
-              type="text"
-              id="inputBox"
-              placeholder="Enter Roll No (eg. 2K21/CO/262)"
-            />
-            <button id="submit">Show</button>
-            <br />
-            <br />
-          </div>
-          <div id="box2" className="c1" />
-        </div>
-        <br />
-        <br />
-        <p id="p2"> Result </p>
-
-        <div className="html-content" id="main-result-content">
-          <div id="result-data">
-            <div className="row">
-              <div id="nameDiv" className="data-div">
-                <p className="label">Name:</p>
-                <p id="name" className="dynamic-content"></p>
-              </div>
-
-              <div id="rollNoDiv" className="data-div">
-                <p className="label">Roll No:</p>
-                <p id="rollNo" className="dynamic-content"></p>
-              </div>
+        <section className="rounded-lg border bg-card p-5 shadow-sm">
+          <form className="flex flex-col gap-3 sm:flex-row sm:items-end" onSubmit={(e) => e.preventDefault()}>
+            <div className="flex-1">
+              <label htmlFor="inputBox" className="mb-1.5 block text-sm font-medium">Roll number</label>
+              <input
+                type="text"
+                id="inputBox"
+                autoComplete="off"
+                placeholder="e.g. 2K21/CO/262"
+                className="h-10 w-full rounded-md border border-input bg-background px-3 text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              />
             </div>
+            <Button id="submit" type="button" disabled={!ready}>Show</Button>
+          </form>
+        </section>
 
-            <div className="row">
-              <div id="sem1GPADiv" className="data-div">
-                <p className="label">Sem 1 GPA:</p>
-                <p id="sem1GPA" className="dynamic-content"></p>
-              </div>
-
-              <div id="sem2GPADiv" className="data-div">
-                <p className="label">Sem 2 GPA:</p>
-                <p id="sem2GPA" className="dynamic-content"></p>
-              </div>
-
-              <div id="sem3GPADiv" className="data-div">
-                <p className="label">Sem 3 GPA:</p>
-                <p id="sem3GPA" className="dynamic-content"></p>
-              </div>
-
-              <div id="sem4GPADiv" className="data-div">
-                <p className="label">Sem 4 GPA:</p>
-                <p id="sem4GPA" className="dynamic-content"></p>
-              </div>
-
-              <div id="sem5GPADiv" className="data-div">
-                <p className="label">Sem 5 GPA:</p>
-                <p id="sem5GPA" className="dynamic-content"></p>
-              </div>
-
-              <div id="sem6GPADiv" className="data-div">
-                <p className="label">Sem 6 GPA:</p>
-                <p id="sem6GPA" className="dynamic-content"></p>
-              </div>
-              
-              <div id="sem7GPADiv" className="data-div">
-                <p className="label">Sem 7 GPA:</p>
-                <p id="sem7GPA" className="dynamic-content"></p>
-              </div>
+        <section id="main-result-content" className="html-content space-y-6" aria-labelledby="p2">
+          <h2 id="p2" className="text-xl font-semibold">Result</h2>
+          <div id="result-data" className="space-y-4">
+            <div className="row grid gap-4 sm:grid-cols-2">
+              <Stat id="name" label="Name" />
+              <Stat id="rollNo" label="Roll No" />
             </div>
-
-            <div className="row">
-              <div id="rank1Div" className="data-div">
-                <p className="label">Branch Rank:</p>
-                <p id="rank1" className="dynamic-content"></p>
-              </div>
-
-              <div id="rank2Div" className="data-div">
-                <p className="label">College Rank:</p>
-                <p id="rank2" className="dynamic-content"></p>
-              </div>
-              <div className="data-div">
-                <p className="label">GPA:</p>
-                <p id="gpa" className="dynamic-content"></p>
-              </div>
-              <div className="row">
-                <div className="data-div">
-                  <p className="label">Projected Best CGPA (getting 10 in remaining sems):</p>
-                  <p id="projGPA" className="dynamic-content"></p>
-                </div>
-
-                <div className="data-div">
-                  <p className="label">Projected Best Dept. Rank (getting 10 in remaining sems):</p>
-                  <p id="projRank" className="dynamic-content"></p>
-                </div>
-              </div>
+            <div className="row grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-7">
+              {SEMS.map((n) => <Stat key={n} id={`sem${n}GPA`} label={`Sem ${n} GPA`} />)}
+            </div>
+            <div className="row grid gap-4 sm:grid-cols-3">
+              <Stat id="gpa" label="CGPA" highlight />
+              <Stat id="rank1" label="Branch rank" highlight />
+              <Stat id="rank2" label="College rank" highlight />
+            </div>
+            <div className="row grid gap-4 sm:grid-cols-2">
+              <Stat id="projGPA" label="Projected best CGPA (10 in remaining sems)" />
+              <Stat id="projRank" label="Projected best dept. rank (10 in remaining sems)" />
             </div>
           </div>
-          <div id="graph">
-            <canvas id="myChart"></canvas>
+          <div id="graph" className="rounded-lg border bg-card p-4 shadow-sm">
+            <div className="relative h-64 sm:h-80">
+              <canvas id="myChart" role="img" aria-label="Line chart of GPA per semester" />
+            </div>
           </div>
-        </div>
+        </section>
 
-        <br />
-        <br />
-
-        <center>
-          <b>Disclaimer: </b> <br />
-          Only for 2K21 B.Tech Students <br />
-          The Data is fetched from the main Result Files, thus updations will
-          not be visible <br />
-          Result of People who failed any subject may not be visible due to the
-          same reason. <br />
-          These Department Ranks are to provide a rough idea, contact dept HOD
-          for official data. <br />
-        </center>
-
-        <br />
-        <br />
-        <Footer />
-
+        <aside className="rounded-lg border bg-muted/50 p-5 text-sm text-muted-foreground">
+          <p className="mb-2 font-semibold text-foreground">Disclaimer</p>
+          <ul className="list-disc space-y-1 pl-5">
+            <li>Only for 2K21 B.Tech students.</li>
+            <li>Data is taken from the main result files, so later updates are not reflected.</li>
+            <li>Results of students who failed a subject may not be visible for the same reason.</li>
+            <li>Department ranks are a rough guide; contact your HOD for official data.</li>
+          </ul>
+        </aside>
       </div>
     </>
-  );
+  )
 }
-{/* <div class="advert">
-          <Link href={"https://wrapyshop.in/"}><img src="./assets/img/ad-banner.jpg" href="https://wrapyshop.in/" alt="Your Image" className="image" /></Link>
-        </div>  */}

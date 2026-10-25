@@ -1,0 +1,18 @@
+/* Timetable print rules (theme comes from src/styles/app.css) */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .TimetableClass,
+  .TimetableClass * {
+    visibility: visible;
+  }
+
+  .TimetableClass {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}

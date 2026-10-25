@@ -1,5 +1,6 @@
 
-var para = document.getElementById("p1");
+// Page markup is rendered by React (src/pages/datesheet.js); it calls window.initDateSheet() on mount.
+
 function convertDateFormat(inputDate) {
 
     var parts = inputDate.split('-');
@@ -40,8 +41,8 @@ function formatDateWithLineBreak(dateString) {
 }
 
 
-document.getElementById("addRowButton").addEventListener("click", function () {
-    const table = document.querySelector("table");
+function addRow() {
+    const table = document.getElementById("myTable");
     const newRow = table.insertRow(table.rows.length);
     const newCell1 = newRow.insertCell(0);
     const newCell2 = newRow.insertCell(1);
@@ -58,7 +59,7 @@ document.getElementById("addRowButton").addEventListener("click", function () {
     document.getElementById("newDate").value = "";
     document.getElementById("newCode").value = "";
     document.getElementById("newSubject").value = "";
-});
+}
 
 
 function byRoll(code) {
@@ -113,7 +114,7 @@ function byRoll(code) {
     ]
 
 
-    const table = document.querySelector("table");
+    const table = document.getElementById("myTable");
     const newRow = table.insertRow(table.rows.length);
     const newCell1 = newRow.insertCell(0);
     const newCell2 = newRow.insertCell(1);
@@ -140,7 +141,8 @@ function byRoll(code) {
 
 };
 
-document.getElementById("addRollButton").addEventListener("click", async function () {
+async function generateDateSheet() {
+    var para = document.getElementById("p1");
     const table = document.getElementById('myTable');
 
     const tbody = table.querySelector('tbody');
@@ -154,19 +156,16 @@ document.getElementById("addRollButton").addEventListener("click", async functio
 
     const newRoll = document.getElementById("newRoll").value.toUpperCase();
     const newName = await getName(newRoll);
-    console.log(newName);
-    console.log(newRoll);
     // Assuming newName and newRoll are already defined
     if (newName !== "null") {
         para.innerHTML = `${newName} (${newRoll})'s DateSheet`;
     } else {
         para.innerHTML = `${newRoll}'s DateSheet`;
     }
-    if (newRoll.substring(0, 4) == "2K21" || newRoll.substring(0, 4) == "2K20" || newRoll.substring(0, 2) == "23" || newRoll.substring(0, 4) == "2K22") {
-        arr = studentData[newRoll];
-    }
-    else {
-        alert("Enter Valid Roll No 2K20-23");
+    var arr = studentData[newRoll];
+    if (!arr) {
+        para.innerHTML = "";
+        alert("No exam data found for " + (newRoll || "this roll number") + ". Enter a valid roll number (e.g. 2K21/CO/262).");
         return;
     }
 
@@ -176,8 +175,6 @@ document.getElementById("addRollButton").addEventListener("click", async functio
         stampArr[i] = myDates[arr[i]] ? convertDateFormat(myDates[arr[i]]) : null;
     }
 
-    console.log(arr)
-    console.log(stampArr)
 
     const stampArrWithIndexes = stampArr.map((value, index) => ({ value, index }));
 
@@ -187,30 +184,26 @@ document.getElementById("addRollButton").addEventListener("click", async functio
     // Reorder the original arr based on the sorted stampArrWithIndexes
     const sortedArr = stampArrWithIndexes.map(obj => arr[obj.index]);
 
-    console.log(sortedArr)
 
     for (var i = 0; i < arr.length; i++) {
         if (myDates[sortedArr[i]])
             byRoll(sortedArr[i]);
     }
 
-});
+}
 
-
-
-const printBtn = document.getElementById('print')
-printBtn.addEventListener('click', function () {
-    print();
-})
+window.initDateSheet = function () {
+    document.getElementById("addRowButton").onclick = addRow;
+    document.getElementById("addRollButton").onclick = generateDateSheet;
+    document.getElementById("print").onclick = function () { print(); };
+};
 
 async function getName(rollNo) {
-    console.log(rollNo)
     let flag = 0;
 
+    if (typeof data === 'undefined') return "null";
     for (let i = 0; i < data.length; i++) {
-        // console.log(data[i]['roll'])
         if (data[i]['roll'] == rollNo) {
-            console.log(data[i]['name'])
             return (data[i]['name'])
         }
     }

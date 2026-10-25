@@ -1,11 +1,14 @@
 
-// Tailwind config for the sub-apps under src/app (PYQ, Timetable, Placement Stats).
-// They were standalone sites built with Tailwind preflight on and the shadcn theme,
-// so they get their own config instead of the main site's (which disables preflight).
+// Shared Tailwind config for the D.Tech design system (theme tokens live in src/styles/theme.css).
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ['class'],
-  content: ['./src/app/**/*.{js,ts,jsx,tsx,mdx}', './src/apps/**/*.{js,ts,jsx,tsx,mdx}'],
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/apps/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -29,6 +32,7 @@ module.exports = {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
+        brand: 'hsl(var(--brand))',
       },
     },
   },

@@ -1,27 +1,40 @@
-var temp = document.getElementById('submit')
-const ctx = document.getElementById('myChart');
+// Page markup is rendered by React (src/pages/result.js); it calls window.initResult() on mount.
+var myChart = null;
 
-myChart = new Chart(ctx, {
+function createChart() {
+    const ctx = document.getElementById('myChart');
+    if (!ctx || typeof Chart === 'undefined') return;
+    var prev = myChart ? myChart.data.datasets[0].data : [0, 0, 0, 0, 0, 0, 0];
+    if (myChart) myChart.destroy();
+    const styles = getComputedStyle(document.documentElement);
+    const color = (name) => 'hsl(' + styles.getPropertyValue(name).trim() + ')';
+    myChart = new Chart(ctx, {
     type: 'line',
     backgroundColor: 'rgba(01, 10, 10, 0.1)',
     data: {
         labels: ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4', 'Sem 5', 'Sem 6', 'Sem 7'],
         datasets: [{
             label: 'GPA',
-            data: [0, 0, 0, 0, 0, 0, 0],
-            borderWidth: 5
+            data: prev,
+            borderWidth: 3,
+            borderColor: color('--primary'),
+            backgroundColor: color('--primary'),
+            tension: 0.3
         }]
     },
     options: {
+        maintainAspectRatio: false,
+        plugins: { legend: { labels: { color: color('--muted-foreground') } } },
         scales: {
-            y: {
-                beginAtZero: true
-            }
+            x: { ticks: { color: color('--muted-foreground') }, grid: { color: color('--border') } },
+            y: { beginAtZero: true, max: 10, ticks: { color: color('--muted-foreground') }, grid: { color: color('--border') } }
         }
     }
 });
+}
 
 function UpdateGraph(context) {
+    if (!myChart) return;
 
     myChart.data.datasets[0].data = [context.s1, context.s2, context.s3, context.s4, context.s5, context.s6, context.s7];
     myChart.update();
@@ -30,8 +43,6 @@ function UpdateGraph(context) {
 
 
 function calculateRank(cgpa, branch) {
-    console.log(branch)
-    console.log(cgpa)
     let countTotal = 0;
     let countBranch = 0;
     for (let i = 0; i < data.length; i++) {
@@ -41,7 +52,6 @@ function calculateRank(cgpa, branch) {
             if (data[i]['branch'] == branch)
                 countBranch++;
         }
-        console.log(countBranch, countTotal)
     }
     countBranch++;
     countTotal++;
@@ -107,7 +117,6 @@ function display(data) {
 
 function onClickHandler() {
     var rollNo = document.getElementById('inputBox').value.toUpperCase();
-    console.log(rollNo)
     let flag = 0;
 
     for (let i = 0; i < data.length; i++) {
@@ -124,4 +133,11 @@ function onClickHandler() {
 
 }
 
-temp.onclick = onClickHandler;
+// Re-themes the chart (e.g. after a light/dark toggle) keeping its data.
+window.refreshResultChart = createChart;
+
+window.initResult = function () {
+    createChart();
+    document.getElementById('submit').onclick = onClickHandler;
+    document.getElementById('inputBox').onkeydown = function (e) { if (e.key === 'Enter') onClickHandler(); };
+};

@@ -373,6 +373,11 @@ let codetoname = {
     "ME406": "ELASTIC & PLASTIC BEHAVIOUR OF MATERIALS",
     "ME410": "ADVANCES IN WELDING & CASTING",
     "SE416": "Big Data Analytics",
-
-
+    // Placeholder slots used by the General (non-COE) simulator
+    "DEC1": "Departmental Elective Course 1",
+    "DEC2": "Departmental Elective Course 2",
+    "DEC3": "Departmental Elective Course 3",
+    "HMC": "Humanities / Management Course",
+    "MOOC302": "MOOC Course (2 credits)",
+    "MOOC304": "MOOC Course (2 credits)",
 }

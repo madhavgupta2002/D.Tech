@@ -1,0 +1,69 @@
+/*
+ * D.Tech design system entry: Tailwind + shared theme tokens (shadcn-style HSL channels).
+ * Light is the default; `.dark` on <html> is toggled by next-themes (localStorage key "theme"),
+ * which public/subject-analysis also reads. Brand blue is #4FA4FF (211 100% 65%).
+ * public/subject-analysis/theme.css mirrors these tokens; keep them in sync.
+ */
+@config "../../tailwind.apps.config.js";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 97%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 211 90% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 211 60% 94%;
+    --secondary-foreground: 211 80% 25%;
+    --muted: 210 40% 94%;
+    --muted-foreground: 215 16% 40%;
+    --accent: 211 100% 94%;
+    --accent-foreground: 211 80% 30%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 32% 88%;
+    --input: 214 32% 88%;
+    --ring: 211 90% 45%;
+    --brand: 211 100% 65%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 222 47% 6%;
+    --foreground: 210 40% 96%;
+    --card: 222 40% 10%;
+    --card-foreground: 210 40% 96%;
+    --popover: 222 40% 10%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 211 100% 65%;
+    --primary-foreground: 222 47% 8%;
+    --secondary: 217 33% 16%;
+    --secondary-foreground: 210 40% 96%;
+    --muted: 217 33% 14%;
+    --muted-foreground: 215 20% 68%;
+    --accent: 211 50% 20%;
+    --accent-foreground: 211 100% 85%;
+    --destructive: 0 63% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 217 30% 20%;
+    --input: 217 30% 20%;
+    --ring: 211 100% 65%;
+    --brand: 211 100% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}

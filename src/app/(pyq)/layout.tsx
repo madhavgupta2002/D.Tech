@@ -1,29 +1,12 @@
-import '@/apps/pyq/globals.css';
+import '@/styles/app.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import { ThemeProvider } from '@/apps/pyq/components/theme-provider';
-import { GoogleAnalytics } from '@/apps/pyq/components/google-analytics';
-
-const inter = Inter({ subsets: ['latin'] });
+import { SiteLayout } from '@/components/site-layout';
 
 export const metadata: Metadata = {
   title: 'DTU Previous Year Questions (PYQ) Solutions',
   description: 'Access and download DTU previous year question solutions by semester and department',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark">
-          {children}
-        </ThemeProvider>
-        <GoogleAnalytics GA_MEASUREMENT_ID="G-08P16MS25G" />
-      </body>
-    </html>
-  );
+export default function PyqLayout({ children }: { children: React.ReactNode }) {
+  return <SiteLayout gaId="G-08P16MS25G">{children}</SiteLayout>;
 }

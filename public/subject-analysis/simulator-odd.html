@@ -3,180 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="theme.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="styles.css">
     <title>DTU Subject Registration Simulator</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto 30px;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .primary-nav {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eee;
-        }
-
-        .nav-section {
-            margin-bottom: 20px;
-        }
-
-        .nav-section h3 {
-            color: #34495e;
-            margin-bottom: 15px;
-            padding-left: 10px;
-            border-left: 4px solid #3498db;
-        }
-
-        .nav-group {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-        }
-
-        .nav-group a {
-            text-decoration: none;
-            color: #3498db;
-            font-weight: 500;
-            padding: 8px 15px;
-            border-radius: 5px;
-            background-color: #f8f9fa;
-            transition: all 0.3s ease;
-        }
-
-        .nav-group a:hover {
-            background-color: #3498db;
-            color: white;
-            transform: translateY(-2px);
-        }
-
-        .nav-group a.active {
-            background-color: #3498db;
-            color: white;
-        }
-
-        #credit-count {
-            text-align: center;
-            font-size: 1.2em;
-            font-weight: bold;
-            color: #2c3e50;
-            margin-bottom: 20px;
-        }
-
-        .container {
-            display: flex;
-            justify-content: space-between;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .left-column, .right-column {
-            width: 48%;
-            background-color: white;
-            border-radius: 5px;
-            padding: 20px;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .timetable {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-
-        .timetable th, .timetable td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-
-        .timetable th {
-            background-color: #f2f2f2;
-        }
-
-        .timetable td {
-            cursor: pointer;
-        }
-
-        .timetable td.selected {
-            background-color: #90EE90;
-        }
-
-        .timetable td.zero-hour {
-            background-color: #D3D3D3;
-            cursor: not-allowed;
-        }
-
-        .slot {
-            margin-bottom: 10px;
-        }
-
-        .btn {
-            margin: 2px;
-            padding: 8px 16px;
-            background-color: #3498db;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .btn:hover {
-            background-color: #2980b9;
-        }
-
-        .btn-selected {
-            background-color: #2ecc71;
-        }
-
-        .btn-selected:hover {
-            background-color: #27ae60;
-        }
-
-        #selected-container {
-            margin-top: 20px;
-        }
-
-        footer {
-            margin-top: 30px;
-            text-align: center;
-            color: #7f8c8d;
-        }
-
-        footer a {
-            color: #3498db;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
+    <script src="header.js"></script>
+    <main id="main" class="page">
     <h1>DTU Subject Registration Simulator (Odd Semester)</h1>
     
     <div class="nav-container">
@@ -210,6 +47,7 @@
 
     <div class="container">
         <div class="left-column">
+            <div class="table-wrap timetable-wrap" tabindex="0" role="region" aria-label="Timetable (scrollable)">
             <table class="timetable">
                 <tr>
                     <th></th>
@@ -290,6 +128,7 @@
                     <td data-slot="E2">E2</td>
                 </tr>
             </table>
+            </div>
             <div id="info-container"></div>
             <div id="selected-container"></div>
         </div>
@@ -298,8 +137,10 @@
         </div>
     </div>
 
+    </main>
+
     <footer>
-        <p>Made By: <a href="https://www.linkedin.com/in/madhavgupta2002/" target="_blank">Madhav Gupta</a></p>
+        <p>Made By: <a href="https://www.linkedin.com/in/madhavgupta2002/" target="_blank" rel="noopener noreferrer">Madhav Gupta</a></p>
     </footer>
 
     <script>
@@ -1177,7 +1018,48 @@ let codetoname = {
     "MS399": "Community Engagement(Mentoring School Students)",
     "PE405": "METAL FORMING & PRESS WORKING",
     "PE407": "QUANTITATIVE TECHNIQUES",
-    "PE421": "RELIABILITY, MAINTENANCE & SAFETY ENGINEERING"
+    "PE421": "RELIABILITY, MAINTENANCE & SAFETY ENGINEERING",
+    "IT351a": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+    "HU317": "Basic Communication Skills",
+    "CH305": "CHARACTERIZATION OF MATERIALS",
+    "SE209a": "ENGINEERING ANALYSIS AND DESIGN (SOFTWARE ENGINEERING)",
+    "CH319": "RUBBER TECHNOLOGY",
+    "CE419": "SOIL DYNAMICS",
+    "EE417": "ADVANCED TOPICS IN ELECTRICAL MACHINES",
+    "ME365a": "COMPUTATIONAL FLUID DYNAMICS",
+    "EE415": "DESIGN OF ELECTRICAL MACHINES",
+    "ME361a": "INDUSTRIAL ENGINEERING",
+    "EE427": "COMPUTER ARCHITECTURE",
+    "ME367a": "FINITE ELEMENT METHODS",
+    "EE425": "IC TECHNOLOGY",
+    "EE327": "INTRODUCTION TO PYTHON PROGRAMMING",
+    "IT427": "INTRUSION DETECTION AND INFORMATION WARFARE",
+    "MBASC213": "TOTAL QUALITY MANAGEMENT",
+    "EE405": "DIGITAL SIGNAL PROCESSING",
+    "EE313": "ENGINEERING ANALYSIS AND DESIGN",
+    "MBAMK221": "MARKETING OF SERVICES",
+    "ME353a": "RENEWABLE SOURCES OF ENERGY",
+    "EC327": "TIME FREQUENCY ANALYSIS",
+    "HU407": "Wealth and Poverty of Nations",
+    "EC319": "CMOS ANALOG INTEGRATED CIRCUIT",
+    "MC319": "COMPLEX ANALYSIS",
+    "EE429": "POWER ELECTRONICS APPLICATION TO PHOTO-VOLTAIC SYSTEMS",
+    "ME355a": "THERMAL SYSTEMS",
+    "IT409": "ENTERPRISE JAVA PROGRAMMING",
+    "IT417": "HIGH PERFORMANCE COMPUTING",
+    "EP427": "ADVANCED MATERIALS FOR PHOTONIC DEVICES",
+    "EC417": "CAD FOR VLSI DESIGN",
+    "EE351a": "POWER ELECTRONICS SYSTEM",
+    "CE411": "INTERACTION BEHAVIOR OF SOIL STRUCTURES",
+    "EC461": "MULTI RATE SIGNAL PROCESSING",
+    "EE411": "POWER SYSTEM MODELLING AND SIMULATION",
+    "EE413": "POWER SYSTEM RELIABILITY",
+    "PE429": "THERMAL SPRAY TECHNOLOGY",
+    "EE357a": "UTILIZATION OF ELECTRICAL ENERGY",
+    "CE405": "DESIGN OF STEEL STRUCTURES",
+    "BT411": "INDUSTRIAL BIOTECHNOLOGY",
+    "CH409": "PLANT ENGINEERING AND PROCESS ECONOMICS",
+    "EN407": "VIBRATION ANALYSIS & CONTROL OF NOISE POLLUTION"
 }
         const slottocode = {
     "E1": ['CE205', 'CE301', 'CH203', 'CH301', 'CH305', 'CH319', 'CO201', 'CO313', 'EC307', 'EC313', 'EE307', 'EP205', 'HU309', 'HU317', 'IT321', 'IT351a', 'MBA-107', 'MC307', 'PE361', 'SE209a'],
