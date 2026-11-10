@@ -19,30 +19,29 @@ const TOOLS = [
   { title: 'Internship Training Diary', description: 'Template for the internship training diary.', href: 'https://drive.google.com/file/d/1w5b1Pa4UN9y1WbsbFsKpHny0ouu_jO8F/view?usp=drive_link', kind: 'external', icon: ScrollText },
 ]
 
-const cardClass =
-  'group flex h-full items-start gap-4 rounded-lg border bg-card p-5 text-card-foreground shadow-sm transition-colors hover:border-primary/50 hover:bg-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring'
+// A ruled directory rather than floating cards: cells share hairline borders.
+const cellClass =
+  'group flex h-full flex-col gap-1.5 bg-white p-5 dark:bg-card transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring'
 
-function ToolCard({ tool }) {
+function ToolCard({ tool, index }) {
   const Icon = tool.icon
   const body = (
     <>
-      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-secondary text-secondary-foreground">
-        <Icon className="h-5 w-5" aria-hidden="true" />
+      <span className="flex items-center justify-between text-muted-foreground">
+        <span className="font-mono text-xs">{String(index + 1).padStart(2, '0')}</span>
+        {tool.kind === 'external' ? (
+          <ArrowUpRight className="h-4 w-4 transition-colors group-hover:text-primary" aria-label="(opens in new tab)" />
+        ) : (
+          <Icon className="h-4 w-4 transition-colors group-hover:text-primary" aria-hidden="true" />
+        )}
       </span>
-      <span className="min-w-0 flex-1">
-        <span className="flex items-center gap-1 font-semibold">
-          {tool.title}
-          {tool.kind === 'external' && (
-            <ArrowUpRight className="h-4 w-4 text-muted-foreground" aria-label="(opens in new tab)" />
-          )}
-        </span>
-        <span className="mt-1 block text-sm text-muted-foreground">{tool.description}</span>
-      </span>
+      <span className="mt-3 font-semibold tracking-tight">{tool.title}</span>
+      <span className="text-sm text-muted-foreground">{tool.description}</span>
     </>
   )
-  if (tool.kind === 'internal') return <Link href={tool.href} className={cardClass}>{body}</Link>
-  if (tool.kind === 'static') return <a href={tool.href} className={cardClass}>{body}</a>
-  return <a href={tool.href} target="_blank" rel="noopener noreferrer" className={cardClass}>{body}</a>
+  if (tool.kind === 'internal') return <Link href={tool.href} className={cellClass}>{body}</Link>
+  if (tool.kind === 'static') return <a href={tool.href} className={cellClass}>{body}</a>
+  return <a href={tool.href} target="_blank" rel="noopener noreferrer" className={cellClass}>{body}</a>
 }
 
 export default function Home() {
@@ -53,25 +52,32 @@ export default function Home() {
         <meta name="description" content="Datesheets, results, timetables, question papers and more for Delhi Technological University students." />
       </Head>
 
-      <section className="border-b bg-gradient-to-b from-brand/20 via-brand/5 to-background">
-        <div className="mx-auto max-w-7xl px-4 py-14 text-center sm:py-20">
-          <p className="mb-3 inline-flex rounded-full border bg-card px-3 py-1 text-xs font-medium text-muted-foreground">
-            For Delhi Technological University students
-          </p>
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-            <span className="text-primary">D.</span>Tech
-          </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-base text-muted-foreground sm:text-lg">
-            Every tool you need through the semester — datesheets, results, timetables, question papers and more.
-          </p>
-        </div>
+      <div className="home-white">
+      <div className="wood-surface">
+      <section className="mx-auto max-w-7xl px-4 pb-16 pt-14 sm:pt-20">
+        <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
+          Delhi Technological University
+        </p>
+        <h1 className="mt-3 text-5xl font-bold tracking-tighter sm:text-6xl">
+          D<span className="text-primary">.</span>Tech
+        </h1>
+        <p className="mt-4 max-w-xl text-base text-muted-foreground sm:text-lg">
+          Every tool you need through the semester — datesheets, results, timetables, question papers and more.
+        </p>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-10" aria-labelledby="tools-heading">
+      </div>
+
+      {/* Light mode: everything below the hero sits on pure white so the campus image's white sky blends in. */}
+      <section className="mx-auto max-w-7xl px-4 pb-12" aria-labelledby="tools-heading">
         <h2 id="tools-heading" className="sr-only">Tools</h2>
-        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {TOOLS.map((tool) => (
-            <li key={tool.title}><ToolCard tool={tool} /></li>
+        <ul className="grid gap-px overflow-hidden rounded-lg border bg-border sm:grid-cols-2 lg:grid-cols-3">
+          {TOOLS.map((tool, i) => (
+            <li key={tool.title} className="bg-white dark:bg-card"><ToolCard tool={tool} index={i} /></li>
+          ))}
+          {/* Fill the last row so the ruled grid has no hole. */}
+          {Array.from({ length: (3 - (TOOLS.length % 3)) % 3 }).map((_, i) => (
+            <li key={`pad-${i}`} aria-hidden="true" className="hidden bg-white dark:bg-card lg:block" />
           ))}
         </ul>
       </section>
@@ -80,10 +86,11 @@ export default function Home() {
         <img
           src="/assets/img/bg.png"
           alt="Illustration of the Delhi Technological University campus"
-          className="w-full rounded-lg border object-cover"
+          className="w-full object-cover dark:rounded-lg dark:border"
           loading="lazy"
         />
       </section>
+      </div>
     </>
   )
 }

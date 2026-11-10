@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import { Printer, Plus } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { PrintCredit } from '@/components/print-credit'
 import { loadScripts } from '@/lib/load-scripts'
 
 // Legacy vanilla scripts (public/js) query the element IDs below; keep them stable.
@@ -47,7 +48,7 @@ export default function DateSheet() {
           <p className="mt-2 text-muted-foreground">Enter your roll number to generate your personal exam schedule.</p>
         </header>
 
-        <section className="rounded-lg border bg-card p-5 shadow-sm print:hidden">
+        <section className="rounded-lg border bg-card p-5 print:hidden">
           <form className="flex flex-col gap-3 sm:flex-row sm:items-end" onSubmit={(e) => e.preventDefault()}>
             <div className="flex-1">
               <label htmlFor="newRoll" className={labelClass}>Roll number</label>
@@ -57,7 +58,7 @@ export default function DateSheet() {
           </form>
         </section>
 
-        <section id="main-content" className="html-content rounded-lg border bg-card p-5 shadow-sm print:border-0 print:shadow-none">
+        <section id="main-content" className="html-content rounded-lg border bg-card p-5 print:border-0">
           <div className="mb-4 text-center">
             <p id="p2" className="font-semibold">DateSheet for B.Tech Odd End Semester Examination November-December 2024 (2024-25)</p>
             <p id="p1" className="mt-1 text-muted-foreground" />
@@ -82,6 +83,7 @@ export default function DateSheet() {
             <a className="font-medium text-primary underline-offset-4 hover:underline" href="http://exam.dtu.ac.in/DateSheet.htm" target="_blank" rel="noopener noreferrer">verify</a>{' '}
             the corresponding dates.
           </p>
+          <PrintCredit className="mt-3" />
           <div className="mt-4 flex justify-center print:hidden">
             <Button id="print" type="button" variant="outline" disabled={!ready}>
               <Printer className="mr-2 h-4 w-4" aria-hidden="true" /> Print
@@ -89,7 +91,7 @@ export default function DateSheet() {
           </div>
         </section>
 
-        <details className="group rounded-lg border bg-card shadow-sm print:hidden">
+        <details className="group rounded-lg border bg-card print:hidden">
           <summary className="flex cursor-pointer list-none items-center justify-between p-5 font-medium">
             Add additional subjects (optional)
             <Plus className="h-4 w-4 transition-transform group-open:rotate-45" aria-hidden="true" />

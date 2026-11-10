@@ -41,8 +41,8 @@ export default function QuestionPapers() {
         </header>
 
         <div id="main-result-content" className="html-content grid gap-6 md:grid-cols-[320px_1fr]">
-          <div id="navigator" className={`rounded-lg border bg-card p-4 shadow-sm ${navClass}`} />
-          <div className="overflow-hidden rounded-lg border bg-card shadow-sm">
+          <div id="navigator" className={`rounded-lg border bg-card p-4 ${navClass}`} />
+          <div className="overflow-hidden rounded-lg border bg-card">
             <iframe id="myIframe" title="Question paper preview" className="h-[70vh] w-full" />
           </div>
         </div>

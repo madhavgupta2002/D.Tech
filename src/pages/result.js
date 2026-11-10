@@ -11,9 +11,9 @@ const SEMS = [1, 2, 3, 4, 5, 6, 7]
 
 function Stat({ id, label, highlight }) {
   return (
-    <div id={`${id}Div`} className="data-div rounded-lg border bg-card p-4 shadow-sm">
-      <p className="label text-xs font-medium uppercase tracking-wide text-muted-foreground">{label}</p>
-      <p id={id} className={`dynamic-content mt-1 min-h-[1.75rem] break-words font-semibold ${highlight ? 'text-xl text-primary' : 'text-lg'}`} />
+    <div id={`${id}Div`} className="data-div rounded-lg border bg-card p-4">
+      <p className="label font-mono text-[11px] uppercase tracking-widest text-muted-foreground">{label}</p>
+      <p id={id} className={`dynamic-content mt-1 min-h-[1.75rem] break-words font-semibold ${highlight ? 'text-2xl tracking-tight text-primary' : 'text-lg tracking-tight'}`} />
     </div>
   )
 }
@@ -52,7 +52,7 @@ export default function Result() {
           <p className="mt-2 text-muted-foreground">See your semester GPAs, CGPA and rank in your branch.</p>
         </header>
 
-        <section className="rounded-lg border bg-card p-5 shadow-sm">
+        <section className="rounded-lg border bg-card p-5">
           <form className="flex flex-col gap-3 sm:flex-row sm:items-end" onSubmit={(e) => e.preventDefault()}>
             <div className="flex-1">
               <label htmlFor="inputBox" className="mb-1.5 block text-sm font-medium">Roll number</label>
@@ -88,7 +88,7 @@ export default function Result() {
               <Stat id="projRank" label="Projected best dept. rank (10 in remaining sems)" />
             </div>
           </div>
-          <div id="graph" className="rounded-lg border bg-card p-4 shadow-sm">
+          <div id="graph" className="rounded-lg border bg-card p-4">
             <div className="relative h-64 sm:h-80">
               <canvas id="myChart" role="img" aria-label="Line chart of GPA per semester" />
             </div>

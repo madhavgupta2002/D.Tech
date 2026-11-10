@@ -3,10 +3,12 @@
 import { useState } from "react";
 import { SubjectList } from "@/apps/pyq/components/subject-list";
 import { PDFViewer } from "@/apps/pyq/components/pdf-viewer";
+import { TypedNotes } from "@/apps/pyq/components/typed-notes";
+import { hasTypedNotes } from "@/apps/pyq/lib/typed";
 import { SearchBar, type Department } from "@/apps/pyq/components/search-bar";
 import { subjectsData, labData } from "@/apps/pyq/lib/data";
 import { GroupedSubjects } from "@/apps/pyq/lib/types";
-import { BookOpen, Linkedin, Beaker, ArrowLeft } from "lucide-react";
+import { BookOpen, Linkedin, Beaker, ArrowLeft, FileText, Type } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -18,6 +20,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [currentDepartment, setCurrentDepartment] = useState<Department>("all");
   const [activeTab, setActiveTab] = useState<"pyq" | "lab">("pyq");
+  const [viewMode, setViewMode] = useState<"pdf" | "typed">("pdf");
 
   const handleTabChange = (tab: "pyq" | "lab") => {
     setActiveTab(tab);
@@ -48,6 +51,8 @@ export default function Home() {
 
   const selectedSubjectData = selectedSubject ? data[selectedSubject] : null;
   const hasSelection = Boolean(selectedSubject && selectedSubjectData);
+  const typedAvailable = activeTab === "pyq" && hasTypedNotes(selectedSubject);
+  const showTyped = typedAvailable && viewMode === "typed";
 
   const tabs = [
     { id: "pyq" as const, label: "PYQ Solutions", Icon: BookOpen },
@@ -56,17 +61,20 @@ export default function Home() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-4">
-      <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <div className="flex items-center gap-2">
-          <BookOpen className="h-6 w-6 text-primary" aria-hidden="true" />
-          <h1 className="text-xl font-bold sm:text-2xl">DTU PYQ Solutions</h1>
+      <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">Previous year questions</p>
+          <h1 className="mt-1 text-2xl font-bold tracking-tight sm:text-3xl">DTU PYQ Solutions</h1>
         </div>
-        <Button asChild size="sm" className="self-start sm:self-auto">
-          <a href="https://www.linkedin.com/in/madhavgupta2002" target="_blank" rel="noopener noreferrer">
-            Made by Madhav Gupta
-            <Linkedin className="ml-2 h-4 w-4" aria-hidden="true" />
-          </a>
-        </Button>
+        <a
+          href="https://www.linkedin.com/in/madhavgupta2002"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 self-start text-sm text-muted-foreground underline-offset-4 hover:text-foreground hover:underline sm:self-auto"
+        >
+          Made by Madhav Gupta
+          <Linkedin className="h-4 w-4" aria-hidden="true" />
+        </a>
       </div>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-[minmax(0,400px)_minmax(0,1fr)] lg:grid-cols-[450px_minmax(0,1fr)]">
@@ -78,7 +86,7 @@ export default function Home() {
             hasSelection && "hidden md:flex"
           )}
         >
-          <div role="tablist" aria-label="Content type" className="mb-4 grid grid-cols-2 gap-2">
+          <div role="tablist" aria-label="Content type" className="-mx-4 -mt-4 mb-4 grid grid-cols-2 border-b">
             {tabs.map(({ id, label, Icon }) => (
               <button
                 key={id}
@@ -86,10 +94,10 @@ export default function Home() {
                 aria-selected={activeTab === id}
                 onClick={() => handleTabChange(id)}
                 className={cn(
-                  "flex items-center justify-center gap-2 whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background",
+                  "-mb-px flex items-center justify-center gap-2 whitespace-nowrap border-b-2 px-3 py-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring",
                   activeTab === id
-                    ? "bg-primary text-primary-foreground"
-                    : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
+                    ? "border-primary text-foreground"
+                    : "border-transparent text-muted-foreground hover:text-foreground"
                 )}
               >
                 <Icon className="h-4 w-4 shrink-0" aria-hidden="true" />
@@ -122,27 +130,60 @@ export default function Home() {
           )}
         >
           {hasSelection && (
-            <Button
-              variant="outline"
-              size="sm"
-              className="mb-3 self-start md:hidden"
-              onClick={() => setSelectedSubject(null)}
+            <div
+              className={cn(
+                "mx-auto mb-3 flex w-full max-w-[800px] flex-wrap items-center justify-between gap-2",
+                !typedAvailable && "md:hidden"
+              )}
             >
-              <ArrowLeft className="mr-2 h-4 w-4" aria-hidden="true" />
-              Back to list
-            </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                className="md:hidden"
+                onClick={() => setSelectedSubject(null)}
+              >
+                <ArrowLeft className="mr-2 h-4 w-4" aria-hidden="true" />
+                Back to list
+              </Button>
+              {typedAvailable && (
+                <div role="tablist" aria-label="View" className="ml-auto inline-flex divide-x overflow-hidden rounded-md border">
+                  {([
+                    { id: "pdf" as const, label: "Original PDF", Icon: FileText },
+                    { id: "typed" as const, label: "Typed notes", Icon: Type },
+                  ]).map(({ id, label, Icon }) => (
+                    <button
+                      key={id}
+                      role="tab"
+                      aria-selected={viewMode === id}
+                      onClick={() => setViewMode(id)}
+                      className={cn(
+                        "inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring",
+                        viewMode === id
+                          ? "bg-foreground text-background"
+                          : "text-muted-foreground hover:bg-accent hover:text-foreground"
+                      )}
+                    >
+                      <Icon className="h-4 w-4" aria-hidden="true" />
+                      {label}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
           )}
           <div className="mx-auto h-full min-h-0 w-full max-w-[800px] flex-1">
-            {selectedSubject && selectedSubjectData ? (
+            {selectedSubject && selectedSubjectData && showTyped ? (
+              <TypedNotes key={selectedSubject} code={selectedSubject} name={selectedSubjectData.name} />
+            ) : selectedSubject && selectedSubjectData ? (
               <PDFViewer subject={{ code: selectedSubject, ...selectedSubjectData }} type={activeTab} />
             ) : (
               <div className="flex h-full flex-col items-center justify-center text-muted-foreground">
                 {activeTab === "pyq" ? (
-                  <BookOpen className="mb-6 h-24 w-24 opacity-50" aria-hidden="true" />
+                  <BookOpen className="mb-4 h-10 w-10 opacity-40" strokeWidth={1.5} aria-hidden="true" />
                 ) : (
-                  <Beaker className="mb-6 h-24 w-24 opacity-50" aria-hidden="true" />
+                  <Beaker className="mb-4 h-10 w-10 opacity-40" strokeWidth={1.5} aria-hidden="true" />
                 )}
-                <p className="text-xl">Select a {activeTab === "pyq" ? "subject" : "lab manual"} to view</p>
+                <p className="text-sm">Select a {activeTab === "pyq" ? "subject" : "lab manual"} to view</p>
               </div>
             )}
           </div>

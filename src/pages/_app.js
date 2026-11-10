@@ -1,20 +1,16 @@
 import '@/styles/app.css'
-import { Inter } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
 import { SiteHeader } from '@/components/site-header'
 import { SiteFooter } from '@/components/site-footer'
 import { GoogleAnalytics } from '@/components/google-analytics'
-
-const inter = Inter({ subsets: ['latin'] })
+import { fontClasses } from '@/lib/fonts'
 
 // Pages Router shell; mirrors src/components/site-layout.tsx used by App Router routes.
 export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
-      <div className={`${inter.className} flex min-h-screen flex-col bg-background text-foreground`}>
-        <div className="print:hidden">
-          <SiteHeader />
-        </div>
+      <div className={`${fontClasses} flex min-h-screen flex-col text-foreground`}>
+        <SiteHeader />
         <main className="flex-1">
           <Component {...pageProps} />
         </main>

@@ -12,6 +12,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        sans: ['var(--font-sans, system-ui)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        serif: ['var(--font-serif, Georgia)', 'ui-serif', 'Georgia', 'serif'],
+        mono: ['var(--font-mono, ui-monospace)', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
         helvetica: ['Helvetica', 'Arial', 'sans-serif'],
       },
       borderRadius: {

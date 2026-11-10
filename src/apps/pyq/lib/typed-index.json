@@ -1,0 +1,114 @@
+{
+  "AP102": {
+    "questions": 43,
+    "ai": 10
+  },
+  "CO201": {
+    "questions": 150,
+    "ai": 30
+  },
+  "CO202": {
+    "questions": 148,
+    "ai": 15
+  },
+  "CO203": {
+    "questions": 121,
+    "ai": 18
+  },
+  "CO204": {
+    "questions": 126,
+    "ai": 10
+  },
+  "CO205": {
+    "questions": 257,
+    "ai": 31
+  },
+  "CO206": {
+    "questions": 89,
+    "ai": 11
+  },
+  "CO207": {
+    "questions": 58,
+    "ai": 9
+  },
+  "CO208": {
+    "questions": 126,
+    "ai": 19
+  },
+  "CO301": {
+    "questions": 108,
+    "ai": 15
+  },
+  "CO302": {
+    "questions": 138,
+    "ai": 23
+  },
+  "CO303": {
+    "questions": 124,
+    "ai": 30
+  },
+  "CO304": {
+    "questions": 138,
+    "ai": 25
+  },
+  "CO306": {
+    "questions": 104,
+    "ai": 14
+  },
+  "CO313": {
+    "questions": 119,
+    "ai": 13
+  },
+  "CO325": {
+    "questions": 66,
+    "ai": 15
+  },
+  "CO326": {
+    "questions": 71,
+    "ai": 16
+  },
+  "CO427": {
+    "questions": 70,
+    "ai": 7
+  },
+  "CO433": {
+    "questions": 108,
+    "ai": 12
+  },
+  "EC261": {
+    "questions": 154,
+    "ai": 42
+  },
+  "EC262": {
+    "questions": 122,
+    "ai": 3
+  },
+  "FEC7": {
+    "questions": 143,
+    "ai": 27
+  },
+  "HU301-302": {
+    "questions": 220,
+    "ai": 33
+  },
+  "HU307": {
+    "questions": 66,
+    "ai": 20
+  },
+  "HU314": {
+    "questions": 28,
+    "ai": 7
+  },
+  "HU327": {
+    "questions": 21,
+    "ai": 0
+  },
+  "HU425": {
+    "questions": 17,
+    "ai": 1
+  },
+  "MG301-302": {
+    "questions": 156,
+    "ai": 18
+  }
+}

@@ -4,50 +4,67 @@
  * Values are HSL channels, consumed as hsl(var(--token)).
  */
 :root {
-  --background: 210 40% 97%;
-  --foreground: 222 47% 11%;
-  --card: 0 0% 100%;
-  --card-foreground: 222 47% 11%;
-  --popover: 0 0% 100%;
-  --popover-foreground: 222 47% 11%;
-  --primary: 211 90% 45%;
-  --primary-foreground: 0 0% 100%;
-  --secondary: 211 60% 94%;
-  --secondary-foreground: 211 80% 25%;
-  --muted: 210 40% 94%;
-  --muted-foreground: 215 16% 40%;
-  --accent: 211 100% 94%;
-  --accent-foreground: 211 80% 30%;
-  --destructive: 0 72% 51%;
+  --background: 38 35% 89%;
+  --foreground: 25 25% 12%;
+  --card: 40 38% 97%;
+  --card-foreground: 25 25% 12%;
+  --popover: 40 38% 97%;
+  --popover-foreground: 25 25% 12%;
+  --primary: 24 42% 30%;
+  --primary-foreground: 40 38% 97%;
+  --secondary: 36 26% 85%;
+  --secondary-foreground: 25 25% 14%;
+  --muted: 37 24% 87%;
+  --muted-foreground: 28 12% 36%;
+  --accent: 35 30% 84%;
+  --accent-foreground: 25 25% 12%;
+  --destructive: 354 70% 45%;
   --destructive-foreground: 0 0% 100%;
-  --border: 214 32% 88%;
-  --input: 214 32% 88%;
-  --ring: 211 90% 45%;
-  --brand: 211 100% 65%;
-  --radius: 0.75rem;
+  --border: 34 22% 77%;
+  --input: 34 20% 72%;
+  --ring: 24 42% 30%;
+  --brand: 26 50% 36%;
+  --radius: 0.375rem;
   color-scheme: light;
 }
 
 .dark {
-  --background: 222 47% 6%;
-  --foreground: 210 40% 96%;
-  --card: 222 40% 10%;
-  --card-foreground: 210 40% 96%;
-  --popover: 222 40% 10%;
-  --popover-foreground: 210 40% 96%;
-  --primary: 211 100% 65%;
-  --primary-foreground: 222 47% 8%;
-  --secondary: 217 33% 16%;
-  --secondary-foreground: 210 40% 96%;
-  --muted: 217 33% 14%;
-  --muted-foreground: 215 20% 68%;
-  --accent: 211 50% 20%;
-  --accent-foreground: 211 100% 85%;
-  --destructive: 0 63% 50%;
+  --background: 24 14% 9%;
+  --foreground: 38 25% 90%;
+  --card: 25 12% 12%;
+  --card-foreground: 38 25% 90%;
+  --popover: 25 12% 12%;
+  --popover-foreground: 38 25% 90%;
+  --primary: 34 48% 66%;
+  --primary-foreground: 25 20% 9%;
+  --secondary: 26 10% 16%;
+  --secondary-foreground: 38 25% 88%;
+  --muted: 26 10% 15%;
+  --muted-foreground: 32 10% 62%;
+  --accent: 27 12% 18%;
+  --accent-foreground: 38 25% 92%;
+  --destructive: 354 65% 55%;
   --destructive-foreground: 0 0% 100%;
-  --border: 217 30% 20%;
-  --input: 217 30% 20%;
-  --ring: 211 100% 65%;
-  --brand: 211 100% 65%;
+  --border: 28 10% 22%;
+  --input: 28 10% 28%;
+  --ring: 34 48% 66%;
+  --brand: 34 50% 62%;
   color-scheme: dark;
 }
+
+
+/* Faint wood grain behind the page (cards and panels stay solid). Stretched fractal noise, tinted brown. */
+
+body {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'%3E%3Cfilter id='g' x='0' y='0' width='100%' height='100%'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.0025 0.075' numOctaves='3' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.4 0 0 0 0 0.26 0 0 0 0 0.14 0.32 0 0 0 -0.12'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23g)'/%3E%3C/svg%3E");
+  background-size: 1200px 800px;
+}
+.dark body {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'%3E%3Cfilter id='g' x='0' y='0' width='100%' height='100%'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.0025 0.075' numOctaves='3' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1.0 0 0 0 0 0.88 0 0 0 0 0.7 0.14 0 0 0 -0.05'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23g)'/%3E%3C/svg%3E");
+}
+@media print {
+  body {
+    background-image: none;
+  }
+}
+

@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Search, Printer, Linkedin, ExternalLink, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { PrintCredit } from '@/components/print-credit';
 import codetoname from './data/codetoname';
 import slottocode from './data/slottocode';
 import regData from './data/regData.json';
@@ -22,9 +23,10 @@ const TimetableGenerator = () => {
 
     // Define a color mapping for slots
     const slotColors = {
-        E1: '#FFB3BA', E2: '#BAFFC9', E3: '#BAE1FF', E4: '#FFFFBA',
-        E5: '#FFD9BA', E6: '#E1BAFF', E7: '#BAFFD9', E8: '#FFBAE1',
-        E9: '#BAFFFF', E10: '#FFBAFF', Z: '#E6E6E6'
+        // Muted, print-friendly slot tints (one per elective slot).
+        E1: '#F2D7CF', E2: '#DCE5D2', E3: '#D6E0EA', E4: '#F1E6C4',
+        E5: '#EED9C4', E6: '#E2D8E8', E7: '#D3E4DE', E8: '#EBD3DA',
+        E9: '#D5E6E8', E10: '#E6DDD0', Z: '#E8E6E1'
     };
 
     useEffect(() => {
@@ -232,7 +234,7 @@ const TimetableGenerator = () => {
                         <h3 className="mb-2 font-semibold">Your subjects</h3>
                         <ul className="space-y-2">
                             {studentSubjects.map(subject => (
-                                <li key={subject} className="flex flex-wrap items-center justify-between gap-2 rounded-lg bg-secondary p-2 text-secondary-foreground">
+                                <li key={subject} className="flex flex-wrap items-center justify-between gap-2 rounded-md border bg-background p-2">
                                     <label htmlFor={`slot-${subject}`} className="min-w-0 text-sm">
                                         <span className="font-medium">{subject}</span>
                                         {codetoname[subject] ? <span className="text-muted-foreground"> - {codetoname[subject]}</span> : null}
@@ -274,7 +276,7 @@ const TimetableGenerator = () => {
                     <div ref={timetableRef} className="TimetableClass">
                         <table className="w-full min-w-[900px] border-collapse text-sm">
                             <thead>
-                                <tr className="bg-primary text-primary-foreground">
+                                <tr className="bg-foreground text-background">
                                     <th scope="col" className="border border-border p-2"><span className="sr-only">Day</span></th>
                                     {times.map(time => (
                                         <th key={time} scope="col" className="min-w-[80px] whitespace-nowrap border border-border p-2 font-medium">{time}</th>
@@ -290,7 +292,7 @@ const TimetableGenerator = () => {
                                             const baseColor = slotColors[slot] || '#FFFFFF';
                                             // Pastel slot colours are data; filled cells always use dark text so they stay readable in dark mode.
                                             const cellStyle = cellData
-                                                ? { backgroundColor: cellData.type === 'lab' ? adjustColor(baseColor, -20) : baseColor, color: '#111827' }
+                                                ? { backgroundColor: cellData.type === 'lab' ? adjustColor(baseColor, -20) : baseColor, color: '#1c1a17' }
                                                 : undefined;
                                             return (
                                                 <td key={slotIndex} className="border border-border p-1 text-center align-middle" style={cellStyle}>
@@ -298,7 +300,7 @@ const TimetableGenerator = () => {
                                                         <span className="text-xs text-muted-foreground">Zero Hour</span>
                                                     ) : (
                                                         <button
-                                                            style={cellData ? { color: '#111827' } : undefined}
+                                                            style={cellData ? { color: '#1c1a17' } : undefined}
                                                             onClick={() => handleCellClick(dayIndex, slotIndex)}
                                                             aria-label={cellData
                                                                 ? `${day} ${times[slotIndex]}: ${cellData.code}, edit`
@@ -327,6 +329,7 @@ const TimetableGenerator = () => {
                                 ))}
                             </tbody>
                         </table>
+                        <PrintCredit className="mt-2" />
                     </div>
                 </div>
                 <Button variant="outline" onClick={handlePrint} className="mt-4">

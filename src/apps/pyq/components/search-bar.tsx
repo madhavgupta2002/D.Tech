@@ -31,11 +31,11 @@ export function SearchBar({ value, onChange, department, onDepartmentChange }: S
           type="search"
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          placeholder="Search by name or code..."
-          className="w-full rounded-lg border border-input bg-background py-2 pl-9 pr-4 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          placeholder="Search by name or code"
+          className="w-full rounded-md border border-input bg-background py-2 pl-9 pr-4 text-sm placeholder:text-muted-foreground focus-visible:border-foreground/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
         />
       </div>
-      <div role="group" aria-label="Department filter" className="grid grid-cols-3 gap-2">
+      <div role="group" aria-label="Department filter" className="flex gap-1.5">
         {DEPTS.map(({ id, label }) => (
           <button
             key={id}
@@ -43,10 +43,10 @@ export function SearchBar({ value, onChange, department, onDepartmentChange }: S
             aria-pressed={department === id}
             onClick={() => onDepartmentChange(id)}
             className={cn(
-              "whitespace-nowrap rounded-lg border px-2 py-1.5 text-sm font-medium transition-colors ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
+              "whitespace-nowrap rounded-md border px-2.5 py-1 text-xs font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
               department === id
-                ? "border-primary bg-primary text-primary-foreground"
-                : "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
+                ? "border-foreground bg-foreground text-background"
+                : "border-border text-muted-foreground hover:border-foreground/40 hover:text-foreground"
             )}
           >
             {label}

@@ -30,7 +30,7 @@ export default function PYQSolutions() {
                   href={value}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block h-full rounded-lg border bg-card p-4 shadow-sm transition-colors hover:border-primary/50 hover:bg-accent/40"
+                  className="block h-full rounded-lg border bg-card p-4 transition-colors hover:border-primary/50 hover:bg-accent/40"
                 >
                   <span className="block text-xs font-semibold text-primary">{code}</span>
                   <span className="mt-1 block font-semibold">{subjectName}</span>
